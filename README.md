@@ -1,1 +1,43 @@
-# overview-active-learning-for-screening-text-software
+# Overview of machine learning for screening text software 
+
+The repository aims to create an overview and comparison of software used for
+systematically screening large amounts of textual data using machine learning.
+
+# Overview
+
+The table below provides a quick overview of the software. The following
+properties are evaluated:
+
+-	Is the software [open-source](https://opensource.org/osd) (provide a link to the source code)?
+-	Is the software published in a scientific article (provide a [DOI](https://www.doi.org/))?
+-	Is documentation or a manual available (give a hyperlink)?
+-	What type of machine learning is applied in the software (choose from active, passive, unsupervised)? – more details are compared in the table about the ML-properties
+-	Is the user in control of which model to use (yes, no, and add a `+` if users can add their own models)?
+
+
+
+| Software | Open-Source | Published | Documentation | Type of ML | Control over ML | Multi-user | 
+|:--------:|:-----------:|:---------:|:-------------:|:----------:|:---------------:|:----------:|
+
+
+# Software
+
+This section briefly describes the software in alphabetical order.
+
+# Contributing
+
+Do you know other software that meets the inclusion criteria? Please make a
+Pull Request and add it to the overview. When there is missing, wrong, or
+incomplete information, please start an issue. 
+
+# Licence
+
+This project is MIT licensed.
+
+# Contact
+
+For any questions or remarks, please send an email to the [ASReview-team](mailto:asreview@uu.nl).
+
+
+
+
