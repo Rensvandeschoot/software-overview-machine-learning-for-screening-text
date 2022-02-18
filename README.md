@@ -8,9 +8,9 @@ systematically screening large amounts of textual data using machine learning.
 The table below provides a quick overview of the software. The following
 properties are evaluated:
 
--	Is the software [open-source](https://opensource.org/osd) (provide a link to the source code)?
+-	Is the software [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
 -	Is the software published in a scientific article (provide a [DOI](https://www.doi.org/))?
--	Is documentation or a manual available (give a hyperlink)?
+-	Is documentation or a manual available (give a :link:)?
 -	What type of machine learning is applied in the software (choose from active, passive, unsupervised)? – more details are compared in the table about the ML-properties
 -	Is the user in control of which model to use (yes, no, and add a `+` if users can add their own models)?
 
@@ -18,6 +18,12 @@ properties are evaluated:
 
 | Software | Open-Source | Published | Documentation | Type of ML | Control over ML | Multi-user | 
 |:--------:|:-----------:|:---------:|:-------------:|:----------:|:---------------:|:----------:|
+
+
+:white_check_mark: Yes/Implemented
+:x: No/Not implemented
+:zap: With some effort (add a :link: to more explaination)
+:grey_question: Unknown (requires an issue)
 
 
 # Software
