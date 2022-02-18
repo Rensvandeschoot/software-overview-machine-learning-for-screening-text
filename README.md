@@ -11,7 +11,7 @@ properties are evaluated:
 -	Is the software [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
 -	Is the software published in a scientific article (provide a [DOI](https://www.doi.org/))?
 -	Is documentation or a manual available (give a :link:)?
--	What type of machine learning is applied in the software (choose from active, passive, unsupervised)? – more details are compared in the table about the ML-properties
+-	What type of machine learning is applied in the software (choose from **A**ctive, **P**assive, **U**nsupervised)? – more details are compared in the tables about the [ML-properties](machine-learning-properties)
 -	Is the user in control of which model to use (yes, no, and add a `+` if users can add their own models)?
 
 
@@ -25,6 +25,25 @@ properties are evaluated:
 :zap: With some effort (add a :link: to more explaination)
 :grey_question: Unknown (requires an issue)
 
+
+# Machine Learning Properties
+
+The tables below provides an overview of the machine learning properties.
+
+## Active Learning
+
+| Software | Q1          |
+|:--------:|:-----------:|
+
+## Passive Learning
+
+| Software | Q1          |
+|:--------:|:-----------:|
+
+## Unsupervised Learning
+
+| Software | Q1          |
+|:--------:|:-----------:|
 
 # Software
 
