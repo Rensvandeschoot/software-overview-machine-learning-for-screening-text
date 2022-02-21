@@ -35,7 +35,7 @@ The tables below provides an overview of the machine learning properties.
 | Software | Q1          |
 |:--------:|:-----------:|
 
-## Passive Learning
+## Supervised Learning
 
 | Software | Q1          |
 |:--------:|:-----------:|
