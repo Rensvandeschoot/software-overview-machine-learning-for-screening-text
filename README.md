@@ -63,6 +63,6 @@ This project is MIT licensed.
 
 For any suggestions, questions, or remarks, please file an issue in the issue tracker.
 
-
+This comparison is maintained by the ASReview team. We aim to make a fair comparison and we are not prejudiced. If there is any concern about the comparison, please file an issue in the issue tracker such that it can be openly discussed. 
 
 
