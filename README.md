@@ -12,7 +12,7 @@ properties are evaluated:
 -	Is the software published in a scientific article (provide a [DOI](https://www.doi.org/))?
 -	Is documentation or a manual available (give a :link:)?
 -	What type of machine learning is applied in the software (choose from **S**upervised, **U**nsupervised, **A**ctive)? – more details are compared in the tables about the [ML-properties](machine-learning-properties)
--	Is the user in control of which model to use (yes, no, and add a `+` if users can add their own models)?
+-	Is the user in control of the machine learning (yes, no, and add a `+` if users can add their own models)?
 
 
 
