@@ -61,7 +61,7 @@ This project is MIT licensed.
 
 # Contact
 
-For any questions or remarks, please send an email to the [ASReview-team](mailto:asreview@uu.nl).
+For any suggestions, questions, or remarks, please file an issue in the issue tracker.
 
 
 
