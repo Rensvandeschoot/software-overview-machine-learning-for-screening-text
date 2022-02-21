@@ -8,7 +8,7 @@ systematically screening large amounts of textual data using machine learning.
 The table below provides a quick overview of the software. The following
 properties are evaluated:
 
--	Is the software [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
+-	Is the software free and [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
 -	Is the software published in a scientific article (provide a [DOI](https://www.doi.org/))?
 -	Is documentation or a manual available (give a :link:)?
 -	What type of machine learning is applied in the software (choose from **A**ctive, **P**assive, **U**nsupervised)? – more details are compared in the tables about the [ML-properties](machine-learning-properties)
