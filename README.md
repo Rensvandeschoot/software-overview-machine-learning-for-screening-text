@@ -57,7 +57,7 @@ incomplete information, please start an issue.
 
 # Licence
 
-This project is XXX licensed.
+This project is CC-BY 4.0 licensed.
 
 # Contact
 
