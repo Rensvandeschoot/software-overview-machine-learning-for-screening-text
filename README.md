@@ -57,7 +57,7 @@ incomplete information, please start an issue.
 
 # Licence
 
-This project is MIT licensed.
+This project is XXX licensed.
 
 # Contact
 
