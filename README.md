@@ -25,6 +25,24 @@ properties are evaluated:
 :zap: With some effort (add a :link: to more explaination)
 :grey_question: Unknown (requires an issue)
 
+# Data
+
+The table below provides an overview of input/output data.
+
+- What type of data can be imported (RIS, TSV, CSV, XLSX, TAB)?
+- Can partly labeled data be imported (yes/no/:zap: only for some extensions)?
+- Does the export file contain the labeling decissions?
+- Can the export file be re-imported into same software with the labeling decissions?
+- Can the export file be re-imported into reference manager software including the labeling decission?
+
+| Software | Type of Data | Partly labelled | Labeling decissions | Re-Import-1  | Re-Import-2 |
+|:--------:|:---------- -:|:---------------:|:-------------------:|:------------:|:-----------:|
+
+
+:white_check_mark: Yes/Implemented
+:x: No/Not implemented
+:zap: Only for some extensions (add a :link: to more explaination)
+:grey_question: Unknown (requires an issue)
 
 # Machine Learning Properties
 
