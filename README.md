@@ -32,6 +32,37 @@ The tables below provides an overview of the machine learning properties.
 
 ## Active Learning
 
+
+### Training Data
+
+- Can training data (prior knowledge) be selected by the user to train the first iteration of the model (yes/no)?
+- Can the software handle partly labelled data where the available labels are used to train the first model?
+- What is the minimal training data size (provide a number)?
+
+
+### Model Selection
+
+- Can the user select the active learning model (yes/no)?
+- Can a user upload their own model (yes/no)?
+- Can the feature extraction results be saved (yes/no)?
+- What batch size is available (yes/no)?
+- Can the user select batch size (yes/no)?
+- Is a-synchronic training - labeling available (yes/no)?
+- Is it possible to switch to a different model (yes/no)?
+
+
+### Overview of Available Models
+- Which  feature extraction methods are available?
+- Which classifiers are available?
+- Which query strategies are available?
+- Which balancing strategies are available?
+
+
+
+
+
+
+
 | Software | Q1          |
 |:--------:|:-----------:|
 
