@@ -30,10 +30,11 @@ properties are evaluated:
 The table below provides an overview of input/output data.
 
 - What type of data can be imported (RIS, TSV, CSV, XLSX, TAB)?
-- Can partly labeled data be imported (yes/no/:zap: only for some extensions)?
+- Can partly labeled data be imported (yes/no)?
 - Does the export file contain the labeling decissions?
-- Can the export file be re-imported into same software with the labeling decissions?
-- Can the export file be re-imported into reference manager software including the labeling decission?
+- Does the export file contain the rank order of the unseen records (yes/no)?
+- Can the export file be re-imported into same software retaining the labeling decissions (yes/no)?
+- Can the export file be re-imported into reference manager software retaining the labeling decission (yes/no)?
 
 | Software | Type of Data | Partly labelled | Labeling decissions | Re-Import-1  | Re-Import-2 |
 |:--------:|:---------- -:|:---------------:|:-------------------:|:------------:|:-----------:|
