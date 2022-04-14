@@ -10,15 +10,15 @@ properties are evaluated:
 
 -	Is the software free and [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
 -	Is the software published in a scientific article (provide a [DOI](https://www.doi.org/))?
--	Is documentation or a manual available (give a :link:)?
+-	Is documentation or a manual available (provide a :link:)?
 -	What type of machine learning is applied in the software (choose from **S**upervised, **U**nsupervised, **A**ctive)? – more details are compared in the tables about the [ML-properties](machine-learning-properties)
 -	Is the user in control of the machine learning (yes, no, and add a `+` if users can add their own models)?
 
 
 
-| Software | Open-Source | Published | Documentation | Type of ML | Control over ML | Multi-user | 
-|:--------:|:-----------:|:---------:|:-------------:|:----------:|:---------------:|:----------:|
-
+| Software               | Open-Source                           | Published                                           | Documentation                            | Type of ML | Control over ML       | 
+|:----------------------:|:-------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:---------------------:|
+| [ASReview](#asreview)  |[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:**+**|
 
 :white_check_mark: Yes/Implemented
 :x: No/Not implemented
