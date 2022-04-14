@@ -97,15 +97,18 @@ The tables below provides an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-| Software | Select model | User model |  Store Feat.matrix  | A-synchronic |Batch size |Switch |
-|:--------:|:------------:|:----------:|:-------------------:|:------------:|:---------:|:------|
-
+| Software               | Select model     | User model       |  Store Feat.matrix  | A-synchronic     |Batch size |Switch   |
+|:----------------------:|:----------------:|:----------------:|:-------------------:|:----------------:|:---------:|:-------:|
+| [ASReview](#asreview)  |:white_check_mark:|:white_check_mark:|     :zap:[^1]       |:white_check_mark:|   :x:     |:zap:[^2]|
 
 :white_check_mark: Yes/Implemented
 :x: No/Not implemented
 :zap: With some effort (add a :link: to more explaination)
 :grey_question: Unknown (requires an issue)
 
+[^1]: Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor). 
+
+[^2]: Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview. The software will recognize all previous labeling decisions and a new model can be trained. 
 
 ### Overview of Available Models
 
@@ -167,6 +170,10 @@ The tables below provides an overview of the machine learning properties.
 # Software
 
 This section briefly describes the software in alphabetical order.
+
+## [ASReview](www.asreview.ai)
+
+
 
 # Contributing
 
