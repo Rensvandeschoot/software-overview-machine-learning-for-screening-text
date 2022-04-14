@@ -9,21 +9,21 @@ The table below provides a quick overview of the software. The following
 properties are evaluated:
 
 -	Is the software free and [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
--	Is the software published in a scientific article (provide a [DOI](https://www.doi.org/))?
+-	Is the software published in a scientific article (provide a :link: with the [DOI](https://www.doi.org/))?
 -	Is documentation or a manual available (provide a :link:)?
 -	What type of machine learning is applied in the software (choose from **S**upervised, **U**nsupervised, **A**ctive)? – more details are compared in the tables about the [ML-properties](machine-learning-properties)
--	Is the user in control of the machine learning (yes, no, and add a `+` if users can add their own models)?
+-	Is the user in control of the machine learning (yes/no, add `+` if users can add their own models)?
 
 
 
-| Software               | Open-Source                           | Published                                           | Documentation                            | Type of ML | Control over ML       | 
-|:----------------------:|:-------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:---------------------:|
-| [ASReview](#asreview)  |[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:**+**|
+| Software               | Open-Source                           | Published                                           | Documentation                            | Type of ML | Control over ML     | 
+|:----------------------:|:-------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:-------------------:|
+| [ASReview](#asreview)  |[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:`+`|
 
-:white_check_mark: Yes/Implemented
-:x: No/Not implemented
-:zap: With some effort (add a :link: to more explaination)
-:grey_question: Unknown (requires an issue)
+:white_check_mark: Yes/Implemented;
+:x: No/Not implemented;
+:zap: With some effort (add a footnote with more explaination);
+:grey_question: Unknown (requires an issue).
 
 # Data
 
@@ -101,10 +101,10 @@ The tables below provides an overview of the machine learning properties.
 |:----------------------:|:----------------:|:----------------:|:-------------------:|:----------------:|:---------:|:-------:|
 | [ASReview](#asreview)  |:white_check_mark:|:white_check_mark:|     :zap:[^1]       |:white_check_mark:|   :x:     |:zap:[^2]|
 
-:white_check_mark: Yes/Implemented
-:x: No/Not implemented
-:zap: With some effort (add a :link: to more explaination)
-:grey_question: Unknown (requires an issue)
+:white_check_mark: Yes/Implemented;
+:x: No/Not implemented;
+:zap: With some effort (add a footnote with more explaination);
+:grey_question: Unknown (requires an issue).
 
 [^1]: Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor). 
 
