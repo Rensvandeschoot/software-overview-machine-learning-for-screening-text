@@ -26,6 +26,23 @@ properties are evaluated:
 :grey_question: Unknown (requires an issue)
 
 
+# Installation
+
+The table below provides an overview of options how to install the software.
+
+- Can the software be installed locally so that data and labeling decisions are only stored on the users' device (yes/no)?
+- Can the software be installed on a server (yes/no; provide a :link: to instructions)?
+- Is a docker available (yes/no; provide a :link:)?
+- Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
+
+| Software | Locally | Server | Docker | SAAS |
+|:--------:|:-------:|:------:|:------:|:----:|
+
+
+:white_check_mark: Yes
+:x: No
+:grey_question: Unknown (requires an issue)
+
 # Machine Learning Properties
 
 The tables below provides an overview of the machine learning properties.
