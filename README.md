@@ -36,9 +36,9 @@ The table below provides an overview of input/output data.
 - Can the export file be re-imported into same software retaining the labeling decissions (yes/no)?
 - Can the export file be re-imported into reference manager software retaining the labeling decission (yes/no)?
 
-| Software | Type of Data | Partly labelled | Labeling decissions | Re-Import-1  | Re-Import-2 |
-|:--------:|:------------:|:---------------:|:-------------------:|:------------:|:-----------:|
-
+| Software               | Type of Data            | Partly labelled  | Labeling decissions | Rank order       | Re-Import-1      | Re-Import-2      |
+|:----------------------:|:-----------------------:|:----------------:|:-------------------:|:----------------:|:----------------:|:----------------:|
+| [ASReview](#asreview)  |RIS, TSV, CSV, XLSX, TAB |:white_check_mark:|:white_check_mark:   |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 
 :white_check_mark: Yes/Implemented
 :x: No/Not implemented
