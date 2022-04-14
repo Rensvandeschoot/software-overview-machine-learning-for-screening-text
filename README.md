@@ -37,7 +37,7 @@ The table below provides an overview of input/output data.
 - Can the export file be re-imported into reference manager software retaining the labeling decission (yes/no)?
 
 | Software | Type of Data | Partly labelled | Labeling decissions | Re-Import-1  | Re-Import-2 |
-|:--------:|:---------- -:|:---------------:|:-------------------:|:------------:|:-----------:|
+|:--------:|:------------:|:---------------:|:-------------------:|:------------:|:-----------:|
 
 
 :white_check_mark: Yes/Implemented
