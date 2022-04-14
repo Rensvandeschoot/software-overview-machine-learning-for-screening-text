@@ -118,6 +118,7 @@ The tables below provides an overview of the machine learning properties.
 **sBERT** = sentence bidirectional encoder representations from transformers;
 **TF–IDF** = term frequency–inverse document frequency; 
 **Word2Vec** = words to vector; 
+**ML** = Multi-language;
 
 - Which classifiers are available?
 **CNN** = convolutional neural network;
@@ -132,29 +133,28 @@ The tables below provides an overview of the machine learning properties.
 
 
 - Which balancing strategies are available?
-**Simple** = no balancing balance strategy;
-**Double** = Double balance strategy;
-**Tripple** = Triple balance strategy;
-**Under** = Undersampling balance strategy;
+**S / Simple** = no balancing balance strategy;
+**D / Double** = Double balance strategy;
+**T / Tripple** = Triple balance strategy;
+**U / Under** = Undersampling balance strategy;
 
 
 - Which query strategies are available?
-**Random** = Records are selected randomly;
-**Certain** = Certainty based;
-**Uncertain** = Uncertainty based;
-**Mixed** = A combination of query strategies, for example 90% Certainty based and 10% Random;
-**Clustering** = Clustering query strategy;
+**R / Random** = Records are selected randomly;
+**C/ Certain** = Certainty based;
+**U / Uncertain** = Uncertainty based;
+**M / Mixed** = A combination of query strategies, for example 90% Certainty based and 10% Random;
+**C / Clustering** = Clustering query strategy;
 
 
 
-| Software | Feature Extr. | Classifiers |  Balancing  | Query Stra. |
-|:--------:|:-------------:|:-----------:|:-----------:|:-----------:|
+| Software              | Feature Extr.                    | Classifiers                    |  Balancing  | Query Stra. |
+|:---------------------:|:--------------------------------:|:------------------------------:|:-----------:|:-----------:|
+| [ASReview](#asreview) |TF–IDF, Doc2Vec, sBert, TF-IDF, ML|CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T  |R, C, U, M   |
 
-
-:white_check_mark: Yes/Implemented
-:x: No/Not implemented
-:zap: With some effort (add a :link: to more explaination)
-:grey_question: Unknown (requires an issue)
+:white_check_mark: Yes/Implemented;
+:x: No/Not implemented;
+:grey_question: Unknown (requires an issue).
 
 
 ## Supervised Learning
