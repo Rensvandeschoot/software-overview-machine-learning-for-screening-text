@@ -40,6 +40,7 @@ The table below provides an overview of input/output data.
 | Software               | Type of Data            | Partly labelled  | Labeling decissions | Rank order       | Re-Import-1      | Re-Import-2      |
 |:----------------------:|:-----------------------:|:----------------:|:-------------------:|:----------------:|:----------------:|:----------------:|
 | [ASReview](#asreview)  |RIS, TSV, CSV, XLSX, TAB |:white_check_mark:|:white_check_mark:   |:white_check_mark:|:white_check_mark:|:white_check_mark:|
+| [Rayyan](#rayyan)|  |  |  |  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -58,6 +59,7 @@ The table below provides an overview of options how to install the software.
 | Software              | Locally          | Server           | Docker                                              | SAAS |
 |:---------------------:|:----------------:|:----------------:|:---------------------------------------------------:|:----:|
 | [ASReview](#asreview) |:white_check_mark:|:white_check_mark:|[:link:](https://hub.docker.com/r/asreview/asreview) | :x:  |
+| [Rayyan](#rayyan)|  |  |  |  |
 
 :white_check_mark: Yes;
 :x: No;
@@ -81,6 +83,7 @@ The tables below provides an overview of the machine learning properties.
 | Software              | Tr.Data by user  | Party labeled Tr.data |  Minimum Tr.data |
 |:---------------------:|:----------------:|:---------------------:|:----------------:|
 | [ASReview](#asreview) |:white_check_mark:|:white_check_mark:     | 1+1              |
+| [Rayyan](#rayyan)|  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -101,6 +104,7 @@ The tables below provides an overview of the machine learning properties.
 | Software               | Select model     | User model       |  Store Feat.matrix  | A-synchronic     |Batch size |Switch   |
 |:----------------------:|:----------------:|:----------------:|:-------------------:|:----------------:|:---------:|:-------:|
 | [ASReview](#asreview)  |:white_check_mark:|:white_check_mark:|     :zap:[^1]       |:white_check_mark:|   :x:     |:zap:[^2]|
+| [Rayyan](#rayyan)|  |  |  |  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -152,6 +156,7 @@ The tables below provides an overview of the machine learning properties.
 | Software              | Feature Extr.                    | Classifiers                    |  Balancing  | Query Stra. |
 |:---------------------:|:--------------------------------:|:------------------------------:|:-----------:|:-----------:|
 | [ASReview](#asreview) |TF–IDF, Doc2Vec, sBert, TF-IDF, ML|CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T  |R, C, U, M   |
+| [Rayyan](#rayyan)|  |  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -182,6 +187,10 @@ This section briefly describes the software in alphabetical order.
  Furthermore, it is intended to be easily extensible, allowing third parties
  to add modules that enhance the pipeline with new models, data, and other
  extensions.
+ 
+## [Rayyan](rayyan.ai)
+
+ Rayyan is a free web and mobile app, that helps expedite the initial screening of abstracts and titles using a process of semi-automation while incorporating a high level of usability.
 
 # Contributing
 
