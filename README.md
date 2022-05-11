@@ -19,6 +19,7 @@ properties are evaluated:
 | Software               | Open-Source                           | Published                                           | Documentation                            | Type of ML | Control over ML     | 
 |:----------------------:|:-------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:-------------------:|
 | [ASReview](#asreview)  |[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:`+`|
+| [EPPI-Reviewer](#eppi-reviewer)  |  | [:link:](https://www.researchgate.net/publication/43440745_EPPI-Reviewer_4_Software_for_Research_Synthesis) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822) |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -181,6 +182,10 @@ This section briefly describes the software in alphabetical order.
  Furthermore, it is intended to be easily extensible, allowing third parties
  to add modules that enhance the pipeline with new models, data, and other
  extensions.
+ 
+## [EPPI-Reviewer](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914)
+
+ EPPI-Reviewer is a web-based software program for managing and analysing data in literature reviews. It has been developed for all types of systematic review (meta-analysis, framework synthesis, thematic synthesis etc) but also has features that would be useful in any literature review. It manages references, stores PDF files and facilitates qualitative and quantitative analyses such as meta-analysis and thematic synthesis. It also contains some new ‘text mining’ technology which is promising to make systematic reviewing more efficient.
 
 # Contributing
 
