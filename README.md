@@ -22,7 +22,7 @@ properties are evaluated:
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: With some effort (add a footnote with more explaination);
+:zap: Some open-source repositories are publically available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
 # Data
