@@ -16,14 +16,16 @@ properties are evaluated:
 
 
 
-| Software               | Open-Source                           | Published                                           | Documentation                            | Type of ML | Control over ML     | 
-|:----------------------:|:-------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:-------------------:|
-| [ASReview](#asreview)  |[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:`+`|
+
+| Software               | Open-Source                                             | Published                                           | Documentation                            | Type of ML | Control over ML     | 
+|:----------------------:|:-------------------------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:-------------------:|
+| [ASReview](#asreview)  |:white_check_mark:[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:`+`|
 | [EPPI-Reviewer](#eppi-reviewer)  |  | [:link:](https://www.researchgate.net/publication/43440745_EPPI-Reviewer_4_Software_for_Research_Synthesis) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822) |  |  |
+
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: With some effort (add a footnote with more explaination);
+:zap: Some open-source repositories are publically available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
 # Data
