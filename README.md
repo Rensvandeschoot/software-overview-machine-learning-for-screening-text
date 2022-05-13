@@ -20,7 +20,7 @@ properties are evaluated:
 | Software               | Open-Source                                             | Published                                           | Documentation                            | Type of ML | Control over ML     | 
 |:----------------------:|:-------------------------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:-------------------:|
 | [ASReview](#asreview)  |:white_check_mark:[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:`+`|
-| [Rayyan](#rayyan)      |[:link:](https://github.com/rayyansys)                   |[:link:](https://doi-org.proxy.library.uu.nl/10.1186/s13643-016-0384-4) | [:link:](https://help.rayyan.ai/hc/en-us) |  |  |
+| [Rayyan](#rayyan)      |:zap:[:link:](https://github.com/rayyansys)                   |[:link:](https://doi-org.proxy.library.uu.nl/10.1186/s13643-016-0384-4) | [:link:](https://help.rayyan.ai/hc/en-us) |  |  |
 
 
 
