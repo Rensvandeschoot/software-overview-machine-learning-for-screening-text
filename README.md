@@ -200,14 +200,7 @@ This section briefly describes the software in alphabetical order.
 
 Abstrackr is a collaborative (i.e., multiple reviewers can simultaneously
 screen citations for a review), web-based annotation tool for the citation
-screening task. It evolved from researcher's original, prototypical
-stand-alone desktop annotation tool developed for citation screening; the
-previous version was not collaborative (primarily because it was not
-web-based), and it did not have the capability to directly integrate active
-learning. Even without the machine learning components, abstrackr in its
-current form has been found useful by researchers at the Tufts Evidence based
-PracticeCenter (EPC), where it is currently being routinely used.
-
+screening task. 
 
 ## [Rayyan](rayyan.ai)
 
