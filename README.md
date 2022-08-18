@@ -21,6 +21,7 @@ properties are evaluated:
 |:----------------------:|:-------------------------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:-------------------:|
 | [ASReview](#asreview)  |:white_check_mark:[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:`+`|
 | [Abstrackr](#Abstrackr)| [:link:](https://github.com/bwallace/abstrackr-web)     | [:link:](https://doi.org/10.1145/2110363.2110464) | [:link:](https://vivo.brown.edu/display/bcwallac) |  |  |
+| [Rayyan](#rayyan)      |:zap:[:link:](https://github.com/rayyansys)                   |[:link:]( https://doi.org/10.1186/s13643-016-0384-4) | [:link:](https://help.rayyan.ai/hc/en-us) |  |  |
 
 
 :white_check_mark: Yes/Implemented;
@@ -43,6 +44,7 @@ The table below provides an overview of input/output data.
 |:----------------------:|:-----------------------:|:----------------:|:-------------------:|:----------------:|:----------------:|:----------------:|
 | [ASReview](#asreview)  |RIS, TSV, CSV, XLSX, TAB |:white_check_mark:|:white_check_mark:   |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 | [Abstrackr](#abstrackr)|  |  |  |  |  |  |
+| [Rayyan](#rayyan)|  |  |  |  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -62,6 +64,7 @@ The table below provides an overview of options how to install the software.
 |:---------------------:|:----------------:|:----------------:|:---------------------------------------------------:|:----:|
 | [ASReview](#asreview) |:white_check_mark:|:white_check_mark:|[:link:](https://hub.docker.com/r/asreview/asreview) | :x:  |
 | [Abstrackr](#abstrackr)|  |  |  |  |
+| [Rayyan](#rayyan)|  |  |  |  |
 
 :white_check_mark: Yes;
 :x: No;
@@ -86,6 +89,7 @@ The tables below provides an overview of the machine learning properties.
 |:---------------------:|:----------------:|:---------------------:|:----------------:|
 | [ASReview](#asreview) |:white_check_mark:|:white_check_mark:     | 1+1              |
 | [Abstrackr](#abstrackr)|  |  |  |
+| [Rayyan](#rayyan)|  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -107,6 +111,7 @@ The tables below provides an overview of the machine learning properties.
 |:----------------------:|:----------------:|:----------------:|:-------------------:|:----------------:|:---------:|:-------:|
 | [ASReview](#asreview)  |:white_check_mark:|:white_check_mark:|     :zap:[^1]       |:white_check_mark:|   :x:     |:zap:[^2]|
 | [Abstrackr](#abstrackr)|  |  |  |  |  |  |
+| [Rayyan](#rayyan)|  |  |  |  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -159,6 +164,7 @@ The tables below provides an overview of the machine learning properties.
 |:---------------------:|:--------------------------------:|:------------------------------:|:-----------:|:-----------:|
 | [ASReview](#asreview) |TF–IDF, Doc2Vec, sBert, TF-IDF, ML|CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T  |R, C, U, M   |
 | [Abstrackr](#abstrackr)|  |  |  |  |  |
+| [Rayyan](#rayyan)|  |  |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -192,7 +198,20 @@ This section briefly describes the software in alphabetical order.
  
  ## [Abstrackr](https://github.com/bwallace/abstrackr-web)
 
- Abstrackr is a collaborative (i.e., multiple reviewers can simultaneously screen citations for a review), web-based annotation tool for the citation screening task. It evolved from researcher's original, prototypical stand-alone desktop annotation tool developed for citation screening; the previous version was not collaborative (primarily because it was not web-based), and it did not have the capability to directly integrate active learning. Even without the machine learning components, abstrackr in its current form has been found useful by researchers at the Tufts Evidence based PracticeCenter (EPC), where it is currently being routinely used.
+Abstrackr is a collaborative (i.e., multiple reviewers can simultaneously
+screen citations for a review), web-based annotation tool for the citation
+screening task. It evolved from researcher's original, prototypical
+stand-alone desktop annotation tool developed for citation screening; the
+previous version was not collaborative (primarily because it was not
+web-based), and it did not have the capability to directly integrate active
+learning. Even without the machine learning components, abstrackr in its
+current form has been found useful by researchers at the Tufts Evidence based
+PracticeCenter (EPC), where it is currently being routinely used.
+
+
+## [Rayyan](rayyan.ai)
+
+ Rayyan is a free web and mobile app, that helps expedite the initial screening of abstracts and titles using a process of semi-automation while incorporating a high level of usability.
 
 # Contributing
 
