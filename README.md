@@ -18,12 +18,12 @@ properties are evaluated:
 
 
 
-| Software               | Website      | Open-Source                                             | Published                                           | Documentation                            | Type of ML | Control over ML     | 
-|:----------------------:||:-----------------------------:|:-------------------------------------------------------:|:---------------------------------------------------:|:----------------------------------------:|:----------:|:-------------------:|
-| [ASReview](#asreview)  | [:link:](https://asreview.nl/) | :white_check_mark:[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)|   **A**    |:white_check_mark:`+`|
-| [Abstrackr](#Abstrackr)| | :zap:[:link:](https://github.com/bwallace/abstrackr-web)     | [:link:](https://doi.org/10.1145/2110363.2110464) | [:link:](https://eppi.ioe.ac.uk/) |  |  |
-| [EPPI-Reviewer](#eppi-reviewer)| [:link:](https://eppi.ioe.ac.uk/cms/) | | [:link:](https://www.researchgate.net/publication/43440745_EPPI-Reviewer_4_Software_for_Research_Synthesis) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822) |  |  |
-| [Rayyan](#rayyan)      | [:link:](https://www.rayyan.ai/) | :zap:[:link:](https://github.com/rayyansys)                   |[:link:]( https://doi.org/10.1186/s13643-016-0384-4) | [:link:](https://help.rayyan.ai/hc/en-us) |  |  |
+| Software                       | Website                               | Open-Source                                              | Published                                           | Documentation                                                | Type of ML | Control over ML     | 
+|:------------------------------:|:-------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------:|:------------------------------------------------------------:|:----------:|:-------------------:|
+| [ASReview](#asreview)          | [:link:](https://asreview.nl/)        | :white_check_mark:[:link:](https://github.com/asreview/) |[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)                    |   **A**    |:white_check_mark:`+`|
+| [Abstrackr](#abstrackr)        |                                       | :zap:[:link:](https://github.com/bwallace/abstrackr-web) |[:link:](https://doi.org/10.1145/2110363.2110464)    | [:link:](https://eppi.ioe.ac.uk/)                            |  |  |
+| [EPPI-Reviewer](#eppi-reviewer)| [:link:](https://eppi.ioe.ac.uk/cms/) |                                                          |[:link:](https://www.researchgate.net/publication/43440745_EPPI-Reviewer_4_Software_for_Research_Synthesis)                                                     | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822) |  |  |
+| [Rayyan](#rayyan)              | [:link:](https://www.rayyan.ai/)      | :zap:[:link:](https://github.com/rayyansys)              |[:link:]( https://doi.org/10.1186/s13643-016-0384-4) | [:link:](https://help.rayyan.ai/hc/en-us)                    |  |  |
 
 
 :white_check_mark: Yes/Implemented;
