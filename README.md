@@ -22,12 +22,12 @@ properties are evaluated:
 |:------------------------------:|:------------------------------------------------:|:----------------------------------------------------------:|:---------------------------------------------------------------------:|:---------------------------------------------------------------:|:----------:|:-------------------:|
 | [ASReview](#asreview)          | [:link:](https://asreview.nl/)                   | :white_check_mark:[:link:](https://github.com/asreview/)   |:white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |[:link:](https://asreview.readthedocs.io/)                       |   **A**    |:white_check_mark:`+`|
 | [Abstrackr](#abstrackr)        |                                                  | :zap:[:link:](https://github.com/bwallace/abstrackr-web)   |:white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)    |[:link:](https://eppi.ioe.ac.uk/)                                |  |  |
-| [Colandr](*colandr)            | [:link:](https://hslib.jabsom.hawaii.edu/colandr)|                                                            |:white_check_mark:[:link]( https://doi.org/10.1111/cobi.13117)         |[:link](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |  |  |
+| [Colandr](#colandr)            | [:link:](https://hslib.jabsom.hawaii.edu/colandr)|                                                            |:white_check_mark:[:link]:(https://doi.org/10.1111/cobi.13117)         |[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |  |  |
 | [EPPI-Reviewer](#eppi-reviewer)| [:link:](https://eppi.ioe.ac.uk/cms/)            |                                                            |:white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)     |  |  |
 | [FASTREAD](#fastread)          |                                                  | :white_check_mark:[:link:](https://github.com/fastread/src)|                                                                       |                                                                 |  |  |
-| [Rayyan](#rayyan)              | [:link:](https://www.rayyan.ai/)                 | :zap:[:link:](https://github.com/rayyansys)                |:white_check_mark:[:link:]( https://doi.org/10.1186/s13643-016-0384-4) |[:link:](https://help.rayyan.ai/hc/en-us)                        |  |  |
+| [Rayyan](#rayyan)              | [:link:](https://www.rayyan.ai/)                 | :zap:[:link:](https://github.com/rayyansys)                |:white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |[:link:](https://help.rayyan.ai/hc/en-us)                        |  |  |
 | [RobotAnalyst](#robotanalyst)  | [:link:](http://www.nactem.ac.uk/robotanalyst/)  |                                                            |                                                                       |                                                                 |  |  |
-| [SWIFT-Review](#swift-review)  | [:link](https://www.sciome.com/swift-review/)    |                                                            |                                                                       |                                                                 |  |  |
+| [SWIFT-Review](#swift-review)  | [:link:](https://www.sciome.com/swift-review/)   |                                                            |                                                                       |                                                                 |  |  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -49,7 +49,7 @@ The table below provides an overview of input/output data.
 |:----------------------:|:-----------------------:|:----------------:|:-------------------:|:----------------:|:----------------:|:----------------:|
 | [ASReview](#asreview)  |RIS, TSV, CSV, XLSX, TAB |:white_check_mark:|:white_check_mark:   |:white_check_mark:|:white_check_mark:|:white_check_mark:|
 | [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](*colandr) |  |  |  |  |  |  |
+| [Colandr](#colandr) |  |  |  |  |  |  |
 | [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |  |  |
 | [FASTREAD](#fastread) |  |  |  |  |  |  |
 | [Rayyan](#rayyan)|  |  |  |  |  |  |
@@ -75,7 +75,7 @@ The table below provides an overview of options how to install the software.
 |:---------------------:|:----------------:|:----------------:|:---------------------------------------------------:|:----:|
 | [ASReview](#asreview) |:white_check_mark:|:white_check_mark:|[:link:](https://hub.docker.com/r/asreview/asreview) | :x:  |
 | [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](*colandr) |  |  |  |  |  |  |
+| [Colandr](3colandr) |  |  |  |  |  |  |
 | [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |
 | [FASTREAD](#fastread) |  |  |  |  |  |  |
 | [Rayyan](#rayyan)|  |  |  |  |
@@ -106,7 +106,7 @@ The tables below provides an overview of the machine learning properties.
 |:---------------------:|:----------------:|:---------------------:|:----------------:|
 | [ASReview](#asreview) |:white_check_mark:|:white_check_mark:     | 1+1              |
 | [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](*colandr)|  |  |  |  |  |  |
+| [Colandr](#colandr)|  |  |  |  |  |  |
 | [EPPI-Reviewer](#eppi-reviewer)|  |  |  |
 | [FASTREAD](#fastread) |  |  |  |  |  
 | [Rayyan](#rayyan)|  |  |  |
@@ -133,7 +133,7 @@ The tables below provides an overview of the machine learning properties.
 |:----------------------:|:----------------:|:----------------:|:-------------------:|:----------------:|:---------:|:-------:|
 | [ASReview](#asreview)  |:white_check_mark:|:white_check_mark:|     :zap:[^1]       |:white_check_mark:|   :x:     |:zap:[^2]|
 | [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](*colandr)|  |  |  |  |  |  |
+| [Colandr](#colandr)|  |  |  |  |  |  |
 | [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |  |  |
 | [FASTREAD](#fastread) |  |  |  |  |  |  |
 | [Rayyan](#rayyan)|  |  |  |  |  |  |
@@ -192,7 +192,7 @@ The tables below provides an overview of the machine learning properties.
 |:---------------------:|:--------------------------------:|:------------------------------:|:-----------:|:-----------:|
 | [ASReview](#asreview) |TF–IDF, Doc2Vec, sBert, TF-IDF, ML|CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T  |R, C, U, M   |
 | [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](*colandr)|  |  |  |  |  |  |
+| [Colandr](#colandr)|  |  |  |  |  |  |
 | [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |  |
 | [FASTREAD](#fastread) |  |  |  |  |  |  |
 | [Rayyan](#rayyan)|  |  |  |  |
