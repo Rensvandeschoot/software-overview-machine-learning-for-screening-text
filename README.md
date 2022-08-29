@@ -291,8 +291,8 @@ This project is CC-BY 4.0 licensed.
 For any suggestions, questions, or remarks, please file an issue in the issue
 tracker.
 
-This comparison is maintained by the ASReview team. We aim to make a fair
-comparison  and we are not prejudiced. If there is any concern about the
+This comparison is maintained by Rens van de Schoot. I aim to make a fair
+comparison and not to be prejudiced. If there is any concern about the
 comparison, please file an issue in the issue tracker such that it can be
 openly discussed. 
 
