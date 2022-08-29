@@ -1,4 +1,4 @@
-# Overview of machine learning for screening text software 
+# Overview of software for screening large amounts of textual data implementing machine learning 
 
 The repository aims to create an overview and comparison of software used for
 systematically screening large amounts of textual data using machine learning.
