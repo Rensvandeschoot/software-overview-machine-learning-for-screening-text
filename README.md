@@ -31,7 +31,7 @@ properties are evaluated:
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: Some open-source repositories are publically available, but not the core engine;
+:zap: Some open-source repositories are publicly available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
 # Data
@@ -55,6 +55,7 @@ The table below provides an overview of input/output data.
 |        [Rayyan](#rayyan)        |                           |                    |                    |                    |                    |                    |
 |  [RobotAnalyst](#robotanalyst)  |                           |                    |                    |                    |                    |                    |
 |  [SWIFT-Review](#swift-review)  |                           |                    |                    |                    |                    |                    |
+
 <sup>1</sup> List of PubMed IDs
 
 :white_check_mark: Yes/Implemented;
@@ -71,16 +72,16 @@ The table below provides an overview of options how to install the software.
 - Is a docker available (yes/no; provide a :link:)?
 - Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
 
-|            Software             |      Locally       |       Server       |                        Docker                        | SAAS |
-|:-------------------------------:|:------------------:|:------------------:|:----------------------------------------------------:|:----:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | [:link:](https://hub.docker.com/r/asreview/asreview) | :x:  |
-|     [Abstrackr](#abstrackr)     |                    |                    |                                                      |      |  |  |
-|       [Colandr](3colandr)       |                    |                    |                                                      |      |  |  |
-| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                                                      |      |
-|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                                                      |      |  |  |
-|        [Rayyan](#rayyan)        |                    |                    |                                                      |      |
-|  [RobotAnalyst](#robotanalyst)  |                    |                    |                                                      |      |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |      |  
+|            Software             |      Locally       |       Server       |                        Docker                        |                              SAAS                               |
+|:-------------------------------:|:------------------:|:------------------:|:----------------------------------------------------:|:---------------------------------------------------------------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | [:link:](https://hub.docker.com/r/asreview/asreview) |                               :x:                               |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |                         :x:                          |   :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)   |
+|       [Colandr](3colandr)       |                    |                    |                                                      |                                                                 |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                                                      |                                                                 |
+|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                                                      |                                                                 |
+|        [Rayyan](#rayyan)        |                    |                    |                                                      |                                                                 |
+|  [RobotAnalyst](#robotanalyst)  |                    |                    |                                                      |                                                                 |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |                                                                 |  
 
 
 :white_check_mark: Yes;
@@ -115,7 +116,7 @@ The tables below provides an overview of the machine learning properties.
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: With some effort (add a footnote for more explaination);
+:zap: With some effort (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
 
@@ -143,7 +144,7 @@ The tables below provides an overview of the machine learning properties.
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: With some effort (add a footnote with more explaination);
+:zap: With some effort (add a footnote with more explanation);
 :grey_question: Unknown (requires an issue).
 
 [^1]: Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor). 
@@ -207,12 +208,12 @@ The tables below provides an overview of the machine learning properties.
 
 ## Supervised Learning
 
-| Software | Q1          |
+| Software |     Q1      |
 |:--------:|:-----------:|
 
 ## Unsupervised Learning
 
-| Software | Q1          |
+| Software |     Q1      |
 |:--------:|:-----------:|
 
 # Software
