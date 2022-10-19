@@ -48,7 +48,7 @@ The table below provides an overview of input/output data.
 |            Software             |       Type of Data        |  Partly labelled   | Labeling decisions |     Rank order     |    Re-Import-1     |    Re-Import-2     |
 |:-------------------------------:|:-------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
 |      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-|     [Abstrackr](#abstrackr)     | TXT<sup>1</sup>, RIS, TAB |        :x:         | :white_check_mark: |        :x:         |        :x:         | :white_check_mark: |
+|     [Abstrackr](#abstrackr)     | TXT<sup>1</sup>, RIS, TAB |        :x:         | :white_check_mark: | :white_check_mark: |        :x:         | :white_check_mark: |
 |       [Colandr](#colandr)       |                           |                    |                    |                    |                    |                    |
 | [EPPI-Reviewer](#eppi-reviewer) |                           |                    |                    |                    |                    |                    |
 |      [FASTREAD](#fastread)      |            CSV            |                    |                    |                    |                    |                    |
@@ -106,7 +106,7 @@ The tables below provides an overview of the machine learning properties.
 |            Software             |  Tr.Data by user   | Party labeled Tr.data | Minimum Tr.data |
 |:-------------------------------:|:------------------:|:---------------------:|:---------------:|
 |      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:   |       1+1       |
-|     [Abstrackr](#abstrackr)     |                    |                       |                 |
+|     [Abstrackr](#abstrackr)     |        :x:         |          :x:          |       :x:       |
 |       [Colandr](#colandr)       |                    |                       |                 |
 | [EPPI-Reviewer](#eppi-reviewer) |                    |                       |                 |
 |      [FASTREAD](#fastread)      |                    |                       |                 |
@@ -133,7 +133,7 @@ The tables below provides an overview of the machine learning properties.
 |            Software             |    Select model    |     User model     | Store Feat.matrix |    A-synchronic    | Batch size |  Switch   |
 |:-------------------------------:|:------------------:|:------------------:|:-----------------:|:------------------:|:----------:|:---------:|
 |      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:[^1]     | :white_check_mark: |    :x:     | :zap:[^2] |
-|     [Abstrackr](#abstrackr)     |                    |                    |                   |                    |            |           |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:        | :white_check_mark: |    :x:     |    :x:    |
 |       [Colandr](#colandr)       |                    |                    |                   |                    |            |           |
 | [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                   |                    |            |           |
 |      [FASTREAD](#fastread)      |                    |                    |                   |                    |            |           |
@@ -192,7 +192,7 @@ The tables below provides an overview of the machine learning properties.
 |            Software             |           Feature Extr.            |           Classifiers           | Balancing  | Query Stra. |
 |:-------------------------------:|:----------------------------------:|:-------------------------------:|:----------:|:-----------:|
 |      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
-|     [Abstrackr](#abstrackr)     |                                    |                                 |            |             |  |  |
+|     [Abstrackr](#abstrackr)     |               TF-IDF               |               SVM               |    :x:     |    R, C     |  |  |
 |       [Colandr](#colandr)       |                                    |                                 |            |             |  |  |
 | [EPPI-Reviewer](#eppi-reviewer) |                                    |                                 |            |             |  |
 |      [FASTREAD](#fastread)      |                                    |                                 |            |             |  |  |
