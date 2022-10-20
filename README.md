@@ -18,20 +18,20 @@ properties are evaluated:
 
 
 
-| Software                       | Website                                                                 | Open-Source                                                | Published                                                             | Documentation                                                                     | Type of ML   | Control over ML     | 
-|:------------------------------:|:-----------------------------------------------------------------------:|:----------------------------------------------------------:|:---------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|:------------:|:-------------------:|
-| [ASReview](#asreview)          | [:link:](https://asreview.nl/)                                          | :white_check_mark:[:link:](https://github.com/asreview/)   |:white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |:white_check_mark:[:link:](https://asreview.readthedocs.io/)                       |   **A**      |:white_check_mark:`+`|
-| [Abstrackr](#abstrackr)        | [:link:](http://abstrackr.cebm.brown.edu)                               | :zap:[:link:](https://github.com/bwallace/abstrackr-web)   |:white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)    |:x:                                                                                |              |                     |
-| [Colandr](#colandr)            | [:link:](https://hslib.jabsom.hawaii.edu/colandr)                       | :x:                                                        |:white_check_mark:[:link:](https://doi.org/10.1111/cobi.13117)         |:white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started)|              |                     |
-| [EPPI-Reviewer](#eppi-reviewer)| [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914)            | :x:                                                        |:x:                                                                    |:white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)     |              |                     |
-| [FASTREAD](#fastread)          | :x:                                                                     | :white_check_mark:[:link:](https://github.com/fastread/src)|:white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |:white_check_mark:[:link:](https://github.com/fastread/src/#readme)                |              |                     |
-| [Rayyan](#rayyan)              | [:link:](https://www.rayyan.ai/)                                        | :zap:[:link:](https://github.com/rayyansys)                |:white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |:white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)                        |              |                     |
-| [RobotAnalyst](#robotanalyst)  | [:link:](http://www.nactem.ac.uk/robotanalyst/)                         | :x:                                                        |:white_check_mark:[:link:](https://doi.org/10.1002/jrsm.1311)          |:x:                                                                                |              |                     |
-| [SWIFT-Review](#swift-review)  | [:link:](https://www.sciome.com/swift-review/)                          | :x:                                                        |:white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0263-z)  |:x:                                                                                |              |                     |
+|            Software             |                           Website                            |                            Open-Source                            |                               Published                                |                                    Documentation                                    | Type of ML |    Control over ML    | 
+|:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------------:|:----------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:----------:|:---------------------:|
+|      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |     :white_check_mark:[:link:](https://github.com/asreview/)      | :white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |   **A**    | :white_check_mark:`+` |
+|     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |     :zap:[:link:](https://github.com/bwallace/abstrackr-web)      |  :white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)   |                                         :x:                                         |   **A**    |          :x:          |
+|       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       | :zap:[:link:](https://github.com/datakind/permanent-colandr-back) |     :white_check_mark:[:link:](https://doi.org/10.1111/cobi.13117)     | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |   **A**    |          :x:          |
+| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |            |                       |
+|      [FASTREAD](#fastread)      |                             :x:                              |    :white_check_mark:[:link:](https://github.com/fastread/src)    | :white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |            |                       |
+|        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |            :zap:[:link:](https://github.com/rayyansys)            | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |            |                       |
+|  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                                :x:                                |     :white_check_mark:[:link:](https://doi.org/10.1002/jrsm.1311)      |                                         :x:                                         |            |                       |
+|  [SWIFT-Review](#swift-review)  |        [:link:](https://www.sciome.com/swift-review/)        |                                :x:                                | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0263-z)  |                                         :x:                                         |            |                       |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: Some open-source repositories are publically available, but not the core engine;
+:zap: Some open-source repositories are publicly available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
 # Data
@@ -40,26 +40,28 @@ The table below provides an overview of input/output data.
 
 - What type of data can be imported (RIS, TSV, CSV, XLSX, TAB)?
 - Can partly labeled data be imported (yes/no)?
-- Does the export file contain the labeling decissions?
+- Does the export file contain the labeling decisions?
 - Does the export file contain the rank order of the unseen records (yes/no)?
-- Can the export file be re-imported into same software retaining the labeling decissions (yes/no)?
-- Can the export file be re-imported into reference manager software retaining the labeling decission (yes/no)?
+- Can the export file be re-imported into same software retaining the labeling decisions (yes/no)?
+- Can the export file be re-imported into reference manager software retaining the labeling decision (yes/no)?
 
-| Software               | Type of Data            | Partly labelled  | Labeling decissions | Rank order       | Re-Import-1      | Re-Import-2      |
-|:----------------------:|:-----------------------:|:----------------:|:-------------------:|:----------------:|:----------------:|:----------------:|
-| [ASReview](#asreview)  |RIS, TSV, CSV, XLSX, TAB |:white_check_mark:|:white_check_mark:   |:white_check_mark:|:white_check_mark:|:white_check_mark:|
-| [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](#colandr) |  |  |  |  |  |  |
-| [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |  |  |
-| [FASTREAD](#fastread) |CSV|  |  |  |  |  |
-| [Rayyan](#rayyan)|  |  |  |  |  |  |
-| [RobotAnalyst](#robotanalyst) |  |  |  |  |  |  |
-| [SWIFT-Review](#swift-review) |  |  |  |  |  |  |
+|            Software             |       Type of Data        |  Partly labelled   | Labeling decisions |     Rank order     |    Re-Import-1     |    Re-Import-2     |
+|:-------------------------------:|:-------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
+|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|     [Abstrackr](#abstrackr)     | RIS, TAB, TXT<sup>1</sup> |        :x:         | :white_check_mark: | :white_check_mark: |        :x:         | :white_check_mark: |
+|       [Colandr](#colandr)       |       RIS, BIB, TXT       | :zap:<sup>2</sup>  | :white_check_mark: |        :x:         |        :x:         |        :x:         |
+| [EPPI-Reviewer](#eppi-reviewer) |                           |                    |                    |                    |                    |                    |
+|      [FASTREAD](#fastread)      |            CSV            |                    |                    |                    |                    |                    |
+|        [Rayyan](#rayyan)        |                           |                    |                    |                    |                    |                    |
+|  [RobotAnalyst](#robotanalyst)  |                           |                    |                    |                    |                    |                    |
+|  [SWIFT-Review](#swift-review)  |                           |                    |                    |                    |                    |                    |
 
+<sup>1</sup> List of PubMed IDs
+<sup>2</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: Only for some extensions (add a footnote for more explaination);
+:zap: Only for some extensions (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
 # Installation
@@ -71,16 +73,16 @@ The table below provides an overview of options how to install the software.
 - Is a docker available (yes/no; provide a :link:)?
 - Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
 
-| Software              | Locally          | Server           | Docker                                              | SAAS |
-|:---------------------:|:----------------:|:----------------:|:---------------------------------------------------:|:----:|
-| [ASReview](#asreview) |:white_check_mark:|:white_check_mark:|[:link:](https://hub.docker.com/r/asreview/asreview) | :x:  |
-| [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](3colandr) |  |  |  |  |  |  |
-| [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |
-| [FASTREAD](#fastread) |:white_check_mark:|:x:|  |  |  |  |
-| [Rayyan](#rayyan)|  |  |  |  |
-| [RobotAnalyst](#robotanalyst) |  |  |  |  |
-| [SWIFT-Review](#swift-review) |  |  |  |  |  
+|            Software             |      Locally       |       Server       |                        Docker                        |                            SAAS                             |
+|:-------------------------------:|:------------------:|:------------------:|:----------------------------------------------------:|:-----------------------------------------------------------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | [:link:](https://hub.docker.com/r/asreview/asreview) |                             :x:                             |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |                         :x:                          | :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu) |
+|       [Colandr](3colandr)       |        :x:         |        :x:         |                         :x:                          |   :white_check_mark:[:link:](https://www.colandrapp.com/)   |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                                                      |                                                             |
+|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                                                      |                                                             |
+|        [Rayyan](#rayyan)        |                    |                    |                                                      |                                                             |
+|  [RobotAnalyst](#robotanalyst)  |                    |                    |                                                      |                                                             |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |                                                             |  
 
 
 :white_check_mark: Yes;
@@ -98,24 +100,24 @@ The tables below provides an overview of the machine learning properties.
 
 - Can training data (prior knowledge) be selected by the user to train the first iteration of the model (yes/no)?
 - Can the software handle partly labelled data where the available labels are used to train the first model (yes/no)?
-- What is the minimal training data size (provide a number for relevant and irrelevant records)?
+- What is the minimal training data size (provide a number for **R**elevant and **I**rrelevant records)?
 
 
 
-| Software              | Tr.Data by user  | Party labeled Tr.data |  Minimum Tr.data |
-|:---------------------:|:----------------:|:---------------------:|:----------------:|
-| [ASReview](#asreview) |:white_check_mark:|:white_check_mark:     | 1+1              |
-| [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](#colandr)|  |  |  |  |  |  |
-| [EPPI-Reviewer](#eppi-reviewer)|  |  |  |
-| [FASTREAD](#fastread) |  |  |  |  |  
-| [Rayyan](#rayyan)|  |  |  |
-| [RobotAnalyst](#robotanalyst) |  |  |  | 
-| [SWIFT-Review](#swift-review) |  |  |  |  
+|            Software             |  Tr.Data by user   | Party labeled Tr.data | Minimum Tr.data |
+|:-------------------------------:|:------------------:|:---------------------:|:---------------:|
+|      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:   |      1R+1I      |
+|     [Abstrackr](#abstrackr)     |        :x:         |          :x:          |       :x:       |
+|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:   |      10R       |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                       |                 |
+|      [FASTREAD](#fastread)      |                    |                       |                 |
+|        [Rayyan](#rayyan)        |                    |                       |                 |
+|  [RobotAnalyst](#robotanalyst)  |                    |                       |                 |
+|  [SWIFT-Review](#swift-review)  |                    |                       |                 |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: With some effort (add a footnote for more explaination);
+:zap: With some effort (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
 
@@ -129,26 +131,25 @@ The tables below provides an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-| Software               | Select model     | User model       |  Store Feat.matrix  | A-synchronic     |Batch size |Switch   |
-|:----------------------:|:----------------:|:----------------:|:-------------------:|:----------------:|:---------:|:-------:|
-| [ASReview](#asreview)  |:white_check_mark:|:white_check_mark:|     :zap:[^1]       |:white_check_mark:|   :x:     |:zap:[^2]|
-| [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](#colandr)|  |  |  |  |  |  |
-| [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |  |  |
-| [FASTREAD](#fastread) |  |  |  |  |  |  |
-| [Rayyan](#rayyan)|  |  |  |  |  |  |
-| [RobotAnalyst](#robotanalyst) |  |  |  |  |  |  |
-| [SWIFT-Review](#swift-review) |  |  |  |  |  |  |
+|            Software             |    Select model    |     User model     | Store Feat.matrix |    A-synchronic    | Batch size |  Switch   |
+|:-------------------------------:|:------------------:|:------------------:|:-----------------:|:------------------:|:----------:|:---------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:<sup>1</sup>     | :white_check_mark: |    :x:     | :zap:<sup>2</sup> |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:        | :white_check_mark: |    :x:     |    :x:    |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:        | :white_check_mark: |  :x: (10)  |    :x:    |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                   |                    |            |           |
+|      [FASTREAD](#fastread)      |                    |                    |                   |                    |            |           |
+|        [Rayyan](#rayyan)        |                    |                    |                   |                    |            |           |
+|  [RobotAnalyst](#robotanalyst)  |                    |                    |                   |                    |            |           |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                   |                    |            |           |
 
+<sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
+<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview.
+The software will recognize all previous labeling decisions and a new model can be trained.
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: With some effort (add a footnote with more explaination);
+:zap: With some effort (add a footnote with more explanation);
 :grey_question: Unknown (requires an issue).
-
-[^1]: Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor). 
-
-[^2]: Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview. The software will recognize all previous labeling decisions and a new model can be trained. 
 
 ### Overview of Available Models
 
@@ -188,16 +189,16 @@ The tables below provides an overview of the machine learning properties.
 
 
 
-| Software              | Feature Extr.                    | Classifiers                    |  Balancing  | Query Stra. |
-|:---------------------:|:--------------------------------:|:------------------------------:|:-----------:|:-----------:|
-| [ASReview](#asreview) |TF–IDF, Doc2Vec, sBert, TF-IDF, ML|CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T  |R, C, U, M   |
-| [Abstrackr](#abstrackr)|  |  |  |  |  |  |
-| [Colandr](#colandr)|  |  |  |  |  |  |
-| [EPPI-Reviewer](#eppi-reviewer)|  |  |  |  |  |
-| [FASTREAD](#fastread) |  |  |  |  |  |  |
-| [Rayyan](#rayyan)|  |  |  |  |
-| [RobotAnalyst](#robotanalyst) |  |  |  |  | 
-| [SWIFT-Review](#swift-review) |  |  |  |  |  
+|            Software             |           Feature Extr.            |           Classifiers           | Balancing  | Query Stra. |
+|:-------------------------------:|:----------------------------------:|:-------------------------------:|:----------:|:-----------:|
+|      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
+|     [Abstrackr](#abstrackr)     |               TF-IDF               |               SVM               |    :x:     |    R, C     |  |  |
+|       [Colandr](#colandr)       |              Word2Vec[:grey_question:](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16)              |               SGD[:grey_question:](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16)              |    :x:     |      R      |  |  |
+| [EPPI-Reviewer](#eppi-reviewer) |                                    |                                 |            |             |  |
+|      [FASTREAD](#fastread)      |                                    |                                 |            |             |  |  |
+|        [Rayyan](#rayyan)        |                                    |                                 |            |             |
+|  [RobotAnalyst](#robotanalyst)  |                                    |                                 |            |             | 
+|  [SWIFT-Review](#swift-review)  |                                    |                                 |            |             |  
 
 
 :white_check_mark: Yes/Implemented;
@@ -207,12 +208,12 @@ The tables below provides an overview of the machine learning properties.
 
 ## Supervised Learning
 
-| Software | Q1          |
+| Software |     Q1      |
 |:--------:|:-----------:|
 
 ## Unsupervised Learning
 
-| Software | Q1          |
+| Software |     Q1      |
 |:--------:|:-----------:|
 
 # Software
