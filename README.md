@@ -133,7 +133,7 @@ The tables below provides an overview of the machine learning properties.
 
 |            Software             |    Select model    |     User model     | Store Feat.matrix |    A-synchronic    | Batch size |  Switch   |
 |:-------------------------------:|:------------------:|:------------------:|:-----------------:|:------------------:|:----------:|:---------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:[^1]     | :white_check_mark: |    :x:     | :zap:[^2] |
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:<sup>1</sup>     | :white_check_mark: |    :x:     | :zap:<sup>2</sup> |
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:        | :white_check_mark: |    :x:     |    :x:    |
 |       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:        | :white_check_mark: |  :x: (10)  |    :x:    |
 | [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                   |                    |            |           |
@@ -141,16 +141,14 @@ The tables below provides an overview of the machine learning properties.
 |        [Rayyan](#rayyan)        |                    |                    |                   |                    |            |           |
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                   |                    |            |           |
 |  [SWIFT-Review](#swift-review)  |                    |                    |                   |                    |            |           |
-
+<sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
+<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview.
+The software will recognize all previous labeling decisions and a new model can be trained.
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: With some effort (add a footnote with more explanation);
 :grey_question: Unknown (requires an issue).
-
-[^1]: Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor). 
-
-[^2]: Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview. The software will recognize all previous labeling decisions and a new model can be trained. 
 
 ### Overview of Available Models
 
@@ -194,7 +192,7 @@ The tables below provides an overview of the machine learning properties.
 |:-------------------------------:|:----------------------------------:|:-------------------------------:|:----------:|:-----------:|
 |      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
 |     [Abstrackr](#abstrackr)     |               TF-IDF               |               SVM               |    :x:     |    R, C     |  |  |
-|       [Colandr](#colandr)       |              Word2Vec              |               SGD               |    :x:     |      R      |  |  |
+|       [Colandr](#colandr)       |              Word2Vec:grey_question:              |               SGD:grey_question:               |    :x:     |      R      |  |  |
 | [EPPI-Reviewer](#eppi-reviewer) |                                    |                                 |            |             |  |
 |      [FASTREAD](#fastread)      |                                    |                                 |            |             |  |  |
 |        [Rayyan](#rayyan)        |                                    |                                 |            |             |
