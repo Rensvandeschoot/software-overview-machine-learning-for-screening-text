@@ -192,7 +192,7 @@ The software will recognize all previous labeling decisions and a new model can 
 |:-------------------------------:|:----------------------------------:|:-------------------------------:|:----------:|:-----------:|
 |      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
 |     [Abstrackr](#abstrackr)     |               TF-IDF               |               SVM               |    :x:     |    R, C     |  |  |
-|       [Colandr](#colandr)       |              Word2Vec:grey_question:              |               SGD:grey_question:               |    :x:     |      R      |  |  |
+|       [Colandr](#colandr)       |              Word2Vec[:grey_question:](#16)              |               SGD[:grey_question:](#16)              |    :x:     |      R      |  |  |
 | [EPPI-Reviewer](#eppi-reviewer) |                                    |                                 |            |             |  |
 |      [FASTREAD](#fastread)      |                                    |                                 |            |             |  |  |
 |        [Rayyan](#rayyan)        |                                    |                                 |            |             |
