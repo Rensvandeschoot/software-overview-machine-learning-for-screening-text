@@ -141,6 +141,7 @@ The tables below provides an overview of the machine learning properties.
 |        [Rayyan](#rayyan)        |                    |                    |                   |                    |            |           |
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                   |                    |            |           |
 |  [SWIFT-Review](#swift-review)  |                    |                    |                   |                    |            |           |
+
 <sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
 <sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview.
 The software will recognize all previous labeling decisions and a new model can be trained.
