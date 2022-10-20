@@ -108,7 +108,7 @@ The tables below provides an overview of the machine learning properties.
 |:-------------------------------:|:------------------:|:---------------------:|:---------------:|
 |      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:   |      1R+1I      |
 |     [Abstrackr](#abstrackr)     |        :x:         |          :x:          |       :x:       |
-|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:   |      ≥10R       |
+|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:   |      10R       |
 | [EPPI-Reviewer](#eppi-reviewer) |                    |                       |                 |
 |      [FASTREAD](#fastread)      |                    |                       |                 |
 |        [Rayyan](#rayyan)        |                    |                       |                 |
