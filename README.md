@@ -135,7 +135,7 @@ The tables below provide an overview of the machine learning properties.
 
 |            Software             |    Select model    |     User model     | Store Feat.matrix      |    A-synchronic    | Batch size |  Switch           |
 |:-------------------------------:|:------------------:|:------------------:|:----------------------:|:------------------:|:----------:|:-----------------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:<sup>1</sup>  | :white_check_mark: |    :x:     | :zap:<sup>2</sup> |
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |   :white_check_mark:>  | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:             | :white_check_mark: |    :x:     |    :x:            |
 |       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:             | :white_check_mark: |  :x: (10)  |    :x:            |
 | [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                        |                    |            |                   |
@@ -149,9 +149,7 @@ The tables below provide an overview of the machine learning properties.
 :zap: With some effort (add a footnote with more explanation);
 :grey_question: Unknown (requires an issue).
 
-<sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
-
-<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
+<sup>1</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
 The software will recognize all previous labeling decisions, and a new model can be trained.
 
 
