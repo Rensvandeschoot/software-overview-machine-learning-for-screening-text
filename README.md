@@ -56,13 +56,15 @@ The table below provides an overview of input/output data.
 |  [RobotAnalyst](#robotanalyst)  |                           |                    |                    |                    |                    |                    |
 |  [SWIFT-Review](#swift-review)  |                           |                    |                    |                    |                    |                    |
 
-<sup>1</sup> List of PubMed IDs
-<sup>2</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files
-
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: Only for some extensions (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
+
+<sup>1</sup> List of PubMed IDs
+
+<sup>2</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files
+
 
 # Installation
 
@@ -142,14 +144,16 @@ The tables below provide an overview of the machine learning properties.
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                   |                    |            |           |
 |  [SWIFT-Review](#swift-review)  |                    |                    |                   |                    |            |           |
 
-<sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
-<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
-The software will recognize all previous labeling decisions, and a new model can be trained.
-
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: With some effort (add a footnote with more explanation);
 :grey_question: Unknown (requires an issue).
+
+<sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
+
+<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
+The software will recognize all previous labeling decisions, and a new model can be trained.
+
 
 ### Overview of Available Models
 
