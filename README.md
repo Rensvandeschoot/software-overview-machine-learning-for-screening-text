@@ -110,7 +110,7 @@ The tables below provide an overview of the machine learning properties.
 |:-------------------------------:|:------------------:|:----------------------:|:---------------:|
 |      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:    |      1R+1I      |
 |     [Abstrackr](#abstrackr)     |        :x:         |          :x:           |       :x:       |
-|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:    |      10R       |
+|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:    |      10R        |
 | [EPPI-Reviewer](#eppi-reviewer) |                    |                        |                 |
 |      [FASTREAD](#fastread)      |                    |                        |                 |
 |        [Rayyan](#rayyan)        |                    |                        |                 |
@@ -133,16 +133,16 @@ The tables below provide an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-|            Software             |    Select model    |     User model     | Store Feat.matrix |    A-synchronic    | Batch size |  Switch   |
-|:-------------------------------:|:------------------:|:------------------:|:-----------------:|:------------------:|:----------:|:---------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:<sup>1</sup>     | :white_check_mark: |    :x:     | :zap:<sup>2</sup> |
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:        | :white_check_mark: |    :x:     |    :x:    |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:        | :white_check_mark: |  :x: (10)  |    :x:    |
-| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                   |                    |            |           |
-|      [FASTREAD](#fastread)      |                    |                    |                   |                    |            |           |
-|        [Rayyan](#rayyan)        |                    |                    |                   |                    |            |           |
-|  [RobotAnalyst](#robotanalyst)  |                    |                    |                   |                    |            |           |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                   |                    |            |           |
+|            Software             |    Select model    |     User model     | Store Feat.matrix      |    A-synchronic    | Batch size |  Switch           |
+|:-------------------------------:|:------------------:|:------------------:|:----------------------:|:------------------:|:----------:|:-----------------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:<sup>1</sup>  | :white_check_mark: |    :x:     | :zap:<sup>2</sup> |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:             | :white_check_mark: |    :x:     |    :x:            |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:             | :white_check_mark: |  :x: (10)  |    :x:            |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                        |                    |            |                   |
+|      [FASTREAD](#fastread)      |                    |                    |                        |                    |            |                   |
+|        [Rayyan](#rayyan)        |                    |                    |                        |                    |            |                   |
+|  [RobotAnalyst](#robotanalyst)  |                    |                    |                        |                    |            |                   |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                        |                    |            |                   |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -193,21 +193,23 @@ The software will recognize all previous labeling decisions, and a new model can
 
 
 
-|            Software             |           Feature Extr.            |           Classifiers           | Balancing  | Query Stra. |
-|:-------------------------------:|:----------------------------------:|:-------------------------------:|:----------:|:-----------:|
-|      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
-|     [Abstrackr](#abstrackr)     |               TF-IDF               |               SVM               |    :x:     |    R, C     |  |  |
-|       [Colandr](#colandr)       |              Word2Vec[:grey_question:](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16)              |               SGD[:grey_question:](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16)              |    :x:     |      R      |  |  |
-| [EPPI-Reviewer](#eppi-reviewer) |                                    |                                 |            |             |  |
-|      [FASTREAD](#fastread)      |                                    |                                 |            |             |  |  |
-|        [Rayyan](#rayyan)        |                                    |                                 |            |             |
-|  [RobotAnalyst](#robotanalyst)  |                                    |                                 |            |             | 
-|  [SWIFT-Review](#swift-review)  |                                    |                                 |            |             |  
+|            Software             |           Feature Extr.             |           Classifiers           | Balancing  | Query Stra. |
+|:-------------------------------:|:-----------------------------------:|:-------------------------------:|:----------:|:-----------:|
+|      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
+|     [Abstrackr](#abstrackr)     |               TF-IDF                |               SVM               |    :x:     |    R, C     |
+|       [Colandr](#colandr)       |Word2Vec[:grey_question:]<sup>1</sup>|SGD[:grey_question:]<sup>1</sup> |    :x:     |      R      |
+| [EPPI-Reviewer](#eppi-reviewer) |                                     |                                 |            |             |
+|      [FASTREAD](#fastread)      |                                     |                                 |            |             |
+|        [Rayyan](#rayyan)        |                                     |                                 |            |             |
+|  [RobotAnalyst](#robotanalyst)  |                                     |                                 |            |             | 
+|  [SWIFT-Review](#swift-review)  |                                     |                                 |            |             |  
 
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :grey_question: Unknown (requires an issue).
+
+<sup>1</sup> see issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16
 
 
 ## Supervised Learning
