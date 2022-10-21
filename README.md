@@ -42,10 +42,10 @@ The table below provides an overview of input/output data.
 - Can partly labeled data be imported (yes/no)?
 - Does the export file contain the labeling decisions?
 - Does the export file contain the rank order of the unseen records (yes/no)?
-- Can the export file be re-imported into same software retaining the labeling decisions (yes/no)?
-- Can the export file be re-imported into reference manager software retaining the labeling decision (yes/no)?
+- Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
+- Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |       Type of Data        |  Partly labelled   | Labeling decisions |     Rank order     |    Re-Import-1     |    Re-Import-2     |
+|            Software             |       Type of Data        |  Partly labeled    | Labeling decisions |     Rank order     |    Re-Import-1     |    Re-Import-2     |
 |:-------------------------------:|:-------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
 |      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 |     [Abstrackr](#abstrackr)     | RIS, TAB, TXT<sup>1</sup> |        :x:         | :white_check_mark: | :white_check_mark: |        :x:         | :white_check_mark: |
@@ -56,19 +56,21 @@ The table below provides an overview of input/output data.
 |  [RobotAnalyst](#robotanalyst)  |                           |                    |                    |                    |                    |                    |
 |  [SWIFT-Review](#swift-review)  |                           |                    |                    |                    |                    |                    |
 
-<sup>1</sup> List of PubMed IDs
-<sup>2</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files
-
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: Only for some extensions (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
+<sup>1</sup> List of PubMed IDs
+
+<sup>2</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files
+
+
 # Installation
 
-The table below provides an overview of options how to install the software.
+The table below provides an overview of options for how to install the software.
 
-- Can the software be installed locally so that data and labeling decisions are only stored on the users' device (yes/no)?
+- Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
 - Can the software be installed on a server (yes/no)?
 - Is a docker available (yes/no; provide a :link:)?
 - Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
@@ -91,7 +93,7 @@ The table below provides an overview of options how to install the software.
 
 # Machine Learning Properties
 
-The tables below provides an overview of the machine learning properties.
+The tables below provide an overview of the machine learning properties.
 
 
 ## Active Learning
@@ -99,21 +101,21 @@ The tables below provides an overview of the machine learning properties.
 ### Training Data
 
 - Can training data (prior knowledge) be selected by the user to train the first iteration of the model (yes/no)?
-- Can the software handle partly labelled data where the available labels are used to train the first model (yes/no)?
+- Can the software handle partly labeled data where the available labels are used to train the first model (yes/no)?
 - What is the minimal training data size (provide a number for **R**elevant and **I**rrelevant records)?
 
 
 
-|            Software             |  Tr.Data by user   | Party labeled Tr.data | Minimum Tr.data |
-|:-------------------------------:|:------------------:|:---------------------:|:---------------:|
-|      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:   |      1R+1I      |
-|     [Abstrackr](#abstrackr)     |        :x:         |          :x:          |       :x:       |
-|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:   |      10R       |
-| [EPPI-Reviewer](#eppi-reviewer) |                    |                       |                 |
-|      [FASTREAD](#fastread)      |                    |                       |                 |
-|        [Rayyan](#rayyan)        |                    |                       |                 |
-|  [RobotAnalyst](#robotanalyst)  |                    |                       |                 |
-|  [SWIFT-Review](#swift-review)  |                    |                       |                 |
+|            Software             |  Tr.Data by user   | Partly labeled Tr.data | Minimum Tr.data |
+|:-------------------------------:|:------------------:|:----------------------:|:---------------:|
+|      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:    |      1R+1I      |
+|     [Abstrackr](#abstrackr)     |        :x:         |          :x:           |       :x:       |
+|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:    |      10R        |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                        |                 |
+|      [FASTREAD](#fastread)      |                    |                        |                 |
+|        [Rayyan](#rayyan)        |                    |                        |                 |
+|  [RobotAnalyst](#robotanalyst)  |                    |                        |                 |
+|  [SWIFT-Review](#swift-review)  |                    |                        |                 |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -131,29 +133,31 @@ The tables below provides an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-|            Software             |    Select model    |     User model     | Store Feat.matrix |    A-synchronic    | Batch size |  Switch   |
-|:-------------------------------:|:------------------:|:------------------:|:-----------------:|:------------------:|:----------:|:---------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:<sup>1</sup>     | :white_check_mark: |    :x:     | :zap:<sup>2</sup> |
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:        | :white_check_mark: |    :x:     |    :x:    |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:        | :white_check_mark: |  :x: (10)  |    :x:    |
-| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                   |                    |            |           |
-|      [FASTREAD](#fastread)      |                    |                    |                   |                    |            |           |
-|        [Rayyan](#rayyan)        |                    |                    |                   |                    |            |           |
-|  [RobotAnalyst](#robotanalyst)  |                    |                    |                   |                    |            |           |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                   |                    |            |           |
-
-<sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
-<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview.
-The software will recognize all previous labeling decisions and a new model can be trained.
+|            Software             |    Select model    |     User model     | Store Feat.matrix      |    A-synchronic    | Batch size |  Switch           |
+|:-------------------------------:|:------------------:|:------------------:|:----------------------:|:------------------:|:----------:|:-----------------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |     :zap:<sup>1</sup>  | :white_check_mark: |    :x:     | :zap:<sup>2</sup> |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:             | :white_check_mark: |    :x:     |    :x:            |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:             | :white_check_mark: |  :x: (10)  |    :x:            |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                        |                    |            |                   |
+|      [FASTREAD](#fastread)      |                    |                    |                        |                    |            |                   |
+|        [Rayyan](#rayyan)        |                    |                    |                        |                    |            |                   |
+|  [RobotAnalyst](#robotanalyst)  |                    |                    |                        |                    |            |                   |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                        |                    |            |                   |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: With some effort (add a footnote with more explanation);
 :grey_question: Unknown (requires an issue).
 
+<sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
+
+<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
+The software will recognize all previous labeling decisions, and a new model can be trained.
+
+
 ### Overview of Available Models
 
-- Which  feature extraction methods are available?
+- Which feature extraction methods are available?
 **BOW** = bag of words; 
 **Doc2Vec** = document to vector; 
 **sBERT** = sentence bidirectional encoder representations from transformers;
@@ -164,7 +168,7 @@ The software will recognize all previous labeling decisions and a new model can 
 - Which classifiers are available?
 **CNN** = convolutional neural network;
 **DNN** = dense neural network; 
-**LDA** = latent dirichlet allocation; 
+**LDA** = latent Dirichlet allocation; 
 **LR**= logistic regression; 
 **LSTM** = long short-term memory; 
 **NB** = naive Bayes; 
@@ -189,21 +193,23 @@ The software will recognize all previous labeling decisions and a new model can 
 
 
 
-|            Software             |           Feature Extr.            |           Classifiers           | Balancing  | Query Stra. |
-|:-------------------------------:|:----------------------------------:|:-------------------------------:|:----------:|:-----------:|
-|      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
-|     [Abstrackr](#abstrackr)     |               TF-IDF               |               SVM               |    :x:     |    R, C     |  |  |
-|       [Colandr](#colandr)       |              Word2Vec[:grey_question:](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16)              |               SGD[:grey_question:](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16)              |    :x:     |      R      |  |  |
-| [EPPI-Reviewer](#eppi-reviewer) |                                    |                                 |            |             |  |
-|      [FASTREAD](#fastread)      |                                    |                                 |            |             |  |  |
-|        [Rayyan](#rayyan)        |                                    |                                 |            |             |
-|  [RobotAnalyst](#robotanalyst)  |                                    |                                 |            |             | 
-|  [SWIFT-Review](#swift-review)  |                                    |                                 |            |             |  
+|            Software             |           Feature Extr.             |           Classifiers           | Balancing  | Query Stra. |
+|:-------------------------------:|:-----------------------------------:|:-------------------------------:|:----------:|:-----------:|
+|      [ASReview](#asreview)      | TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM | S, D, U, T | R, C, U, M  |
+|     [Abstrackr](#abstrackr)     |               TF-IDF                |               SVM               |    :x:     |    R, C     |
+|       [Colandr](#colandr)       |Word2Vec :grey_question:<sup>1</sup> |SGD :grey_question: <sup>1</sup> |    :x:     |      R      |
+| [EPPI-Reviewer](#eppi-reviewer) |                                     |                                 |            |             |
+|      [FASTREAD](#fastread)      |                                     |                                 |            |             |
+|        [Rayyan](#rayyan)        |                                     |                                 |            |             |
+|  [RobotAnalyst](#robotanalyst)  |                                     |                                 |            |             | 
+|  [SWIFT-Review](#swift-review)  |                                     |                                 |            |             |  
 
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :grey_question: Unknown (requires an issue).
+
+<sup>1</sup> see issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16
 
 
 ## Supervised Learning
