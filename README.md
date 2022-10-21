@@ -42,10 +42,10 @@ The table below provides an overview of input/output data.
 - Can partly labeled data be imported (yes/no)?
 - Does the export file contain the labeling decisions?
 - Does the export file contain the rank order of the unseen records (yes/no)?
-- Can the export file be re-imported into same software retaining the labeling decisions (yes/no)?
-- Can the export file be re-imported into reference manager software retaining the labeling decision (yes/no)?
+- Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
+- Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |       Type of Data        |  Partly labelled   | Labeling decisions |     Rank order     |    Re-Import-1     |    Re-Import-2     |
+|            Software             |       Type of Data        |  Partly labeled    | Labeling decisions |     Rank order     |    Re-Import-1     |    Re-Import-2     |
 |:-------------------------------:|:-------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
 |      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 |     [Abstrackr](#abstrackr)     | RIS, TAB, TXT<sup>1</sup> |        :x:         | :white_check_mark: | :white_check_mark: |        :x:         | :white_check_mark: |
@@ -66,9 +66,9 @@ The table below provides an overview of input/output data.
 
 # Installation
 
-The table below provides an overview of options how to install the software.
+The table below provides an overview of options for how to install the software.
 
-- Can the software be installed locally so that data and labeling decisions are only stored on the users' device (yes/no)?
+- Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
 - Can the software be installed on a server (yes/no)?
 - Is a docker available (yes/no; provide a :link:)?
 - Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
@@ -91,7 +91,7 @@ The table below provides an overview of options how to install the software.
 
 # Machine Learning Properties
 
-The tables below provides an overview of the machine learning properties.
+The tables below provide an overview of the machine learning properties.
 
 
 ## Active Learning
@@ -99,21 +99,21 @@ The tables below provides an overview of the machine learning properties.
 ### Training Data
 
 - Can training data (prior knowledge) be selected by the user to train the first iteration of the model (yes/no)?
-- Can the software handle partly labelled data where the available labels are used to train the first model (yes/no)?
+- Can the software handle partly labeled data where the available labels are used to train the first model (yes/no)?
 - What is the minimal training data size (provide a number for **R**elevant and **I**rrelevant records)?
 
 
 
-|            Software             |  Tr.Data by user   | Party labeled Tr.data | Minimum Tr.data |
-|:-------------------------------:|:------------------:|:---------------------:|:---------------:|
-|      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:   |      1R+1I      |
-|     [Abstrackr](#abstrackr)     |        :x:         |          :x:          |       :x:       |
-|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:   |      10R       |
-| [EPPI-Reviewer](#eppi-reviewer) |                    |                       |                 |
-|      [FASTREAD](#fastread)      |                    |                       |                 |
-|        [Rayyan](#rayyan)        |                    |                       |                 |
-|  [RobotAnalyst](#robotanalyst)  |                    |                       |                 |
-|  [SWIFT-Review](#swift-review)  |                    |                       |                 |
+|            Software             |  Tr.Data by user   | Partly labeled Tr.data | Minimum Tr.data |
+|:-------------------------------:|:------------------:|:----------------------:|:---------------:|
+|      [ASReview](#asreview)      | :white_check_mark: |  :white_check_mark:    |      1R+1I      |
+|     [Abstrackr](#abstrackr)     |        :x:         |          :x:           |       :x:       |
+|       [Colandr](#colandr)       | :white_check_mark: |  :white_check_mark:    |      10R       |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                        |                 |
+|      [FASTREAD](#fastread)      |                    |                        |                 |
+|        [Rayyan](#rayyan)        |                    |                        |                 |
+|  [RobotAnalyst](#robotanalyst)  |                    |                        |                 |
+|  [SWIFT-Review](#swift-review)  |                    |                        |                 |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -143,8 +143,8 @@ The tables below provides an overview of the machine learning properties.
 |  [SWIFT-Review](#swift-review)  |                    |                    |                   |                    |            |           |
 
 <sup>1</sup> Extracting the feature matrix in ASReview is available via an [extension](https://github.com/asreview/asreview-extension-vocab-extractor).
-<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model, and importing the data back into ASReview.
-The software will recognize all previous labeling decisions and a new model can be trained.
+<sup>2</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
+The software will recognize all previous labeling decisions, and a new model can be trained.
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -153,7 +153,7 @@ The software will recognize all previous labeling decisions and a new model can 
 
 ### Overview of Available Models
 
-- Which  feature extraction methods are available?
+- Which feature extraction methods are available?
 **BOW** = bag of words; 
 **Doc2Vec** = document to vector; 
 **sBERT** = sentence bidirectional encoder representations from transformers;
@@ -164,7 +164,7 @@ The software will recognize all previous labeling decisions and a new model can 
 - Which classifiers are available?
 **CNN** = convolutional neural network;
 **DNN** = dense neural network; 
-**LDA** = latent dirichlet allocation; 
+**LDA** = latent Dirichlet allocation; 
 **LR**= logistic regression; 
 **LSTM** = long short-term memory; 
 **NB** = naive Bayes; 
