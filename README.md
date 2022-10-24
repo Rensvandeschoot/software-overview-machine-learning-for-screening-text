@@ -134,16 +134,16 @@ The tables below provide an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-|            Software             |    Select model    |     User model     |  Store Feat.matrix  |    A-synchronic    | Batch size |      Switch       |
-|:-------------------------------:|:------------------:|:------------------:|:-------------------:|:------------------:|:----------:|:-----------------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark:> | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |         :x:         | :white_check_mark: |    :x:     |        :x:        |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |         :x:         | :white_check_mark: |  :x: (10)  |        :x:        |
-| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                     |                    |            |                   |
-|      [FASTREAD](#fastread)      |                    |                    |                     |                    |            |                   |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |         :x:         | :white_check_mark: |    :x:     |        :x:        |
-|  [RobotAnalyst](#robotanalyst)  |                    |                    |                     |                    |            |                   |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                     |                    |            |                   |
+|            Software             |    Select model    |     User model     | Store Feat.matrix  |    A-synchronic    | Batch size |      Switch       |
+|:-------------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:----------:|:-----------------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         | :white_check_mark: |  :x: (10)  |        :x:        |
+| [EPPI-Reviewer](#eppi-reviewer) |                    |                    |                    |                    |            |                   |
+|      [FASTREAD](#fastread)      |                    |                    |                    |                    |            |                   |
+|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
+|  [RobotAnalyst](#robotanalyst)  |                    |                    |                    |                    |            |                   |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                    |                    |            |                   |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
