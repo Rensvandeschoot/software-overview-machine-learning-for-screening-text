@@ -216,7 +216,7 @@ Additionally, EPPI-Reviewer allows users to train and save custom models.
 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16
 
-<sup>2</sup> See issue (https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>2</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
 <sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
