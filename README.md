@@ -67,9 +67,9 @@ The table below provides an overview of input/output data.
 
 <sup>3</sup> EPPI-Reviewer provides an [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
-<sup>4</sup> See [EPPI-Reviewer issue](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21)
+<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>5</sup> See [Rayyan issue](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19)
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
 # Installation
 
@@ -214,11 +214,11 @@ Additionally, EPPI-Reviewer allows users to train and save custom models.
 :x: No/Not implemented;
 :grey_question: Unknown (requires an issue).
 
-<sup>1</sup> See [Colandr issue](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16)
+<sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16
 
 <sup>2</sup> See [EPPI-Reviewer issue](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21)
 
-<sup>3</sup> See [Rayyan issue](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19)
+<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
 
 ## Supervised Learning
