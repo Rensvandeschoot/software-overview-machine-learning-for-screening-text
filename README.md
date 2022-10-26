@@ -23,7 +23,7 @@ properties are evaluated:
 |      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |     :white_check_mark:[:link:](https://github.com/asreview/)      | :white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |   **A**    | :white_check_mark:`+` |
 |     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |     :zap:[:link:](https://github.com/bwallace/abstrackr-web)      |  :white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)   |                                         :x:                                         |   **A**    |          :x:          |
 |       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       | :zap:[:link:](https://github.com/datakind/permanent-colandr-back) |     :white_check_mark:[:link:](https://doi.org/10.1111/cobi.13117)     | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |   **A**    |          :x:          |
-| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |   **A**    |          :x:             |
+| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |  **A, S**  |          :x:             |
 |      [FASTREAD](#fastread)      |                             :x:                              |    :white_check_mark:[:link:](https://github.com/fastread/src)    | :white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |            |                       |
 |        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |            :zap:[:link:](https://github.com/rayyansys)            | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |   **A**    |          :x:              |
 |  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                                :x:                                |     :white_check_mark:[:link:](https://doi.org/10.1002/jrsm.1311)      |                                         :x:                                         |            |                       |
@@ -116,10 +116,10 @@ The tables below provide an overview of the machine learning properties.
 
 |            Software             |  Tr.Data by user   | Partly labeled Tr.data | Minimum Tr.data |
 |:-------------------------------:|:------------------:|:----------------------:|:---------------:|
-|      [ASReview](#asreview)      | :white_check_mark: |   :white_check_mark:   |      1R+1I      |
+|      [ASReview](#asreview)      | :white_check_mark: |   :white_check_mark:   |     ≥1R+≥1I     |
 |     [Abstrackr](#abstrackr)     |        :x:         |          :x:           |       :x:       |
-|       [Colandr](#colandr)       | :white_check_mark: |   :white_check_mark:   |       10R       |
-| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |   :white_check_mark:   |       5R        |
+|       [Colandr](#colandr)       | :white_check_mark: |   :white_check_mark:   |       10        |
+| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |   :white_check_mark:   |       ≥5R       |
 |      [FASTREAD](#fastread)      |                    |                        |                 |
 |        [Rayyan](#rayyan)        | :white_check_mark: |          :x:           |  ≥50 with ≥5R   |
 |  [RobotAnalyst](#robotanalyst)  |                    |                        |                 |
@@ -146,7 +146,7 @@ The tables below provide an overview of the machine learning properties.
 |      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         | :white_check_mark: |  :x: (10)  |        :x:        |
-| [EPPI-Reviewer](#eppi-reviewer) |  :x:<sup>2</sup>   |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |      [FASTREAD](#fastread)      |                    |                    |                    |                    |            |                   |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                    |                    |            |                   |
@@ -158,9 +158,6 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>1</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
 The software will recognize all previous labeling decisions, and a new model can be trained.
-
-<sup>2</sup> Besides active learning, EPPI-Reviewer offers the option to choose from pre-trained models to find a specific type of literature, for e.g., RCTs.
-Additionally, EPPI-Reviewer allows users to train and save custom models.
 
 
 ### Overview of Available Models
@@ -226,8 +223,13 @@ Additionally, EPPI-Reviewer allows users to train and save custom models.
 
 ## Supervised Learning
 
-| Software |     Q1      |
-|:--------:|:-----------:|
+|                  Software                   | Feature Extr. |          Classifiers           |          Balancing          | Query Stra. |
+|:-------------------------------------------:|:-------------:|:------------------------------:|:---------------------------:|:-----------:|
+| [EPPI-Reviewer](#eppi-reviewer)<sup>1</sup> |    TF-IDF     | SVM:grey_question:<sup>2</sup> | :grey_question:<sup>1</sup> |    R, C     |
+
+<sup>1</sup> Besides building your own classifier, EPPI-Reviewer offers the option to choose from pre-trained models to find a specific type of literature, for e.g., RCTs.
+
+<sup>2</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
 ## Unsupervised Learning
 
