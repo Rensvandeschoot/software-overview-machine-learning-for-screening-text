@@ -52,7 +52,7 @@ The table below provides an overview of input/output data.
 |       [Colandr](#colandr)       |               RIS, BIB, TXT               |         :zap:<sup>3</sup>         |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
 | [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>4</sup>         |         :zap:<sup>3</sup>         | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
 |      [FASTREAD](#fastread)      |                    CSV                    |                                   |                             |                             |                             |                             |
-|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |                :x:                |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |     :white_check_mark:      |
+|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |         :zap:<sup>3</sup>         |     :white_check_mark:      |             :x:             |             :x:             |     :white_check_mark:      |
 |  [RobotAnalyst](#robotanalyst)  |                                           |                                   |                             |                             |                             |                             |
 |  [SWIFT-Review](#swift-review)  |                                           |                                   |                             |                             |                             |                             |
 
@@ -71,8 +71,6 @@ and to combine multiple (labeled, partly labeled, or unlabeled) datasets.
 <sup>4</sup> EPPI-Reviewer provides an [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
 <sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
-
-<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
 # Installation
 
@@ -121,7 +119,7 @@ The tables below provide an overview of the machine learning properties.
 |       [Colandr](#colandr)       | :white_check_mark: |   :white_check_mark:   |       10        |
 | [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |   :white_check_mark:   |       ≥5R       |
 |      [FASTREAD](#fastread)      |                    |                        |                 |
-|        [Rayyan](#rayyan)        | :white_check_mark: |          :x:           |  ≥50 with ≥5R   |
+|        [Rayyan](#rayyan)        | :white_check_mark: |   :white_check_mark:   |  ≥50 with ≥5R   |
 |  [RobotAnalyst](#robotanalyst)  |                    |                        |                 |
 |  [SWIFT-Review](#swift-review)  |                    |                        |                 |
 
@@ -201,9 +199,9 @@ The software will recognize all previous labeling decisions, and a new model can
 |            Software             |            Feature Extr.             |           Classifiers            |          Balancing          | Query Stra. |
 |:-------------------------------:|:------------------------------------:|:--------------------------------:|:---------------------------:|:-----------:|
 |      [ASReview](#asreview)      |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |         S, D, U, T          | R, C, U, M  |
-|     [Abstrackr](#abstrackr)     |                TF-IDF                |               SVM                |             :x:             |    R, C     |
+|     [Abstrackr](#abstrackr)     |                TF-IDF                |               SVM                |             :x:             |   R, C, U   |
 |       [Colandr](#colandr)       | Word2Vec :grey_question:<sup>1</sup> | SGD :grey_question: <sup>1</sup> |             :x:             |      C      |
-| [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>2</sup> |    R, C     |
+| [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>2</sup> |  R, C, Cl   |
 |      [FASTREAD](#fastread)      |                                      |                                  |                             |             |
 |        [Rayyan](#rayyan)        |     :grey_question:<sup>3</sup>      |               SVM                | :grey_question:<sup>3</sup> |    C, U     |
 |  [RobotAnalyst](#robotanalyst)  |                                      |                                  |                             |             | 
@@ -225,7 +223,7 @@ The software will recognize all previous labeling decisions, and a new model can
 
 |                  Software                   | Feature Extr. |          Classifiers           |          Balancing          | Query Stra. |
 |:-------------------------------------------:|:-------------:|:------------------------------:|:---------------------------:|:-----------:|
-| [EPPI-Reviewer](#eppi-reviewer)<sup>1</sup> |    TF-IDF     | SVM:grey_question:<sup>2</sup> | :grey_question:<sup>1</sup> |    R, C     |
+| [EPPI-Reviewer](#eppi-reviewer)<sup>1</sup> |    TF-IDF     | SVM:grey_question:<sup>2</sup> | :grey_question:<sup>1</sup> |  R, C, Cl   |
 
 <sup>1</sup> Besides building your own classifier, EPPI-Reviewer offers the option to choose from pre-trained models to find a specific type of literature, for e.g., RCTs.
 
