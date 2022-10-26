@@ -61,8 +61,7 @@ The table below provides an overview of input/output data.
 :zap: Only for some extensions (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
-<sup>1</sup> ASReview provides several open-source [tools](https://github.com/asreview/asreview-datatools) to convert file formats (e.g., CSV->RIS, or RIS->XLSX),
-to combine datasets (labeled, partly labeled, or unlabeled) and deduplication.
+<sup>1</sup> ASReview provides several open-source tools to convert file formats (e.g., CSV->RIS or RIS->XLSX), combine datasets (labeled, partly labeled, or unlabeled), and deduplicate records based on title/abstract/DOI.
 
 <sup>2</sup> List of PubMed IDs
 
