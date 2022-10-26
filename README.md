@@ -45,31 +45,32 @@ The table below provides an overview of input/output data.
 - Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
 - Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |            Type of Data            |   Partly labeled   |     Labeling decisions      |         Rank order          |         Re-Import-1         |         Re-Import-2         |
-|:-------------------------------:|:----------------------------------:|:------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
-|      [ASReview](#asreview)      |      RIS, TSV, CSV, XLSX, TAB      | :white_check_mark: |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
-|     [Abstrackr](#abstrackr)     |     RIS, TAB, TXT<sup>1</sup>      |        :x:         |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|       [Colandr](#colandr)       |           RIS, BIB, TXT            | :zap:<sup>2</sup>  |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
-| [EPPI-Reviewer](#eppi-reviewer) |        RIS<sup>3</sup>, TXT        | :zap:<sup>2</sup>  | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
-|      [FASTREAD](#fastread)      |                CSV                 |                    |                             |                             |                             |                             |
-|        [Rayyan](#rayyan)        | RIS, ENW, BIB, CSV, XML, CIW, NBIB |        :x:         |     :white_check_mark:      | :grey_question:<sup>5</sup> |             :x:             |     :white_check_mark:      |
-|  [RobotAnalyst](#robotanalyst)  |                                    |                    |                             |                             |                             |                             |
-|  [SWIFT-Review](#swift-review)  |                                    |                    |                             |                             |                             |                             |
+|            Software             |               Type of Data                |          Partly labeled           |     Labeling decisions      |         Rank order          |         Re-Import-1         |         Re-Import-2         |
+|:-------------------------------:|:-----------------------------------------:|:---------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> | :white_check_mark:`+`<sup>1</sup> |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
+|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                :x:                |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|       [Colandr](#colandr)       |               RIS, BIB, TXT               |         :zap:<sup>3</sup>         |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
+| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>4</sup>         |         :zap:<sup>3</sup>         | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
+|      [FASTREAD](#fastread)      |                    CSV                    |                                   |                             |                             |                             |                             |
+|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |         :zap:<sup>3</sup>         |     :white_check_mark:      |             :x:             |             :x:             |     :white_check_mark:      |
+|  [RobotAnalyst](#robotanalyst)  |                                           |                                   |                             |                             |                             |                             |
+|  [SWIFT-Review](#swift-review)  |                                           |                                   |                             |                             |                             |                             |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: Only for some extensions (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
-<sup>1</sup> List of PubMed IDs
+<sup>1</sup> ASReview provides several open-source [tools](https://github.com/asreview/asreview-datatools) to convert file formats (e.g., CSV->RIS, or RIS->XLSX),
+to combine datasets (labeled, partly labeled, or unlabeled) and deduplication.
 
-<sup>2</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files.
+<sup>2</sup> List of PubMed IDs
 
-<sup>3</sup> EPPI-Reviewer provides an [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
+<sup>3</sup> It is possible to upload all records of the same label (relevant/irrelevant/unlabeled) as separate files.
 
-<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>4</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
-<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
 # Installation
 
