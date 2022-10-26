@@ -62,7 +62,7 @@ The table below provides an overview of input/output data.
 :grey_question: Unknown (requires an issue).
 
 <sup>1</sup> ASReview provides several [data tools](https://github.com/asreview/asreview-datatools) to convert several file formats,
-and to combine multiple (labeled, partly labeled, or unlabeled) datasets.
+to combine datasets (labeled, partly labeled, or unlabeled) and deduplication.
 
 <sup>2</sup> List of PubMed IDs
 
