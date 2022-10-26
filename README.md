@@ -66,7 +66,7 @@ to combine datasets (labeled, partly labeled, or unlabeled) and deduplication.
 
 <sup>2</sup> List of PubMed IDs
 
-<sup>3</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files.
+<sup>3</sup> It is possible to upload all records of the same label (relevant/irrelevant/unlabeled) as separate files.
 
 <sup>4</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
