@@ -143,7 +143,7 @@ The tables below provide an overview of the machine learning properties.
 |      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         | :white_check_mark: |  :x: (10)  |        :x:        |
-| [EPPI-Reviewer](#eppi-reviewer) |  :x:<sup>2</sup>   |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |      [FASTREAD](#fastread)      |                    |                    |                    |                    |            |                   |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                    |                    |            |                   |
@@ -155,9 +155,6 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>1</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
 The software will recognize all previous labeling decisions, and a new model can be trained.
-
-<sup>2</sup> Besides active learning, EPPI-Reviewer offers the option to choose from pre-trained models to find a specific type of literature, for e.g., RCTs.
-Additionally, EPPI-Reviewer allows users to train and save custom models.
 
 
 ### Overview of Available Models
