@@ -196,16 +196,16 @@ The software will recognize all previous labeling decisions, and a new model can
 
 
 
-|            Software             |            Feature Extr.             |           Classifiers            |          Balancing          | Query Stra. |
-|:-------------------------------:|:------------------------------------:|:--------------------------------:|:---------------------------:|:-----------:|
-|      [ASReview](#asreview)      |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |         S, D, U, T          | R, C, U, M  |
-|     [Abstrackr](#abstrackr)     |                TF-IDF                |               SVM                |             :x:             |    R, C     |
-|       [Colandr](#colandr)       | Word2Vec :grey_question:<sup>1</sup> | SGD :grey_question: <sup>1</sup> |             :x:             |      C      |
-| [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>2</sup> |    R, C     |
-|      [FASTREAD](#fastread)      |                                      |                                  |                             |             |
-|        [Rayyan](#rayyan)        |     :grey_question:<sup>3</sup>      |               SVM                | :grey_question:<sup>3</sup> |    C, U     |
-|  [RobotAnalyst](#robotanalyst)  |                                      |                                  |                             |             | 
-|  [SWIFT-Review](#swift-review)  |                                      |                                  |                             |             |  
+|            Software             |            Feature Extr.             |           Classifiers            |          Balancing          |  Query Stra.   |
+|:-------------------------------:|:------------------------------------:|:--------------------------------:|:---------------------------:|:--------------:|
+|      [ASReview](#asreview)      |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |         S, D, U, T          | R, C, U, M, CL |
+|     [Abstrackr](#abstrackr)     |                TF-IDF                |               SVM                |             :x:             |    R, C, U     |
+|       [Colandr](#colandr)       | Word2Vec :grey_question:<sup>1</sup> | SGD :grey_question: <sup>1</sup> |             :x:             |       C        |
+| [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>2</sup> |    R, C, Cl    |
+|      [FASTREAD](#fastread)      |                                      |                                  |                             |                |
+|        [Rayyan](#rayyan)        |     :grey_question:<sup>3</sup>      |               SVM                | :grey_question:<sup>3</sup> |      C, U      |
+|  [RobotAnalyst](#robotanalyst)  |                                      |                                  |                             |                | 
+|  [SWIFT-Review](#swift-review)  |                                      |                                  |                             |                |  
 
 
 :white_check_mark: Yes/Implemented;
