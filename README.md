@@ -209,7 +209,7 @@ Additionally, EPPI-Reviewer allows users to train and save custom models.
 | [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>2</sup> |    R, C     |
 |      [FASTREAD](#fastread)      |                                      |                                  |                             |             |
 |        [Rayyan](#rayyan)        |     :grey_question:<sup>3</sup>      |               SVM                | :grey_question:<sup>3</sup> |    C, U     |
-|  [RobotAnalyst](#robotanalyst)  |          TF-IDF+BOW+LDA2vec          |               SVM                | :grey_question:<sup>4</sup> | R, C, U, Cl | 
+|  [RobotAnalyst](#robotanalyst)  |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>4</sup> | R, C, U, Cl | 
 |  [SWIFT-Review](#swift-review)  |                                      |                                  |                             |             |  
 
 
