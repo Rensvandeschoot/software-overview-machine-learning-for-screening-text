@@ -68,7 +68,7 @@ and to combine multiple (labeled, partly labeled, or unlabeled) datasets.
 
 <sup>3</sup> It is possible to recreate a partly labeled dataset by adding all records of the same label (relevant/irrelevant/unlabeled) as separate files.
 
-<sup>4</sup> EPPI-Reviewer provides an [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
+<sup>4</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
 <sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
