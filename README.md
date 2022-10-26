@@ -111,16 +111,16 @@ The tables below provide an overview of the machine learning properties.
 
 
 
-|            Software             |  Tr.Data by user   | Partly labeled Tr.data | Minimum Tr.data |
-|:-------------------------------:|:------------------:|:----------------------:|:---------------:|
-|      [ASReview](#asreview)      | :white_check_mark: |   :white_check_mark:   |     ≥1R+≥1I     |
-|     [Abstrackr](#abstrackr)     |        :x:         |          :x:           |       :x:       |
-|       [Colandr](#colandr)       | :white_check_mark: |   :white_check_mark:   |       10        |
-| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |   :white_check_mark:   |       ≥5R       |
-|      [FASTREAD](#fastread)      |                    |                        |                 |
-|        [Rayyan](#rayyan)        | :white_check_mark: |   :white_check_mark:   |  ≥50 with ≥5R   |
-|  [RobotAnalyst](#robotanalyst)  |                    |                        |                 |
-|  [SWIFT-Review](#swift-review)  |                    |                        |                 |
+|            Software             |  Tr.Data by user   | Minimum Tr.data |
+|:-------------------------------:|:------------------:|:---------------:|
+|      [ASReview](#asreview)      | :white_check_mark: |     ≥1R+≥1I     |
+|     [Abstrackr](#abstrackr)     |        :x:         |       :x:       |
+|       [Colandr](#colandr)       | :white_check_mark: |       10        |
+| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |       ≥5R       |
+|      [FASTREAD](#fastread)      |                    |                 |
+|        [Rayyan](#rayyan)        | :white_check_mark: |  ≥50 with ≥5R   |
+|  [RobotAnalyst](#robotanalyst)  |                    |                 |
+|  [SWIFT-Review](#swift-review)  |                    |                 |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
