@@ -51,8 +51,8 @@ The table below provides an overview of input/output data.
 |     [Abstrackr](#abstrackr)     |     RIS, TAB, TXT<sup>1</sup>      |        :x:         |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 |       [Colandr](#colandr)       |           RIS, BIB, TXT            | :zap:<sup>2</sup>  |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
 | [EPPI-Reviewer](#eppi-reviewer) |        RIS<sup>3</sup>, TXT        | :zap:<sup>2</sup>  | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
-|      [FASTREAD](#fastread)      |                CSV                 |                    |                             |                             |                             |                             |
-|        [Rayyan](#rayyan)        | RIS, ENW, BIB, CSV, XML, CIW, NBIB |        :x:         |     :white_check_mark:      | :grey_question:<sup>5</sup> |             :x:             |     :white_check_mark:      |
+|      [FASTREAD](#fastread)      |                CSV                 | :white_check_mark: |     :white_check_mark:      | :grey_question:<sup>5</sup> |     :white_check_mark:      |     :white_check_mark:      |
+|        [Rayyan](#rayyan)        | RIS, ENW, BIB, CSV, XML, CIW, NBIB |        :x:         |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |     :white_check_mark:      |
 |  [RobotAnalyst](#robotanalyst)  |                                    |                    |                             |                             |                             |                             |
 |  [SWIFT-Review](#swift-review)  |                                    |                    |                             |                             |                             |                             |
 
@@ -69,7 +69,9 @@ The table below provides an overview of input/output data.
 
 <sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/24
+
+<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
 # Installation
 
@@ -86,7 +88,7 @@ The table below provides an overview of options for how to install the software.
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |                         :x:                          | :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu) |
 |       [Colandr](3colandr)       |        :x:         |        :x:         |                         :x:                          |   :white_check_mark:[:link:](https://www.colandrapp.com/)   |
 | [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |                         :x:                          |     :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)     |
-|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                                                      |                                                             |
+|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                         :x:                          |                             :x:                             |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |                         :x:                          |     :white_check_mark:[:link:](https://www.rayyan.ai/)      |
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                                                      |                                                             |
 |  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |                                                             |  
@@ -111,16 +113,16 @@ The tables below provide an overview of the machine learning properties.
 
 
 
-|            Software             |  Tr.Data by user   | Partly labeled Tr.data | Minimum Tr.data |
-|:-------------------------------:|:------------------:|:----------------------:|:---------------:|
-|      [ASReview](#asreview)      | :white_check_mark: |   :white_check_mark:   |      1R+1I      |
-|     [Abstrackr](#abstrackr)     |        :x:         |          :x:           |       :x:       |
-|       [Colandr](#colandr)       | :white_check_mark: |   :white_check_mark:   |       10R       |
-| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |   :white_check_mark:   |       5R        |
-|      [FASTREAD](#fastread)      | :white_check_mark: |          :x:           |       1R        |
-|        [Rayyan](#rayyan)        | :white_check_mark: |          :x:           |  ≥50 with ≥5R   |
-|  [RobotAnalyst](#robotanalyst)  |                    |                        |                 |
-|  [SWIFT-Review](#swift-review)  |                    |                        |                 |
+|            Software             |  Tr.Data by user   | Minimum Tr.data |
+|:-------------------------------:|:------------------:|:---------------:|
+|      [ASReview](#asreview)      | :white_check_mark: |      1R+1I      |
+|     [Abstrackr](#abstrackr)     |        :x:         |       :x:       |
+|       [Colandr](#colandr)       | :white_check_mark: |       10R       |
+| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |       5R        |
+|      [FASTREAD](#fastread)      | :white_check_mark: |       ≥1R       |
+|        [Rayyan](#rayyan)        | :white_check_mark: |  ≥50 with ≥5R   |
+|  [RobotAnalyst](#robotanalyst)  |                    |                 |
+|  [SWIFT-Review](#swift-review)  |                    |                 |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
