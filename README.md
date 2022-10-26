@@ -45,23 +45,24 @@ The table below provides an overview of input/output data.
 - Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
 - Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |               Type of Data                |   Partly labeled   |     Labeling decisions      |         Rank order          |         Re-Import-1         |         Re-Import-2         |
-|:-------------------------------:|:-----------------------------------------:|:------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
-|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> | :white_check_mark: |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
-|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |        :x:         |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|       [Colandr](#colandr)       |               RIS, BIB, TXT               | :zap:<sup>3</sup>  |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
-| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>4</sup>         | :zap:<sup>3</sup>  | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
-|      [FASTREAD](#fastread)      |                    CSV                    |                    |                             |                             |                             |                             |
-|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |        :x:         |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |     :white_check_mark:      |
-|  [RobotAnalyst](#robotanalyst)  |                                           |                    |                             |                             |                             |                             |
-|  [SWIFT-Review](#swift-review)  |                                           |                    |                             |                             |                             |                             |
+|            Software             |               Type of Data                |    Partly labeled     |     Labeling decisions      |         Rank order          |         Re-Import-1         |         Re-Import-2         |
+|:-------------------------------:|:-----------------------------------------:|:---------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> | :white_check_mark:`+` |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
+|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |          :x:          |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|       [Colandr](#colandr)       |               RIS, BIB, TXT               |   :zap:<sup>3</sup>   |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
+| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>4</sup>         |   :zap:<sup>3</sup>   | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
+|      [FASTREAD](#fastread)      |                    CSV                    |                       |                             |                             |                             |                             |
+|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |          :x:          |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |     :white_check_mark:      |
+|  [RobotAnalyst](#robotanalyst)  |                                           |                       |                             |                             |                             |                             |
+|  [SWIFT-Review](#swift-review)  |                                           |                       |                             |                             |                             |                             |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: Only for some extensions (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
-<sup>1</sup> ASReview provides a tool to convert several file formats.
+<sup>1</sup> ASReview provides several [data tools](https://github.com/asreview/asreview-datatools) to convert several file formats,
+and to combine multiple (labeled, partly labeled, or unlabeled) datasets.
 
 <sup>2</sup> List of PubMed IDs
 
