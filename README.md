@@ -23,9 +23,9 @@ properties are evaluated:
 |      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |     :white_check_mark:[:link:](https://github.com/asreview/)      | :white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |   **A**    | :white_check_mark:`+` |
 |     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |     :zap:[:link:](https://github.com/bwallace/abstrackr-web)      |  :white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)   |                                         :x:                                         |   **A**    |          :x:          |
 |       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       | :zap:[:link:](https://github.com/datakind/permanent-colandr-back) |     :white_check_mark:[:link:](https://doi.org/10.1111/cobi.13117)     | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |   **A**    |          :x:          |
-| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |  **A, S**  |          :x:             |
-|      [FASTREAD](#fastread)      |                             :x:                              |    :white_check_mark:[:link:](https://github.com/fastread/src)    | :white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |            |                       |
-|        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |            :zap:[:link:](https://github.com/rayyansys)            | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |   **A**    |          :x:              |
+| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |  **A, S**  |          :x:          |
+|      [FASTREAD](#fastread)      |                             :x:                              |    :white_check_mark:[:link:](https://github.com/fastread/src)    | :white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |   **A**    |          :x:          |
+|        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |            :zap:[:link:](https://github.com/rayyansys)            | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |   **A**    |          :x:          |
 |  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                                :x:                                |     :white_check_mark:[:link:](https://doi.org/10.1002/jrsm.1311)      |                                         :x:                                         |            |                       |
 |  [SWIFT-Review](#swift-review)  |        [:link:](https://www.sciome.com/swift-review/)        |                                :x:                                | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0263-z)  |                                         :x:                                         |            |                       |
 
@@ -51,7 +51,7 @@ The table below provides an overview of input/output data.
 |     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                :x:                |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 |       [Colandr](#colandr)       |               RIS, BIB, TXT               |         :zap:<sup>3</sup>         |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
 | [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>4</sup>         |         :zap:<sup>3</sup>         | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
-|      [FASTREAD](#fastread)      |                    CSV                    |                                   |                             |                             |                             |                             |
+|      [FASTREAD](#fastread)      |                    CSV                    |        :white_check_mark:         |     :white_check_mark:      | :grey_question:<sup>6</sup> |     :white_check_mark:      |     :white_check_mark:      |
 |        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |         :zap:<sup>3</sup>         |     :white_check_mark:      |             :x:             |             :x:             |     :white_check_mark:      |
 |  [RobotAnalyst](#robotanalyst)  |                                           |                                   |                             |                             |                             |                             |
 |  [SWIFT-Review](#swift-review)  |                                           |                                   |                             |                             |                             |                             |
@@ -72,6 +72,8 @@ to combine datasets (labeled, partly labeled, or unlabeled) and deduplication.
 
 <sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
+<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/24
+
 # Installation
 
 The table below provides an overview of options for how to install the software.
@@ -87,7 +89,7 @@ The table below provides an overview of options for how to install the software.
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |                         :x:                          | :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu) |
 |       [Colandr](3colandr)       |        :x:         |        :x:         |                         :x:                          |   :white_check_mark:[:link:](https://www.colandrapp.com/)   |
 | [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |                         :x:                          |     :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)     |
-|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                                                      |                                                             |
+|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                         :x:                          |                             :x:                             |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |                         :x:                          |     :white_check_mark:[:link:](https://www.rayyan.ai/)      |
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                                                      |                                                             |
 |  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |                                                             |  
@@ -118,7 +120,7 @@ The tables below provide an overview of the machine learning properties.
 |     [Abstrackr](#abstrackr)     |        :x:         |       :x:       |
 |       [Colandr](#colandr)       | :white_check_mark: |       10        |
 | [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |       ≥5R       |
-|      [FASTREAD](#fastread)      |                    |                 |
+|      [FASTREAD](#fastread)      | :white_check_mark: |       ≥1R       |
 |        [Rayyan](#rayyan)        | :white_check_mark: |  ≥50 with ≥5R   |
 |  [RobotAnalyst](#robotanalyst)  |                    |                 |
 |  [SWIFT-Review](#swift-review)  |                    |                 |
@@ -145,7 +147,7 @@ The tables below provide an overview of the machine learning properties.
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         | :white_check_mark: |  :x: (10)  |        :x:        |
 | [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
-|      [FASTREAD](#fastread)      |                    |                    |                    |                    |            |                   |
+|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |  [RobotAnalyst](#robotanalyst)  |                    |                    |                    |                    |            |                   |
 |  [SWIFT-Review](#swift-review)  |                    |                    |                    |                    |            |                   |
@@ -185,6 +187,9 @@ The software will recognize all previous labeling decisions, and a new model can
 **D / Double** = Double balance strategy;
 **T / Tripple** = Triple balance strategy;
 **U / Under** = Undersampling balance strategy;
+**A / Aggressive** = Aggressive undersampling balance strategy (after classifier is stable); 
+**W / Weighting** = Weighting for data balancing (before and after classifier is stable);
+**M / Mixing** = Mixing: weighting is applied before the classifier is stable and aggressive undersampling is applied after the classifier is stable;
 
 
 - Which query strategies are available?
@@ -202,7 +207,7 @@ The software will recognize all previous labeling decisions, and a new model can
 |     [Abstrackr](#abstrackr)     |                TF-IDF                |               SVM                |             :x:             |    R, C, U     |
 |       [Colandr](#colandr)       | Word2Vec :grey_question:<sup>1</sup> | SGD :grey_question: <sup>1</sup> |             :x:             |       C        |
 | [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>2</sup> |    R, C, Cl    |
-|      [FASTREAD](#fastread)      |                                      |                                  |                             |                |
+|      [FASTREAD](#fastread)      |                TF-IDF                |               SVM                |         S, A, W, M          |      C, U      |
 |        [Rayyan](#rayyan)        |     :grey_question:<sup>3</sup>      |               SVM                | :grey_question:<sup>3</sup> |      C, U      |
 |  [RobotAnalyst](#robotanalyst)  |                                      |                                  |                             |                | 
 |  [SWIFT-Review](#swift-review)  |                                      |                                  |                             |                |  
