@@ -60,9 +60,9 @@ The table below provides an overview of options for how to install the software.
 
 The table below provides an overview of input/output data.
 
-- What type of data can be imported (RIS, TSV, CSV, XLSX, TAB)?
+- Which data formats can be imported?
 - Can partly labeled data be imported (yes/no; if yes, as **S**(ingle) or **M**(ultiple) files)?
-- What type of data can be exported (RIS, TSV, CSV, XLSX, TAB)?
+- Which data formats can be exported?
 - Does the export file contain the labeling decisions?
 - Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
 - Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
