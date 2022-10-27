@@ -9,52 +9,74 @@ The table below provides a quick overview of the software. The following
 properties are evaluated:
 
 -   Is there a website?
--	Is the software free and [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
--	Is the software published in a scientific article (provide a :link: with the [DOI](https://www.doi.org/))?
+-	Is the software [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
+-	Is the software peer-reviewed in a scientific article (provide a :link: with the [DOI](https://www.doi.org/))?
 -	Is documentation or a manual available (provide a :link:)?
--	What type of machine learning is applied in the software (choose from **S**upervised, **U**nsupervised, **A**ctive)? – more details are compared in the tables about the [ML-properties](machine-learning-properties)
--	Is the user in control of the machine learning (yes/no, add `+` if users can add their own models)?
 
 
-
-
-|            Software             |                           Website                            |                            Open-Source                            |                               Published                                |                                    Documentation                                    | Type of ML |    Control over ML    | 
-|:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------------:|:----------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:----------:|:---------------------:|
-|      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |     :white_check_mark:[:link:](https://github.com/asreview/)      | :white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |   **A**    | :white_check_mark:`+` |
-|     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |     :zap:[:link:](https://github.com/bwallace/abstrackr-web)      |  :white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)   |                                         :x:                                         |   **A**    |          :x:          |
-|       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       | :zap:[:link:](https://github.com/datakind/permanent-colandr-back) |     :white_check_mark:[:link:](https://doi.org/10.1111/cobi.13117)     | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |   **A**    |          :x:          |
-| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |  **A, S**  |          :x:          |
-|      [FASTREAD](#fastread)      |                             :x:                              |    :white_check_mark:[:link:](https://github.com/fastread/src)    | :white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |   **A**    |          :x:          |
-|        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |            :zap:[:link:](https://github.com/rayyansys)            | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |   **A**    |          :x:          |
-|  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                                :x:                                |     :white_check_mark:[:link:](https://doi.org/10.1002/jrsm.1311)      |                                         :x:                                         |   **A**    |          :x:          |
-|  [SWIFT-Review](#swift-review)  |        [:link:](https://www.sciome.com/swift-review/)        |                                :x:                                | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0263-z)  |                                         :x:                                         |            |                       |
+|            Software             |                           Website                            |                            Open-Source                            |                               Published                                |                                    Documentation                                    | 
+|:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------------:|:----------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
+|      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |     :white_check_mark:[:link:](https://github.com/asreview/)      | :white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |
+|     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |     :zap:[:link:](https://github.com/bwallace/abstrackr-web)      |  :white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)   |                                         :x:                                         |
+|       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       | :zap:[:link:](https://github.com/datakind/permanent-colandr-back) |     :white_check_mark:[:link:](https://doi.org/10.1111/cobi.13117)     | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |
+| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |
+|      [FASTREAD](#fastread)      |                             :x:                              |    :white_check_mark:[:link:](https://github.com/fastread/src)    | :white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |
+|        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |            :zap:[:link:](https://github.com/rayyansys)            | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0384-4)  |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |
+|  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                                :x:                                |     :white_check_mark:[:link:](https://doi.org/10.1002/jrsm.1311)      |                                         :x:                                         |
+|  [SWIFT-Review](#swift-review)  |        [:link:](https://www.sciome.com/swift-review/)        |                                :x:                                | :white_check_mark:[:link:](https://doi.org/10.1186/s13643-016-0263-z)  |                                         :x:                                         |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: Some open-source repositories are publicly available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
+
+# Installation
+
+The table below provides an overview of options for how to install the software.
+
+- Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
+- Is the software installable on a server (yes/no)?
+- Is the software available as online servvice (software as a service - SAAS; yes/no; provide a link to the registration page)?
+
+|            Software             |      Local         |       Server       |                                     Online Service                            |
+|:-------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
+|       [Colandr](3colandr)       |        :x:         |        :x:         |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
+|      [FASTREAD](#fastread)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
+|        [Rayyan](#rayyan)        |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
+|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                                                                               |  
+
+:white_check_mark: Yes;
+:x: No;
+:grey_question: Unknown (requires an issue).
+
+<sup>1</sup> To use RobotAnalyst, you need to request an account via email.
+
 # Data
 
 The table below provides an overview of input/output data.
 
 - What type of data can be imported (RIS, TSV, CSV, XLSX, TAB)?
-- Can partly labeled data be imported (yes/no)?
+- Can partly labeled data be imported (yes/no; if yes, as **S**(ingle) or **M**(ultiple) files)?
+- What type of data can be exported (RIS, TSV, CSV, XLSX, TAB)?
 - Does the export file contain the labeling decisions?
-- Does the export file contain the rank order of the unseen records (yes/no)?
 - Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
 - Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |               Type of Data                |                Partly labeled                 |     Labeling decisions      |         Rank order          |         Re-Import-1         |         Re-Import-2         |
-|:-------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
-|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> |       :white_check_mark:`+`<sup>1</sup>       |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
-|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                      :x:                      |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|       [Colandr](#colandr)       |               RIS, BIB, TXT               |               :zap:<sup>3</sup>               |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
-| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>4</sup>         |               :zap:<sup>3</sup>               | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
-|      [FASTREAD](#fastread)      |                    CSV                    |              :white_check_mark:               |     :white_check_mark:      | :grey_question:<sup>6</sup> |     :white_check_mark:      |     :white_check_mark:      |
-|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |               :zap:<sup>3</sup>               |     :white_check_mark:      |             :x:             |             :x:             |     :white_check_mark:      |
-|  [RobotAnalyst](#robotanalyst)  |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>7</sup> |     :white_check_mark:      | :grey_question:<sup>7</sup> | :grey_question:<sup>7</sup> |             :x:             |
-|  [SWIFT-Review](#swift-review)  |                                           |                                               |                             |                             |                             |                             |
+|            Software             |               Type of Input Data          |                Partly labeled                 |               Type of Output Data         |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
+|:-------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:-----------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> |       :white_check_mark:(S)`+`<sup>1</sup>    | RIS, TSV, CSV, XLSX, TAB                  |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
+|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                      :x:                      |                                           |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|       [Colandr](#colandr)       |               RIS, BIB, TXT               |               :white_check_mark:(M)           |                                           |     :white_check_mark:      |             :x:             |             :x:             |
+| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>3</sup>         |               :white_check_mark:(M)           |                                           | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
+|      [FASTREAD](#fastread)      |                    CSV                    |              :white_check_mark:               |   :grey_question:<sup>5</sup>             |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
+|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |               :white_check_mark:(M)           |                                           |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|  [RobotAnalyst](#robotanalyst)  |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>6</sup> |                                           |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |
+|  [SWIFT-Review](#swift-review)  |                                           |                                               |                                           |                             |                             |                             |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -65,41 +87,15 @@ The table below provides an overview of input/output data.
 
 <sup>2</sup> List of PubMed IDs
 
-<sup>3</sup> It is possible to upload all records of the same label (relevant/irrelevant/unlabeled) as separate files.
+<sup>3</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
-<sup>4</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
+<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/24
 
-<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/24
+<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
-<sup>7</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
-# Installation
-
-The table below provides an overview of options for how to install the software.
-
-- Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
-- Can the software be installed on a server (yes/no)?
-- Is a docker available (yes/no; provide a :link:)?
-- Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
-
-|            Software             |      Locally       |       Server       |                        Docker                        |                                     SAAS                                      |
-|:-------------------------------:|:------------------:|:------------------:|:----------------------------------------------------:|:-----------------------------------------------------------------------------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | [:link:](https://hub.docker.com/r/asreview/asreview) |                                      :x:                                      |
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |                         :x:                          |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
-|       [Colandr](3colandr)       |        :x:         |        :x:         |                         :x:                          |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |                         :x:                          |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
-|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                         :x:                          |                                      :x:                                      |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |                         :x:                          |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |                         :x:                          | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |                                                                               |  
-
-:white_check_mark: Yes;
-:x: No;
-:grey_question: Unknown (requires an issue).
-
-<sup>1</sup> To use RobotAnalyst, you need to request an account via email.
 
 # Machine Learning Properties
 
