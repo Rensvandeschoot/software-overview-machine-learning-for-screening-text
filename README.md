@@ -61,22 +61,22 @@ The table below provides an overview of options for how to install the software.
 The table below provides an overview of input/output data.
 
 - What type of data can be imported (RIS, TSV, CSV, XLSX, TAB)?
-- Can partly labeled data be imported (yes/no)?
+- Can partly labeled data be imported (yes/no; if yes, as **S**(ingle) or **M**(ultiple) files)?
+- What type of data can be exported (RIS, TSV, CSV, XLSX, TAB)?
 - Does the export file contain the labeling decisions?
-- Does the export file contain the rank order of the unseen records (yes/no)?
 - Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
 - Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |               Type of Data                |                Partly labeled                 |     Labeling decisions      |         Rank order          |         Re-Import-1         |         Re-Import-2         |
-|:-------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
-|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> |       :white_check_mark:`+`<sup>1</sup>       |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
-|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                      :x:                      |     :white_check_mark:      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|       [Colandr](#colandr)       |               RIS, BIB, TXT               |               :zap:<sup>3</sup>               |     :white_check_mark:      |             :x:             |             :x:             |             :x:             |
-| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>4</sup>         |               :zap:<sup>3</sup>               | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
-|      [FASTREAD](#fastread)      |                    CSV                    |              :white_check_mark:               |     :white_check_mark:      | :grey_question:<sup>6</sup> |     :white_check_mark:      |     :white_check_mark:      |
-|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |               :zap:<sup>3</sup>               |     :white_check_mark:      |             :x:             |             :x:             |     :white_check_mark:      |
-|  [RobotAnalyst](#robotanalyst)  |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>7</sup> |     :white_check_mark:      | :grey_question:<sup>7</sup> | :grey_question:<sup>7</sup> |             :x:             |
-|  [SWIFT-Review](#swift-review)  |                                           |                                               |                             |                             |                             |                             |
+|            Software             |               Type of Input Data          |                Partly labeled                 |               Type of Output Data         |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
+|:-------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:-----------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> |       :white_check_mark:(S)`+`<sup>1</sup>    | RIS, TSV, CSV, XLSX, TAB                  |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
+|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                      :x:                      |                                           |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|       [Colandr](#colandr)       |               RIS, BIB, TXT               |               :white_check_mark:(M)           |                                           |     :white_check_mark:      |             :x:             |             :x:             |
+| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>3</sup>         |               :white_check_mark:(M)           |                                           | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
+|      [FASTREAD](#fastread)      |                    CSV                    |              :white_check_mark:               |   :grey_question:<sup>5</sup>             |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
+|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |               :white_check_mark:(M)           |                                           |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|  [RobotAnalyst](#robotanalyst)  |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>6</sup> |                                           |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |
+|  [SWIFT-Review](#swift-review)  |                                           |                                               |                                           |                             |                             |                             |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -87,15 +87,13 @@ The table below provides an overview of input/output data.
 
 <sup>2</sup> List of PubMed IDs
 
-<sup>3</sup> It is possible to upload all records of the same label (relevant/irrelevant/unlabeled) as separate files.
+<sup>3</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
-<sup>4</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
+<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/24
 
-<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/24
-
-<sup>7</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
 
 
