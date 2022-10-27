@@ -251,7 +251,7 @@ Abstrackr is a collaborative (i.e., multiple reviewers can simultaneously
 screen citations for a review), web-based annotation tool for the citation
 screening task.
 
-## [ASReview](www.asreview.ai)
+## [ASReview](www.asreview.nl)
 
  ASReview, developed at Utrecht University, helps scholars and practitioners
  to get an overview of the most relevant records for their work as efficiently
