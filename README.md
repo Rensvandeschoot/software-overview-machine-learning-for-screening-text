@@ -9,7 +9,7 @@ The table below provides a quick overview of the software. The following
 properties are evaluated:
 
 -   Is there a website?
--	Is the software free and [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
+-	Is the software [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
 -	Is the software peer-reviewed in a scientific article (provide a :link: with the [DOI](https://www.doi.org/))?
 -	Is documentation or a manual available (provide a :link:)?
 
