@@ -67,7 +67,7 @@ The table below provides an overview of input/output data.
 - Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
 - Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |               Type of Input Data          |                Partly labeled                 |               Type of Output Data         |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
+|            Software             |               Input data format          |                Partly labeled                 |               Output data format         |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
 |:-------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:-----------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
 |     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                      :x:                      |                                           |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 |      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> |       :white_check_mark:(S)`+`<sup>1</sup>    | RIS, TSV, CSV, XLSX, TAB                  |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
