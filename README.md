@@ -16,8 +16,8 @@ properties are evaluated:
 
 |            Software             |                           Website                            |                            Open-Source                            |                               Published                                |                                    Documentation                                    |
 |:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------------:|:----------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
-|      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |     :white_check_mark:[:link:](https://github.com/asreview/)      | :white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |
 |     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |     :zap:[:link:](https://github.com/bwallace/abstrackr-web)      |  :white_check_mark:[:link:](https://doi.org/10.1145/2110363.2110464)   |                                         :x:                                         |
+|      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |     :white_check_mark:[:link:](https://github.com/asreview/)      | :white_check_mark:[:link:](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |
 |       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       | :zap:[:link:](https://github.com/datakind/permanent-colandr-back) |     :white_check_mark:[:link:](https://doi.org/10.1111/cobi.13117)     | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |
 | [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                                :x:                                |                                  :x:                                   |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |
 |      [FASTREAD](#fastread)      |                             :x:                              |    :white_check_mark:[:link:](https://github.com/fastread/src)    | :white_check_mark:[:link:](https://doi.org/10.1007/s10664-017-9587-0)  |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |
@@ -43,7 +43,7 @@ The table below provides an overview of options for how to install the software.
 |:-------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
 |      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
-|       [Colandr](3colandr)       |        :x:         |        :x:         |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
 | [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
 |      [FASTREAD](#fastread)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
@@ -114,8 +114,8 @@ The tables below provide an overview of the machine learning properties.
 
 |            Software             |  Tr.Data by user   | Minimum Tr.data |
 |:-------------------------------:|:------------------:|:---------------:|
-|      [ASReview](#asreview)      | :white_check_mark: |     ≥1R+≥1I     |
 |     [Abstrackr](#abstrackr)     |        :x:         |       :x:       |
+|      [ASReview](#asreview)      | :white_check_mark: |     ≥1R+≥1I     |
 |       [Colandr](#colandr)       | :white_check_mark: |       10        |
 | [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |       ≥5R       |
 |      [FASTREAD](#fastread)      | :white_check_mark: |       ≥1R       |
@@ -141,8 +141,8 @@ The tables below provide an overview of the machine learning properties.
 
 |            Software             |    Select model    |     User model     | Store Feat.matrix  |    A-synchronic    | Batch size |      Switch       |
 |:-------------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:----------:|:-----------------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
 |       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         | :white_check_mark: |  :x: (10)  |        :x:        |
 | [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
@@ -201,8 +201,8 @@ The software will recognize all previous labeling decisions, and a new model can
 
 |            Software             |            Feature Extr.             |           Classifiers            |          Balancing          |  Query Stra.   |
 |:-------------------------------:|:------------------------------------:|:--------------------------------:|:---------------------------:|:--------------:|
-|      [ASReview](#asreview)      |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |         S, D, U, T          | R, C, U, M, CL |
 |     [Abstrackr](#abstrackr)     |                TF-IDF :grey_question:<sup>1</sup>               |               SVM                |             :grey_question:<sup>1</sup>             |    R, C, U     |
+|      [ASReview](#asreview)      |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |         S, D, U, T          | R, C, U, M, CL |
 |       [Colandr](#colandr)       | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> |             :grey_question:<sup>2</sup>             |       C        |
 | [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>3</sup> |    R, C, Cl    |
 |      [FASTREAD](#fastread)      |                TF-IDF                |               SVM                |         S, A, W, M          |      C, U      |
@@ -245,6 +245,12 @@ The software will recognize all previous labeling decisions, and a new model can
 
 This section briefly describes the software in alphabetical order.
 
+## [Abstrackr](https://github.com/bwallace/abstrackr-web)
+
+Abstrackr is a collaborative (i.e., multiple reviewers can simultaneously
+screen citations for a review), web-based annotation tool for the citation
+screening task.
+
 ## [ASReview](www.asreview.ai)
 
  ASReview, developed at Utrecht University, helps scholars and practitioners
@@ -255,12 +261,6 @@ This section briefly describes the software in alphabetical order.
  Furthermore, it is intended to be easily extensible, allowing third parties
  to add modules that enhance the pipeline with new models, data, and other
  extensions.
-
-## [Abstrackr](https://github.com/bwallace/abstrackr-web)
-
-Abstrackr is a collaborative (i.e., multiple reviewers can simultaneously
-screen citations for a review), web-based annotation tool for the citation
-screening task.
 
 ## [Colandr](https://hslib.jabsom.hawaii.edu/colandr)
 
