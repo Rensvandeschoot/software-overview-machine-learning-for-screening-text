@@ -34,6 +34,33 @@ properties are evaluated:
 :zap: Some open-source repositories are publicly available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
+
+# Installation
+
+The table below provides an overview of options for how to install the software.
+
+- Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
+- Can the software be installed on a server (yes/no)?
+- Is a docker available (yes/no; provide a :link:)?
+- Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
+
+|            Software             |      Locally       |       Server       |                        Docker                        |                                     SAAS                                      |
+|:-------------------------------:|:------------------:|:------------------:|:----------------------------------------------------:|:-----------------------------------------------------------------------------:|
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | [:link:](https://hub.docker.com/r/asreview/asreview) |                                      :x:                                      |
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |                         :x:                          |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
+|       [Colandr](3colandr)       |        :x:         |        :x:         |                         :x:                          |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |                         :x:                          |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
+|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                         :x:                          |                                      :x:                                      |
+|        [Rayyan](#rayyan)        |        :x:         |        :x:         |                         :x:                          |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
+|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |                         :x:                          | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
+|  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |                                                                               |  
+
+:white_check_mark: Yes;
+:x: No;
+:grey_question: Unknown (requires an issue).
+
+<sup>1</sup> To use RobotAnalyst, you need to request an account via email.
+
 # Data
 
 The table below provides an overview of input/output data.
@@ -75,31 +102,7 @@ The table below provides an overview of input/output data.
 
 <sup>7</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
-# Installation
 
-The table below provides an overview of options for how to install the software.
-
-- Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
-- Can the software be installed on a server (yes/no)?
-- Is a docker available (yes/no; provide a :link:)?
-- Does the software run on a server with a SAAS (yes/no; provide a link to the registration page)?
-
-|            Software             |      Locally       |       Server       |                        Docker                        |                                     SAAS                                      |
-|:-------------------------------:|:------------------:|:------------------:|:----------------------------------------------------:|:-----------------------------------------------------------------------------:|
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | [:link:](https://hub.docker.com/r/asreview/asreview) |                                      :x:                                      |
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |                         :x:                          |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
-|       [Colandr](3colandr)       |        :x:         |        :x:         |                         :x:                          |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |                         :x:                          |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
-|      [FASTREAD](#fastread)      | :white_check_mark: |        :x:         |                         :x:                          |                                      :x:                                      |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |                         :x:                          |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |                         :x:                          | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                                                      |                                                                               |  
-
-:white_check_mark: Yes;
-:x: No;
-:grey_question: Unknown (requires an issue).
-
-<sup>1</sup> To use RobotAnalyst, you need to request an account via email.
 
 # Machine Learning Properties
 
