@@ -111,7 +111,6 @@ The tables below provide an overview of the machine learning properties.
 ### Training Data
 
 - Can training data (prior knowledge) be selected by the user to train the first iteration of the model (yes/no)?
-- Can the software handle partly labeled data where the available labels are used to train the first model (yes/no)?
 - What is the minimal training data size (provide a number for **R**elevant and **I**rrelevant records)?
 
 
