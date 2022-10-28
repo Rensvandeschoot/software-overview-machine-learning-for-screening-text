@@ -39,7 +39,7 @@ The table below provides an overview of options for how to install the software.
 - Is the software installable on a server (yes/no)?
 - Is the software available as online servvice (software as a service - SAAS; yes/no; provide a link to the registration page)?
 
-|            Software             |      Local         |       Server       |                                     Online Service                            |
+|            Software             |       Local        |       Server       |                                Online Service                                 |
 |:-------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
 |     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
 |      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
@@ -48,7 +48,7 @@ The table below provides an overview of options for how to install the software.
 |      [FASTREAD](#fastread)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
 |  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                                                                               |  
+|  [SWIFT-Review](#swift-review)  | :white_check_mark: |        :x:         |                                      :x:                                      |  
 
 :white_check_mark: Yes;
 :x: No;
@@ -67,33 +67,31 @@ The table below provides an overview of input/output data.
 - Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
 - Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
 
-|            Software             |               Input data format          |                Partly labeled                 |               Output data format         |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
-|:-------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:-----------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
-|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>2</sup>         |                      :x:                      |              CSV, XML, RIS                             |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>1</sup> |       :white_check_mark:(S)`+`<sup>1</sup>    | RIS, TSV, CSV, XLSX, TAB                  |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
-|       [Colandr](#colandr)       |               RIS, BIB, TXT               |               :white_check_mark:(M)           |             CSV                              |     :white_check_mark:      |             :x:             |             :x:             |
-| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>3</sup>         |               :white_check_mark:(M)           |               RIS, XLSX                            | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
-|      [FASTREAD](#fastread)      |                    CSV                    |              :white_check_mark:(S)               |   :grey_question:<sup>5</sup>             |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
-|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |               :white_check_mark:(M)           |             RIS, BIB, ENW, CSV                              |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|  [RobotAnalyst](#robotanalyst)  |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>6</sup> |      :grey_question:<sup>6</sup>                                     |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |
-|  [SWIFT-Review](#swift-review)  |                                           |                                               |                                           |                             |                             |                             |
+|            Software             |             Input data format             |                Partly labeled                 |     Output data format      |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
+|:-------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+|     [Abstrackr](#abstrackr)     |         RIS, TAB, TXT<sup>1</sup>         |                      :x:                      |        CSV, XML, RIS        |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|      [ASReview](#asreview)      | RIS, TSV, CSV, XLSX, TAB, `+`<sup>2</sup> |     :white_check_mark:(S)`+`<sup>2</sup>      |  RIS, TSV, CSV, XLSX, TAB   |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
+|       [Colandr](#colandr)       |               RIS, BIB, TXT               |             :white_check_mark:(M)             |             CSV             |     :white_check_mark:      |             :x:             |             :x:             |
+| [EPPI-Reviewer](#eppi-reviewer) |         RIS, TXT, `+`<sup>3</sup>         |             :white_check_mark:(M)             |          RIS, XLSX          | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
+|      [FASTREAD](#fastread)      |                    CSV                    |             :white_check_mark:(S)             |             CSV             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
+|        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |             :white_check_mark:(M)             |     RIS, BIB, ENW, CSV      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
+|  [RobotAnalyst](#robotanalyst)  |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |     :white_check_mark:      | :grey_question:<sup>5</sup> |             :x:             |
+|  [SWIFT-Review](#swift-review)  |   RIS, TXT<sup>1</sup>, CSV, XML, NBIB    |             :white_check_mark:(M)             |             TXT             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: Only for some extensions (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
-<sup>1</sup> ASReview provides several open-source tools to convert file formats (e.g., CSV->RIS or RIS->XLSX), combine datasets (labeled, partly labeled, or unlabeled), and deduplicate records based on title/abstract/DOI.
+<sup>1</sup> List of PubMed IDs
 
-<sup>2</sup> List of PubMed IDs
+<sup>2</sup> ASReview provides several open-source tools to convert file formats (e.g., CSV->RIS or RIS->XLSX), combine datasets (labeled, partly labeled, or unlabeled), and deduplicate records based on title/abstract/DOI.
 
 <sup>3</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
 <sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/24
-
-<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
 
 
@@ -112,22 +110,23 @@ The tables below provide an overview of the machine learning properties.
 
 
 
-|            Software             |  Tr.Data by user   | Minimum Tr.data |
-|:-------------------------------:|:------------------:|:---------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |       :x:       |
-|      [ASReview](#asreview)      | :white_check_mark: |     ≥1R+≥1I     |
-|       [Colandr](#colandr)       | :white_check_mark: |       10        |
-| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |       ≥5R       |
-|      [FASTREAD](#fastread)      | :white_check_mark: |       ≥1R       |
-|        [Rayyan](#rayyan)        | :white_check_mark: |  ≥50 with ≥5R   |
-|  [RobotAnalyst](#robotanalyst)  | :white_check_mark: |       ≥1R       |
-|  [SWIFT-Review](#swift-review)  |                    |                 |
+|            Software             |  Tr.Data by user   |       Minimum Tr.data       |
+|:-------------------------------:|:------------------:|:---------------------------:|
+|     [Abstrackr](#abstrackr)     |        :x:         | :grey_question:<sup>1</sup> |
+|      [ASReview](#asreview)      | :white_check_mark: |           ≥1R+≥1I           |
+|       [Colandr](#colandr)       | :white_check_mark: |             10              |
+| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |             ≥5R             |
+|      [FASTREAD](#fastread)      | :white_check_mark: |             ≥1R             |
+|        [Rayyan](#rayyan)        | :white_check_mark: |        ≥50 with ≥5R         |
+|  [RobotAnalyst](#robotanalyst)  | :white_check_mark: |             ≥1R             |
+|  [SWIFT-Review](#swift-review)  | :white_check_mark: |        ≥10 with ≥1R         |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: With some effort (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
+<sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
 
 ### Model Selection
 
@@ -148,7 +147,7 @@ The tables below provide an overview of the machine learning properties.
 |      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
 |  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |        :x:         |    :x:     |        :x:        |
-|  [SWIFT-Review](#swift-review)  |                    |                    |                    |                    |            |                   |
+|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |        :x:         |    :x:     |        :x:        |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -172,6 +171,7 @@ The software will recognize all previous labeling decisions, and a new model can
 **CNN** = convolutional neural network;
 **DNN** = dense neural network;
 **LDA** = latent Dirichlet allocation;
+**LL** = log linear;
 **LR**= logistic regression;
 **LSTM** = long short-term memory;
 **NB** = naive Bayes;
@@ -183,7 +183,7 @@ The software will recognize all previous labeling decisions, and a new model can
 - Which balancing strategies are available?
 **S / Simple** = no balancing balance strategy;
 **D / Double** = Double balance strategy;
-**T / Tripple** = Triple balance strategy;
+**T / Triple** = Triple balance strategy;
 **U / Under** = Undersampling balance strategy;
 **A / Aggressive** = Aggressive undersampling balance strategy (after classifier is stable);
 **W / Weighting** = Weighting for data balancing (before and after classifier is stable);
@@ -199,16 +199,16 @@ The software will recognize all previous labeling decisions, and a new model can
 
 
 
-|            Software             |            Feature Extr.             |           Classifiers            |          Balancing          |  Query Stra.   |
-|:-------------------------------:|:------------------------------------:|:--------------------------------:|:---------------------------:|:--------------:|
-|     [Abstrackr](#abstrackr)     |                TF-IDF :grey_question:<sup>1</sup>               |               SVM                |             :grey_question:<sup>1</sup>             |    R, C, U     |
-|      [ASReview](#asreview)      |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |         S, D, U, T          | R, C, U, M, CL |
-|       [Colandr](#colandr)       | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> |             :grey_question:<sup>2</sup>             |       C        |
-| [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>3</sup> |    R, C, Cl    |
-|      [FASTREAD](#fastread)      |                TF-IDF                |               SVM                |         S, A, W, M          |      C, U      |
-|        [Rayyan](#rayyan)        |     :grey_question:<sup>4</sup>      |               SVM                | :grey_question:<sup>4</sup> |      C, U      |
-|  [RobotAnalyst](#robotanalyst)  |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>5</sup> |  R, C, U, Cl   |
-|  [SWIFT-Review](#swift-review)  |                                      |                                  |                             |                |  
+|            Software             |            Feature Extr.             |           Classifiers            |          Balancing           |  Query Stra.   |
+|:-------------------------------:|:------------------------------------:|:--------------------------------:|:----------------------------:|:--------------:|
+|     [Abstrackr](#abstrackr)     |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |    R, C, U     |
+|      [ASReview](#asreview)      |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          | R, C, U, M, CL |
+|       [Colandr](#colandr)       | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |       C        |
+| [EPPI-Reviewer](#eppi-reviewer) |                TF-IDF                |               SVM                | :grey_question:<sup>3</sup>  |    R, C, Cl    |
+|      [FASTREAD](#fastread)      |                TF-IDF                |               SVM                |          S, A, W, M          |      C, U      |
+|        [Rayyan](#rayyan)        |     :grey_question:<sup>4</sup>      |               SVM                | :grey_question:<sup>4</sup>  |      C, U      |
+|  [RobotAnalyst](#robotanalyst)  |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>5</sup>  |  R, C, U, Cl   |
+|  [SWIFT-Review](#swift-review)  |             TF-IDF + LDA             |                LL                | S:grey_question:<sup>6</sup> |    C, U, Cl    |  
 
 
 :white_check_mark: Yes/Implemented;
@@ -225,12 +225,14 @@ The software will recognize all previous labeling decisions, and a new model can
 
 <sup>5</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
+<sup>6</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
+
 
 ## Supervised Learning
 
 |                  Software                   | Feature Extr. |          Classifiers           |          Balancing          | Query Stra. |
 |:-------------------------------------------:|:-------------:|:------------------------------:|:---------------------------:|:-----------:|
-| [EPPI-Reviewer](#eppi-reviewer)<sup>1</sup> |    TF-IDF     | SVM:grey_question:<sup>2</sup> | :grey_question:<sup>1</sup> |  R, C, Cl   |
+| [EPPI-Reviewer](#eppi-reviewer)<sup>1</sup> |    TF-IDF     | SVM:grey_question:<sup>2</sup> | :grey_question:<sup>2</sup> |  R, C, Cl   |
 
 <sup>1</sup> EPPI-Reviewer offers the option to choose from, or use custom, pre-trained models to find a specific type of literature, e.g., for RCTs.
 
@@ -253,14 +255,14 @@ screening task.
 
 ## [ASReview](www.asreview.nl)
 
- ASReview, developed at Utrecht University, helps scholars and practitioners
- to get an overview of the most relevant records for their work as efficiently
- as possible while being transparent in the process. It allows multiple
- machine learning models, and ships with exploration and simulation modes,
- which are especially useful for comparing and designing algorithms.
- Furthermore, it is intended to be easily extensible, allowing third parties
- to add modules that enhance the pipeline with new models, data, and other
- extensions.
+ASReview, developed at Utrecht University, helps scholars and practitioners
+to get an overview of the most relevant records for their work as efficiently
+as possible while being transparent in the process. It allows multiple
+machine learning models, and ships with exploration and simulation modes,
+which are especially useful for comparing and designing algorithms.
+Furthermore, it is intended to be easily extensible, allowing third parties
+to add modules that enhance the pipeline with new models, data, and other
+extensions.
 
 ## [Colandr](https://hslib.jabsom.hawaii.edu/colandr)
 
