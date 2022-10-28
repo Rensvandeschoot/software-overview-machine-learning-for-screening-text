@@ -110,22 +110,23 @@ The tables below provide an overview of the machine learning properties.
 
 
 
-|            Software             |  Tr.Data by user   | Minimum Tr.data |
-|:-------------------------------:|:------------------:|:---------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |       :x:       |
-|      [ASReview](#asreview)      | :white_check_mark: |     ≥1R+≥1I     |
-|       [Colandr](#colandr)       | :white_check_mark: |       10        |
-| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |       ≥5R       |
-|      [FASTREAD](#fastread)      | :white_check_mark: |       ≥1R       |
-|        [Rayyan](#rayyan)        | :white_check_mark: |  ≥50 with ≥5R   |
-|  [RobotAnalyst](#robotanalyst)  | :white_check_mark: |       ≥1R       |
-|  [SWIFT-Review](#swift-review)  | :white_check_mark: |  ≥10 with ≥1R   |
+|            Software             |  Tr.Data by user   |       Minimum Tr.data       |
+|:-------------------------------:|:------------------:|:---------------------------:|
+|     [Abstrackr](#abstrackr)     |        :x:         | :grey_question:<sup>1</sup> |
+|      [ASReview](#asreview)      | :white_check_mark: |           ≥1R+≥1I           |
+|       [Colandr](#colandr)       | :white_check_mark: |             10              |
+| [EPPI-Reviewer](#eppi-reviewer) | :white_check_mark: |             ≥5R             |
+|      [FASTREAD](#fastread)      | :white_check_mark: |             ≥1R             |
+|        [Rayyan](#rayyan)        | :white_check_mark: |        ≥50 with ≥5R         |
+|  [RobotAnalyst](#robotanalyst)  | :white_check_mark: |             ≥1R             |
+|  [SWIFT-Review](#swift-review)  | :white_check_mark: |        ≥10 with ≥1R         |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: With some effort (add a footnote for more explanation);
 :grey_question: Unknown (requires an issue).
 
+<sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
 
 ### Model Selection
 
