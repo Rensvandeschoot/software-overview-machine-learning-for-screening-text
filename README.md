@@ -134,7 +134,7 @@ The tables below provide an overview of the machine learning properties.
 - Can a user upload their own model (yes/no)?
 - Can the feature extraction results be stored (yes/no)?
 - Does (re-)training proceed **A**utomatically or is it triggered **M**anually?
-- Can the user continue labeling during training?
+- Can the user continue labeling during training (yes/no)?
 - Can the user select batch size (yes/no; provide the default)?
 - Is it possible to switch to a different model during screening (yes/no)?
 
