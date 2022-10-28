@@ -133,21 +133,22 @@ The tables below provide an overview of the machine learning properties.
 - Can the user select the active learning model (yes/no)?
 - Can a user upload their own model (yes/no)?
 - Can the feature extraction results be stored (yes/no)?
-- Is a-synchronic training - labeling available (yes/no)?
+- Does (re-)training proceed **A**utomatically or is it triggered **M**anually?
+- Can the user continue labeling during training?
 - Can the user select batch size (yes/no; provide the default)?
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-|            Software             |    Select model    |     User model     | Store Feat.matrix  |    A-synchronic    | Batch size |      Switch       |
-|:-------------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:----------:|:-----------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :x: (1)   | :zap:<sup>1</sup> |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         | :white_check_mark: |  :x: (10)  |        :x:        |
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
-|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         | :white_check_mark: |    :x:     |        :x:        |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |        :x:         |    :x:     |        :x:        |
-|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |        :x:         |    :x:     |        :x:        |
+|            Software             |    Select model    |     User model     | Store Feat.matrix  | Training | Continue | Batch size |      Switch       |
+|:-------------------------------:|:------------------:|:------------------:|:------------------:|----------|----------|:----------:|:-----------------:|
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: |          |          |  :x: (1)   | :zap:<sup>1</sup> |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         |          |          |  :x: (10)  |        :x:        |
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
+|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
+|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
+|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
+|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
