@@ -231,7 +231,7 @@ The software will recognize all previous labeling decisions, and a new model can
 
 |                  Software                   | Feature Extr. |          Classifiers           |          Balancing          | Query Stra. |
 |:-------------------------------------------:|:-------------:|:------------------------------:|:---------------------------:|:-----------:|
-| [EPPI-Reviewer](#eppi-reviewer)<sup>1</sup> |    TF-IDF     | SVM:grey_question:<sup>2</sup> | :grey_question:<sup>1</sup> |  R, C, Cl   |
+| [EPPI-Reviewer](#eppi-reviewer)<sup>1</sup> |    TF-IDF     | SVM:grey_question:<sup>2</sup> | :grey_question:<sup>2</sup> |  R, C, Cl   |
 
 <sup>1</sup> EPPI-Reviewer offers the option to choose from, or use custom, pre-trained models to find a specific type of literature, e.g., for RCTs.
 
