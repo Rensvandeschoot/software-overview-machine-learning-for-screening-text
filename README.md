@@ -12,6 +12,7 @@ properties are evaluated:
 -	Is the software [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
 -	Is the software peer-reviewed in a scientific article?
 -	Is documentation or a manual available (provide a :link:)?
+-	Is the full version of the software free of charge?
 
 |            Software             |                           Website                            |                         Open-Source                         |                               Published                                                                                        |                                    Documentation                                    |            Free             |
 |:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---------------------------:|
