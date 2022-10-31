@@ -13,7 +13,6 @@ properties are evaluated:
 -	Is the software peer-reviewed in a scientific article?
 -	Is documentation or a manual available (provide a :link:)?
 
-
 |            Software             |                           Website                            |                         Open-Source                         |                               Published                                                                                        |                                    Documentation                                    |            Free             |
 |:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---------------------------:|
 |     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1145/2110363.2110464-green.svg)](https://doi.org/10.1145/2110363.2110464)          |                                         :x:                                         |     :white_check_mark:      |
@@ -25,12 +24,12 @@ properties are evaluated:
 |  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1002/jrsm.1311-green.svg)](https://doi.org/10.1002/jrsm.1311)                      |                                         :x:                                         | :grey_question:<sup>1</sup> |
 |  [SWIFT-Review](#swift-review)  |        [:link:](https://www.sciome.com/swift-review/)        |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0263--z-green.svg)](https://doi.org/10.1186/s13643-016-0263-z)   |                                         :x:                                         |     :white_check_mark:      |
 
-
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
 :zap: Some open-source repositories are publicly available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
+<sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
 # Installation
 
@@ -140,16 +139,16 @@ The tables below provide an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-|            Software             |    Select model    |     User model     | Store Feat.matrix  | Training | Continue | Batch size |      Switch       |
-|:-------------------------------:|:------------------:|:------------------:|:------------------:|----------|----------|:----------:|:-----------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: |          |          |  :x: (1)   | :zap:<sup>1</sup> |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         |          |          |  :x: (10)  |        :x:        |
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
+|            Software             |    Select model    |     User model     | Store Feat.matrix  | Training |          Continue           | Batch size |      Switch       |
+|:-------------------------------:|:------------------:|:------------------:|:------------------:|:--------:|:---------------------------:|:----------:|:-----------------:|
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |    :x:     |        :x:        |
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: |    A     |     :white_check_mark:      |  :x: (1)   | :zap:<sup>1</sup> |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |  :x: (10)  |        :x:        |
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
+|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
+|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
+|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |    M     | :grey_question:<sup>2</sup> |    :x:     |        :x:        |
+|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -157,6 +156,8 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>1</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
 The software will recognize all previous labeling decisions, and a new model can be trained.
+
+<sup>2</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
 
 ### Overview of Available Models
