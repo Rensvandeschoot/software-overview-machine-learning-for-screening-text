@@ -157,6 +157,8 @@ The tables below provide an overview of the machine learning properties.
 <sup>1</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
 The software will recognize all previous labeling decisions, and a new model can be trained.
 
+<sup>2</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+
 
 ### Overview of Available Models
 
