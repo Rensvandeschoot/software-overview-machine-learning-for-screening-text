@@ -140,16 +140,16 @@ The tables below provide an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-|            Software             |    Select model    |     User model     | Store Feat.matrix  | Training | Continue | Batch size |      Switch       |
-|:-------------------------------:|:------------------:|:------------------:|:------------------:|----------|----------|:----------:|:-----------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: |          |          |  :x: (1)   | :zap:<sup>1</sup> |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         |          |          |  :x: (10)  |        :x:        |
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
-|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |          |          |    :x:     |        :x:        |
+|            Software             |    Select model    |     User model     | Store Feat.matrix  | Training |          Continue           | Batch size |      Switch       |
+|:-------------------------------:|:------------------:|:------------------:|:------------------:|:--------:|:---------------------------:|:----------:|:-----------------:|
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |    :x:     |        :x:        |
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: |    A     |     :white_check_mark:      |  :x: (1)   | :zap:<sup>1</sup> |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |  :x: (10)  |        :x:        |
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
+|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
+|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
+|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |    M     | :grey_question:<sup>2</sup> |    :x:     |        :x:        |
+|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -157,6 +157,8 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>1</sup> Switching to a different model in ASReview is available by exporting the data of the first model and importing the data back into ASReview.
 The software will recognize all previous labeling decisions, and a new model can be trained.
+
+<sup>2</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
 
 ### Overview of Available Models
