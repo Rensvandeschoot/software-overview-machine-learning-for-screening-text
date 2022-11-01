@@ -27,7 +27,6 @@ properties are evaluated:
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
-:zap: Some open-source repositories are publicly available, but not the core engine;
 :grey_question: Unknown (requires an issue).
 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
