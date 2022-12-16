@@ -119,7 +119,7 @@ The tables below provide an overview of the machine learning properties.
 |      [FASTREAD](#fastread)      | :white_check_mark: |             ≥1R             |
 |        [Rayyan](#rayyan)        | :white_check_mark: |        ≥50 with ≥5R         |
 |  [RobotAnalyst](#robotanalyst)  | :white_check_mark: |             ≥1R             |
-|  [SWIFT-Active Screener](#swift-activescreener)  | :white_check_mark: |        ≥10 with ≥1R         |
+|  [SWIFT-Active Screener](#swift-activescreener)  | :white_check_mark: |        ≥0R no support for I         |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
