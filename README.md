@@ -119,7 +119,7 @@ The tables below provide an overview of the machine learning properties.
 |      [FASTREAD](#fastread)      | :white_check_mark: |             ≥1R             |
 |        [Rayyan](#rayyan)        | :white_check_mark: |        ≥50 with ≥5R         |
 |  [RobotAnalyst](#robotanalyst)  | :white_check_mark: |             ≥1R             |
-|  [SWIFT-Active Screener](#swift-activescreener)  | :white_check_mark: |        ≥0R no support for I         |
+|  [SWIFT-Active Screener](#swift-activescreener)  | :white_check_mark:<sup>2</sup> |        ≥1R+≥1I         |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -127,6 +127,7 @@ The tables below provide an overview of the machine learning properties.
 :grey_question: Unknown (requires an issue).
 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
+<sup>2</sup> Currently only supports relevant records being uploaded as training data. The model will start getting built once the user has screened at least one included and one excluded reference. 
 
 ### Model Selection
 
