@@ -41,17 +41,17 @@ The table below provides an overview of options for how to install the software.
 - Is the software installable on a server (yes/no)?
 - Is the software available as online service (software as a service - SAAS; yes/no; provide a link to the registration page)?
 
-|            Software             |       Local        |       Server       |                                Online Service                                 |
-|:-------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
-|     [DistillerSR](#distillersr) |                
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
-|      [FASTREAD](#fastread)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
-| [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |             :x:[:link:](https://swift.sciome.com/activescreener/)             |  
+|                    Software                    |       Local        |       Server       |                                             Online Service                                              |
+|:----------------------------------------------:|:------------------:|:------------------:|:-------------------------------------------------------------------------------------------------------:|
+|            [Abstrackr](#abstrackr)             |        :x:         |        :x:         |                       :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)                       |
+|             [ASReview](#asreview)              | :white_check_mark: | :white_check_mark: |                                                   :x:                                                   |
+|              [Colandr](#colandr)               |        :x:         |        :x:         |                         :white_check_mark:[:link:](https://www.colandrapp.com/)                         |
+|          [DistillerSR](#distillersr)           |        :x:         |        :x:         | :white_check_mark:[:link:](https://www.distillersr.com/products/distillersr-systematic-review-software) |
+|        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |                           :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)                           |
+|             [FASTREAD](#fastread)              | :white_check_mark: | :white_check_mark: |                                                   :x:                                                   |
+|               [Rayyan](#rayyan)                |        :x:         |        :x:         |                           :white_check_mark:[:link:](https://www.rayyan.ai/)                            |
+|         [RobotAnalyst](#robotanalyst)          |        :x:         |        :x:         |              :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup>              |
+| [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |                          :x:[:link:](https://swift.sciome.com/activescreener/)                          |  
 
 
 :white_check_mark: Yes;
@@ -76,11 +76,12 @@ The table below provides an overview of input/output data.
 |            [Abstrackr](#abstrackr)             |         RIS, TAB, TXT<sup>1</sup>         |                      :x:                      |        CSV, XML, RIS        |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 |             [ASReview](#asreview)              | RIS, TSV, CSV, XLSX, TAB, `+`<sup>2</sup> |     :white_check_mark:(S)`+`<sup>2</sup>      |  RIS, TSV, CSV, XLSX, TAB   |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
 |              [Colandr](#colandr)               |               RIS, BIB, TXT               |             :white_check_mark:(M)             |             CSV             |     :white_check_mark:      |             :x:             |             :x:             |
-|        [EPPI-Reviewer](#eppi-reviewer)         |         RIS, TXT, `+`<sup>3</sup>         |             :white_check_mark:(M)             |          RIS, XLSX          | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
+|          [DistillerSR](#distillersr)           |            ENLX, RIS, CSV, ZIP            |             :white_check_mark:(M)             |    RIS, CSV, XLSX, Word     | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
+|        [EPPI-Reviewer](#eppi-reviewer)         |         RIS, TXT, `+`<sup>3</sup>         |             :white_check_mark:(M)             |          RIS, XLSX          | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
 |             [FASTREAD](#fastread)              |                    CSV                    |             :white_check_mark:(S)             |             CSV             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
 |               [Rayyan](#rayyan)                |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |             :white_check_mark:(M)             |     RIS, BIB, ENW, CSV      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|         [RobotAnalyst](#robotanalyst)          |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |     :white_check_mark:      | :grey_question:<sup>5</sup> |             :x:             |
-| [SWIFT-Active Screener](#swift-activescreener) |           TXT, RIS, XML, BibTex           |             :white_check_mark:(M)             |          CSV, RIS           |     :white_check_mark:      | :grey_question:<sup>6</sup> |     :white_check_mark:      |
+|         [RobotAnalyst](#robotanalyst)          |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>6</sup> | :grey_question:<sup>6</sup> |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |
+| [SWIFT-Active Screener](#swift-activescreener) |           TXT, RIS, XML, BibTex           |             :white_check_mark:(M)             |          CSV, RIS           |     :white_check_mark:      | :grey_question:<sup>7</sup> |     :white_check_mark:      |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -93,11 +94,13 @@ The table below provides an overview of input/output data.
 
 <sup>3</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
-<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
 
-<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
+<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+
+<sup>7</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
 
 
 
