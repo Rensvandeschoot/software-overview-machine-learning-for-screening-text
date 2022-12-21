@@ -223,16 +223,17 @@ The software will recognize all previous labeling decisions, and a new model can
 
 
 
-|                    Software                    |            Feature Extr.             |           Classifiers            |          Balancing           |  Query Stra.   |
-|:----------------------------------------------:|:------------------------------------:|:--------------------------------:|:----------------------------:|:--------------:|
-|            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |    R, C, U     |
-|             [ASReview](#asreview)              |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          | R, C, U, M, CL |
-|              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |       C        |
-|        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>3</sup>  |    R, C, Cl    |
-|             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |      C, U      |
-|               [Rayyan](#rayyan)                |     :grey_question:<sup>4</sup>      |               SVM                | :grey_question:<sup>4</sup>  |      C, U      |
-|         [RobotAnalyst](#robotanalyst)          |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>5</sup>  |  R, C, U, Cl   |
-| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>6</sup> |       C        |  
+|                    Software                    |            Feature Extr.             |           Classifiers            |          Balancing           |         Query Stra.         |
+|:----------------------------------------------:|:------------------------------------:|:--------------------------------:|:----------------------------:|:---------------------------:|
+|            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |           R, C, U           |
+|             [ASReview](#asreview)              |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          |       R, C, U, M, CL        |
+|              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |              C              |
+|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   :grey_question:<sup>3</sup>    | :grey_question:<sup>3</sup>  | :grey_question:<sup>3</sup> |
+|        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
+|             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
+|               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
+|         [RobotAnalyst](#robotanalyst)          |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>6</sup>  |         R, C, U, Cl         |
+| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>7</sup> |              C              |  
 
 
 :white_check_mark: Yes/Implemented;
@@ -243,13 +244,15 @@ The software will recognize all previous labeling decisions, and a new model can
 
 <sup>2</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16
 
-<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
 
-<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
+<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>5</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
-<sup>6</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
+<sup>6</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+
+<sup>7</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
 
 
 ## Supervised Learning
