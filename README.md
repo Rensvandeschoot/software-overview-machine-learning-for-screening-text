@@ -23,7 +23,7 @@ properties are evaluated:
 |      [FASTREAD](#fastread)      |                             :x:                              | :white_check_mark:[:link:](https://github.com/fastread/src) | [![DOI](https://img.shields.io/badge/DOI-10.1007/s10664--017--9587--0-green.svg)](https://doi.org/10.1007/s10664-017-9587-0)   |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |     :white_check_mark:      |
 |        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0384--4-green.svg)](https://doi.org/10.1186/s13643-016-0384-4)   |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |             :x:             |
 |  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1002/jrsm.1311-green.svg)](https://doi.org/10.1002/jrsm.1311)                      |                                         :x:                                         | :grey_question:<sup>1</sup> |
-|  [SWIFT-Review](#swift-review)  |        [:link:](https://www.sciome.com/swift-review/)        |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0263--z-green.svg)](https://doi.org/10.1186/s13643-016-0263-z)   |                                         :x:                                         |     :white_check_mark:      |
+|  [SWIFT-Active Screener](#swift-activescreener)  |        [:link:](https://www.sciome.com/swift-activescreener/)        |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.envint.2020.105623-green.svg)](https://doi.org/10.1016/j.envint.2020.105623)   |                                         :white_check_mark:[:link:](https://www.sciome.com/swift-activescreener/knowledgebase/)                                         |     :x:      |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -37,7 +37,7 @@ The table below provides an overview of options for how to install the software.
 
 - Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
 - Is the software installable on a server (yes/no)?
-- Is the software available as online servvice (software as a service - SAAS; yes/no; provide a link to the registration page)?
+- Is the software available as online service (software as a service - SAAS; yes/no; provide a link to the registration page)?
 
 |            Software             |       Local        |       Server       |                                Online Service                                 |
 |:-------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
@@ -48,7 +48,7 @@ The table below provides an overview of options for how to install the software.
 |      [FASTREAD](#fastread)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
 |        [Rayyan](#rayyan)        |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
 |  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
-|  [SWIFT-Review](#swift-review)  | :white_check_mark: |        :x:         |                                      :x:                                      |  
+|  [SWIFT-Active Screener](#swift-activescreener)  | :x: |        :x:         |                                      :x:[:link:](https://swift.sciome.com/activescreener/)                                      |  
 
 :white_check_mark: Yes;
 :x: No;
@@ -76,7 +76,7 @@ The table below provides an overview of input/output data.
 |      [FASTREAD](#fastread)      |                    CSV                    |             :white_check_mark:(S)             |             CSV             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
 |        [Rayyan](#rayyan)        |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |             :white_check_mark:(M)             |     RIS, BIB, ENW, CSV      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 |  [RobotAnalyst](#robotanalyst)  |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |     :white_check_mark:      | :grey_question:<sup>5</sup> |             :x:             |
-|  [SWIFT-Review](#swift-review)  |   RIS, TXT<sup>1</sup>, CSV, XML, NBIB    |             :white_check_mark:(M)             |             TXT             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
+|  [SWIFT-Active Screener](#swift-activescreener)  |   TXT, RIS, XML, BibTex    |             :white_check_mark:(M)             |             CSV, RIS             |     :white_check_mark:      |     :grey_question:      |             :white_check_mark:             |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -119,7 +119,7 @@ The tables below provide an overview of the machine learning properties.
 |      [FASTREAD](#fastread)      | :white_check_mark: |             ≥1R             |
 |        [Rayyan](#rayyan)        | :white_check_mark: |        ≥50 with ≥5R         |
 |  [RobotAnalyst](#robotanalyst)  | :white_check_mark: |             ≥1R             |
-|  [SWIFT-Review](#swift-review)  | :white_check_mark: |        ≥10 with ≥1R         |
+|  [SWIFT-Active Screener](#swift-activescreener)  | :white_check_mark:<sup>2</sup> |        ≥1R+≥1I         |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -127,6 +127,7 @@ The tables below provide an overview of the machine learning properties.
 :grey_question: Unknown (requires an issue).
 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
+<sup>2</sup> Currently only supports relevant records being uploaded as training data. The model will start getting built once the user has screened at least one included and one excluded reference. 
 
 ### Model Selection
 
@@ -139,16 +140,16 @@ The tables below provide an overview of the machine learning properties.
 - Is it possible to switch to a different model during screening (yes/no)?
 
 
-|            Software             |    Select model    |     User model     | Store Feat.matrix  | Training |          Continue           | Batch size |      Switch       |
-|:-------------------------------:|:------------------:|:------------------:|:------------------:|:--------:|:---------------------------:|:----------:|:-----------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |    :x:     |        :x:        |
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: | :white_check_mark: |    A     |     :white_check_mark:      |  :x: (1)   | :zap:<sup>1</sup> |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |  :x: (10)  |        :x:        |
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
-|      [FASTREAD](#fastread)      |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         |        :x:         |    M     | :grey_question:<sup>2</sup> |    :x:     |        :x:        |
-|  [SWIFT-Review](#swift-review)  |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
+|            Software                           |    Select model    |     User model     | Store Feat.matrix  | Training |          Continue           | Batch size |      Switch       |
+|:-------------------------------:              |:------------------:|:------------------:|:------------------:|:--------:|:---------------------------:|:----------:|:-----------------:|
+|     [Abstrackr](#abstrackr)                   |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |    :x:     |        :x:        |
+|      [ASReview](#asreview)                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |    A     |     :white_check_mark:      |  :x: (1)   | :zap:<sup>1</sup> |
+|       [Colandr](#colandr)                     |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |  :x: (10)  |        :x:        |
+| [EPPI-Reviewer](#eppi-reviewer)               |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
+|      [FASTREAD](#fastread)                    |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
+|        [Rayyan](#rayyan)                      |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
+|  [RobotAnalyst](#robotanalyst)                |        :x:         |        :x:         |        :x:         |    M     | :grey_question:<sup>2</sup> |    :x:     |        :x:        |
+| [SWIFT-Active Screener](#swift-activescreener)|        :x:         |        :x:         |        :x:         |    A     |             :x:             |    :x:     |        :x:        |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -211,7 +212,7 @@ The software will recognize all previous labeling decisions, and a new model can
 |      [FASTREAD](#fastread)      |                TF-IDF                |               SVM                |          S, A, W, M          |      C, U      |
 |        [Rayyan](#rayyan)        |     :grey_question:<sup>4</sup>      |               SVM                | :grey_question:<sup>4</sup>  |      C, U      |
 |  [RobotAnalyst](#robotanalyst)  |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>5</sup>  |  R, C, U, Cl   |
-|  [SWIFT-Review](#swift-review)  |             TF-IDF + LDA             |                LL                | S:grey_question:<sup>6</sup> |    C, U, Cl    |  
+|  [SWIFT-Active Screener](#swift-activescreener)  |             TF-IDF + LDA             |                LL                | S:grey_question:<sup>6</sup> |    C, U, Cl    |  
 
 
 :white_check_mark: Yes/Implemented;
@@ -300,9 +301,9 @@ RobotAnalyst was developed as part of the Supporting Evidence-based Public
 Health Interventions using Text Mining project to support the literature
 screening phase of systematic reviews.
 
-## [SWIFT-Review](https://www.sciome.com/swift-review/)
+## [SWIFT-Active Screener](https://www.sciome.com/swift-activescreener/)
 
-SWIFT-Review (SWIFT is an acronym for “Sciome Workbench for Interactive
+SWIFT-Active Screener (SWIFT is an acronym for “Sciome Workbench for Interactive
 computer-Facilitated Text-mining”) is a freely available interactive workbench
 which provides numerous tools to assist with problem formulation and
 literature prioritization.
