@@ -309,26 +309,28 @@ literature prioritization.
 
 # Method for software selection
 To arrive at this selection of screening software to compare, all tools from three different sources were pooled: 
-1) screening tools that that are currently (as of December 2022) included in the [Systematic Review Toolbox](http://systematicreviewtools.com/) with the search criteria `Review family: "any" | Cost: "any" | Stages of the review: "Screening"`
-2) screening tools considered in all relevant SR software comparison papers that cite the 2020 paper by Harrison et al. as of December 2022
-3) screening tools considered in all relevant SR software comparison papers that cite the 2021 paper by Van de Schoot et a. as of December 2022
+1) screening tools that that are currently (as of December 2022) included in the [Systematic Review Toolbox](http://systematicreviewtools.com/)
+2) screening tools considered in all relevant SR software comparison papers that cite the 2020 paper by [Harrison et al.](https://doi.org/10.1186/s12874-020-0897-3) as of December 2022
+3) screening tools considered in all relevant SR software comparison papers that cite the 2021 paper by [Van de Schoot et al.](https://doi.org/10.1038/s42256-020-00287-7) as of December 2022
 
-A paper was considered relevant if the authors perform a comparison of multiple different systematic reviewing softwares. A paper was considered irrelevant if it lacked such a comparison, for example if its objective was to illustrate an application of such software, or if they assess or introduce one systematic reviewing tool, but do not make a comparison to other tools. Keeping these criteria and after removing duplicates, 12 papers were kept for consideration.
+A paper was considered relevant if the authors perform a comparison of multiple different systematic reviewing softwares. A paper was considered irrelevant if it lacked such a comparison, for example if its objective was to illustrate an application of such software, or if they assess or introduce one systematic reviewing tool, but do not make a comparison to other tools. Keeping these criteria and after removing duplicates, 13 papers were kept for consideration.
 
-After deduplication, this yielded a list of 62 tools to consider for this software comparison. These were assessed against the following inclusion criteria: 
-- employs an RITL-based active learning cycle for systematic reviewing
+After deduplication, this yielded a list of 76 tools to consider for this software comparison. These were assessed against the following inclusion criteria: 
+- employs an Reader-in-the-Loop (RITL)-based active learning cycle for systematic reviewing
 - has a Technology Readiness level of at least TRL8
 - software is available
 - application is not restricted to content of one specific field or type of intervention
 
 Screening on these criteria resulted in the nine tools included in the comparison performed here. 
 
-The overview of all tools considered and the screening decisions made can be downloaded [here](). AP: INSERT LINK! 
+The overview of all tools considered, their sources and the screening decisions made can be found in the file [`tools_considered_and_the_screening_decisions.md`](tools_considered_and_the_screening_decisions.md). 
+
 
 # References
-The 12 software review papers that were under consideration for this comparison as of December 2022 are: 
+The 13 software review papers that were under consideration for this comparison as of December 2022 are: 
 
 * Adam, G. P., Wallace, B. C., & Trikalinos, T. A. (2022). Semi-automated Tools for Systematic Searches. In E. Evangelou & A. A. Veroniki (Eds.), Meta-Research: Methods and Protocols (pp. 17–40). Springer US. https://doi.org/10.1007/978-1-0716-1566-9_2
+* Cierco Jimenez, R., Lee, T., Rosillo, N., Cordova, R., Cree, I. A., Gonzalez, A., & Indave Ruiz, B. I. (2022). Machine learning computational tools to assist the performance of systematic reviews: A mapping review. BMC Medical Research Methodology, 22(1), 322. https://doi.org/10.1186/s12874-022-01805-4
 * Cowie, K., Rahmatullah, A., Hardy, N., Holub, K., & Kallmes, K. (2022). Web-Based Software Tools for Systematic Literature Review in Medicine: Systematic Search and Feature Analysis. JMIR Med Inform, 10(5), e33219. https://doi.org/10.2196/33219
 * Khalil, H., Ameen, D., & Zarnegar, A. (2022). Tools to support the automation of systematic reviews: A scoping review. Journal of Clinical Epidemiology, 144, 22–42. https://doi.org/10.1016/j.jclinepi.2021.12.005
 * Marta Pellegrini & Francesco Marsili. (2021). Evaluating software tools to conduct systematic reviews: A feature analysis and user survey. Form@re - Open Journal per La Formazione in Rete, 21(2). https://doi.org/10.36253/form-11343
