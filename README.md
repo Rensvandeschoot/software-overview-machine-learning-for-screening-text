@@ -162,6 +162,7 @@ The tables below provide an overview of the machine learning properties.
 |            [Abstrackr](#abstrackr)             |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |    :x:     |        :x:        |
 |             [ASReview](#asreview)              | :white_check_mark: | :white_check_mark: | :white_check_mark: |    A     |     :white_check_mark:      |  :x: (1)   | :zap:<sup>1</sup> |
 |              [Colandr](#colandr)               |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |  :x: (10)  |        :x:        |
+|          [DistillerSR](#distillersr)           |        :x:         |        :x:         |        :x:         |   A, M   |     :white_check_mark:      |    :x:     |        :x:        |
 |        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
 |             [FASTREAD](#fastread)              |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
 |               [Rayyan](#rayyan)                |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
