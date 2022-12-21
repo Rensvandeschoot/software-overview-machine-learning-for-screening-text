@@ -119,16 +119,17 @@ The tables below provide an overview of the machine learning properties.
 
 
 
-|                    Software                    |        Tr.Data by user         |       Minimum Tr.data       |
-|:----------------------------------------------:|:------------------------------:|:---------------------------:|
-|            [Abstrackr](#abstrackr)             |              :x:               | :grey_question:<sup>1</sup> |
-|             [ASReview](#asreview)              |       :white_check_mark:       |           ≥1R+≥1I           |
-|              [Colandr](#colandr)               |       :white_check_mark:       |             10              |
-|        [EPPI-Reviewer](#eppi-reviewer)         |       :white_check_mark:       |             ≥5R             |
-|             [FASTREAD](#fastread)              |       :white_check_mark:       |             ≥1R             |
-|               [Rayyan](#rayyan)                |       :white_check_mark:       |        ≥50 with ≥5R         |
-|         [RobotAnalyst](#robotanalyst)          |       :white_check_mark:       |             ≥1R             |
-| [SWIFT-Active Screener](#swift-activescreener) | :white_check_mark:<sup>2</sup> |       ≥1R<sup>3</sup>       |
+|                    Software                    |        Tr.Data by user         |                 Minimum Tr.data                  |
+|:----------------------------------------------:|:------------------------------:|:------------------------------------------------:|
+|            [Abstrackr](#abstrackr)             |              :x:               |           :grey_question:<sup>1</sup>            |
+|             [ASReview](#asreview)              |       :white_check_mark:       |                     ≥1R+≥1I                      |
+|              [Colandr](#colandr)               |       :white_check_mark:       |                        10                        |
+|          [DistillerSR](#distillersr)           |       :white_check_mark:       | 25 or 2%<sup>2</sup> :grey_question:<sup>3</sup> |
+|        [EPPI-Reviewer](#eppi-reviewer)         |       :white_check_mark:       |                       ≥5R                        |
+|             [FASTREAD](#fastread)              |       :white_check_mark:       |                       ≥1R                        |
+|               [Rayyan](#rayyan)                |       :white_check_mark:       |                   ≥50 with ≥5R                   |
+|         [RobotAnalyst](#robotanalyst)          |       :white_check_mark:       |                       ≥1R                        |
+| [SWIFT-Active Screener](#swift-activescreener) | :white_check_mark:<sup>4</sup> |                 ≥1R<sup>5</sup>                  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -137,9 +138,13 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
 
-<sup>2</sup> Only relevant records can be provided as training data prior to screening.
+<sup>2</sup> Training happens after screening 25 records or after screening 2% of the dataset, whichever is greater.
 
-<sup>3</sup> If no relevant records are uploaded prior to screening, training will be initiated after screening ≥30 records with atleast ≥1R and ≥1I.
+<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
+
+<sup>4</sup> Only relevant records can be provided as training data prior to screening.
+
+<sup>5</sup> If no relevant records are uploaded prior to screening, training will be initiated after screening ≥30 records with atleast ≥1R and ≥1I.
 
 ### Model Selection
 
