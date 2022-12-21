@@ -308,22 +308,22 @@ which provides numerous tools to assist with problem formulation and
 literature prioritization.
 
 # Method for software selection
-To arrive at this selection of screening software to compare, all tools from three different sources were pooled: 
-1) screening tools that that are currently (as of December 2022) included in the [Systematic Review Toolbox](http://systematicreviewtools.com/)
+To arrive at the selection of screening software compared in the overview, all tools from three different sources were considered: 
+1) screening tools that are included (as of December 2022) in the [Systematic Review Toolbox](http://systematicreviewtools.com/)
 2) screening tools considered in all relevant SR software comparison papers that cite the 2020 paper by [Harrison et al.](https://doi.org/10.1186/s12874-020-0897-3) as of December 2022
 3) screening tools considered in all relevant SR software comparison papers that cite the 2021 paper by [Van de Schoot et al.](https://doi.org/10.1038/s42256-020-00287-7) as of December 2022
 
-A paper was considered relevant if the authors perform a comparison of multiple different systematic reviewing softwares. A paper was considered irrelevant if it lacked such a comparison, for example if its objective was to illustrate an application of such software, or if they assess or introduce one systematic reviewing tool, but do not make a comparison to other tools. Keeping these criteria and after removing duplicates, 13 papers were kept for consideration.
+A paper was considered relevant if the authors compared multiple systematic reviewing software tools implementing active learning to accelerate the screening phase. Keeping these criteria and after removing duplicates, 13 papers were kept for consideration.
 
-After deduplication, this yielded a list of 76 tools to consider for this software comparison. These were assessed against the following inclusion criteria: 
+All tools were listed, and after deduplication, this yielded 76 tools to consider for the software comparison. These were assessed against the following inclusion criteria: 
 - employs an Reader-in-the-Loop (RITL)-based active learning cycle for systematic reviewing
 - has a Technology Readiness level of at least TRL8
 - software is available
-- application is not restricted to content of one specific field or type of intervention
+- application is generic and is not restricted to the content of one specific field or type of intervention
 
 Screening on these criteria resulted in the nine tools included in the comparison performed here. 
 
-The overview of all tools considered, their sources and the screening decisions made can be found in the file [`tools_considered_and_the_screening_decisions.md`](tools_considered_and_the_screening_decisions.md). 
+The overview of all tools considered, their sources, and the screening decisions made can be found in the file [`tools_considered_and_the_screening_decisions.md`](tools_considered_and_the_screening_decisions.md). 
 
 
 # References
