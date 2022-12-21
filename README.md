@@ -132,7 +132,7 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>2</sup> Only relevant records can be provided as training data prior to screening.
 
-<sup>3</sup> If no prior knowledge is uploaded, training will be initiated after screening ≥30 records with atleast ≥1R and ≥1I.
+<sup>3</sup> If no relevant records are uploaded prior to screening, training will be initiated after screening ≥30 records with atleast ≥1R and ≥1I.
 
 ### Model Selection
 
