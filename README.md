@@ -138,7 +138,7 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
 
-<sup>2</sup> Training happens after screening 25 records or after screening 2% of the dataset, whichever is greater.
+<sup>2</sup> Training takes place after screening 25 records or after screening 2% of the dataset, whichever is greater.
 
 <sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
 
