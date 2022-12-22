@@ -14,16 +14,18 @@ properties are evaluated:
 -	Is documentation or a manual available (provide a :link:)?
 -	Is the full version of the software free of charge?
 
-|                    Software                    |                           Website                            |                         Open-Source                         |                                                            Published                                                            |                                     Documentation                                      |            Free             |
-|:----------------------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:---------------------------:|
-|            [Abstrackr](#abstrackr)             |          [:link:](http://abstrackr.cebm.brown.edu)           |                             :x:                             |      [![DOI](https://img.shields.io/badge/DOI-10.1145/2110363.2110464-green.svg)](https://doi.org/10.1145/2110363.2110464)      |                                          :x:                                           |     :white_check_mark:      |
-|             [ASReview](#asreview)              |                [:link:](https://asreview.nl/)                |  :white_check_mark:[:link:](https://github.com/asreview/)   | [![DOI](https://img.shields.io/badge/DOI-10.1038/s42256--020--00287--7-green.svg)](https://doi.org/10.1038/s42256-020-00287-7)  |              :white_check_mark:[:link:](https://asreview.readthedocs.io/)              |     :white_check_mark:      |
-|              [Colandr](#colandr)               |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       |                             :x:                             |           [![DOI](https://img.shields.io/badge/DOI-10.1111/cobi.13117-green.svg)](https://doi.org/10.1111/cobi.13117)           |  :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started)   |     :white_check_mark:      |
-|        [EPPI-Reviewer](#eppi-reviewer)         | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                             :x:                             |                                                               :x:                                                               |     :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)     |             :x:             |
-|             [FASTREAD](#fastread)              |                             :x:                              | :white_check_mark:[:link:](https://github.com/fastread/src) |  [![DOI](https://img.shields.io/badge/DOI-10.1007/s10664--017--9587--0-green.svg)](https://doi.org/10.1007/s10664-017-9587-0)   |          :white_check_mark:[:link:](https://github.com/fastread/src/#readme)           |     :white_check_mark:      |
-|               [Rayyan](#rayyan)                |               [:link:](https://www.rayyan.ai/)               |                             :x:                             |  [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0384--4-green.svg)](https://doi.org/10.1186/s13643-016-0384-4)   |              :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)               |             :x:             |
-|         [RobotAnalyst](#robotanalyst)          |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                             :x:                             |            [![DOI](https://img.shields.io/badge/DOI-10.1002/jrsm.1311-green.svg)](https://doi.org/10.1002/jrsm.1311)            |                                          :x:                                           | :grey_question:<sup>1</sup> |
+|            Software             |                           Website                            |                         Open-Source                         |                               Published                                                                                        |                                    Documentation                                    |            Free             |
+|:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---------------------------:|
+|     [Abstrackr](#abstrackr)     |          [:link:](http://abstrackr.cebm.brown.edu)           |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1145/2110363.2110464-green.svg)](https://doi.org/10.1145/2110363.2110464)          |                                         :x:                                         |     :white_check_mark:      |
+|      [ASReview](#asreview)      |                [:link:](https://asreview.nl/)                |  :white_check_mark:[:link:](https://github.com/asreview/)   | [![DOI](https://img.shields.io/badge/DOI-10.1038/s42256--020--00287--7-green.svg)](https://doi.org/10.1038/s42256-020-00287-7) |            :white_check_mark:[:link:](https://asreview.readthedocs.io/)             |     :white_check_mark:      |
+|       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1111/cobi.13117-green.svg)](https://doi.org/10.1111/cobi.13117)                    | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |     :white_check_mark:      |
+|  [DistillerSR](#distillersr)    | [:link:](https://www.evidencepartners.com/) | :x: | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.vhri.2020.07.479-green.svg)](https://doi.org/10.1016/j.vhri.2020.07.479)| :white_check_mark:[:link:](https://www.evidencepartners.com/resources) | :x:|
+| [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                             :x:                             |                                  :x:                                                                                           |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |             :x:             |
+|      [FASTREAD](#fastread)      |                             :x:                              | :white_check_mark:[:link:](https://github.com/fastread/src) | [![DOI](https://img.shields.io/badge/DOI-10.1007/s10664--017--9587--0-green.svg)](https://doi.org/10.1007/s10664-017-9587-0)   |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |     :white_check_mark:      |
+|        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0384--4-green.svg)](https://doi.org/10.1186/s13643-016-0384-4)   |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |             :x:             |
+|  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1002/jrsm.1311-green.svg)](https://doi.org/10.1002/jrsm.1311)                      |                                         :x:                                         | :grey_question:<sup>1</sup> |
 | [SWIFT-Active Screener](#swift-activescreener) |    [:link:](https://www.sciome.com/swift-activescreener/)    |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.envint.2020.105623-green.svg)](https://doi.org/10.1016/j.envint.2020.105623) | :white_check_mark:[:link:](https://www.sciome.com/swift-activescreener/knowledgebase/) |             :x:             |
+
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -39,16 +41,18 @@ The table below provides an overview of options for how to install the software.
 - Is the software installable on a server (yes/no)?
 - Is the software available as online service (software as a service - SAAS; yes/no; provide a link to the registration page)?
 
-|                    Software                    |       Local        |       Server       |                                Online Service                                 |
-|:----------------------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
-|            [Abstrackr](#abstrackr)             |        :x:         |        :x:         |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
-|             [ASReview](#asreview)              | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
-|              [Colandr](#colandr)               |        :x:         |        :x:         |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
-|        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
-|             [FASTREAD](#fastread)              | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
-|               [Rayyan](#rayyan)                |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
-|         [RobotAnalyst](#robotanalyst)          |        :x:         |        :x:         | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
+|            Software             |       Local        |       Server       |                                Online Service                                 |
+|:-------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
+|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
+|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
+|       [Colandr](#colandr)       |        :x:         |        :x:         |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
+|     [DistillerSR](#distillersr) |                
+| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
+|      [FASTREAD](#fastread)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
+|        [Rayyan](#rayyan)        |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
+|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
 | [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |             :x:[:link:](https://swift.sciome.com/activescreener/)             |  
+
 
 :white_check_mark: Yes;
 :x: No;
@@ -279,6 +283,11 @@ extensions.
 
 Colandr is a free, web-based, open-access tool for conducting evidence
 synthesis projects.
+
+## [DistillerSR](https://www.evidencepartners.com/products/distillersr-systematic-review-software)
+
+DistillerSR automates the management of literature collection, screening, and assessment using AI and intelligent workflows. From a systematic literature review to a rapid review to a living review, DistillerSR makes any project simpler to manage and configure to produce transparent, audit-ready, and compliant results.
+
 
 ## [EPPI-Reviewer](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914)
 
