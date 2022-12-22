@@ -41,17 +41,17 @@ The table below provides an overview of options for how to install the software.
 - Is the software installable on a server (yes/no)?
 - Is the software available as online service (software as a service - SAAS; yes/no; provide a link to the registration page)?
 
-|            Software             |       Local        |       Server       |                                Online Service                                 |
-|:-------------------------------:|:------------------:|:------------------:|:-----------------------------------------------------------------------------:|
-|     [Abstrackr](#abstrackr)     |        :x:         |        :x:         |          :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)          |
-|      [ASReview](#asreview)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
-|       [Colandr](#colandr)       |        :x:         |        :x:         |            :white_check_mark:[:link:](https://www.colandrapp.com/)            |
-|     [DistillerSR](#distillersr) |                
-| [EPPI-Reviewer](#eppi-reviewer) |        :x:         |        :x:         |              :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)              |
-|      [FASTREAD](#fastread)      | :white_check_mark: | :white_check_mark: |                                      :x:                                      |
-|        [Rayyan](#rayyan)        |        :x:         |        :x:         |              :white_check_mark:[:link:](https://www.rayyan.ai/)               |
-|  [RobotAnalyst](#robotanalyst)  |        :x:         |        :x:         | :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup> |
-| [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |             :x:[:link:](https://swift.sciome.com/activescreener/)             |  
+|                    Software                    |       Local        |       Server       |                                             Online Service                                              |
+|:----------------------------------------------:|:------------------:|:------------------:|:-------------------------------------------------------------------------------------------------------:|
+|            [Abstrackr](#abstrackr)             |        :x:         |        :x:         |                       :white_check_mark:[:link:](http://abstrackr.cebm.brown.edu)                       |
+|             [ASReview](#asreview)              | :white_check_mark: | :white_check_mark: |                                                   :x:                                                   |
+|              [Colandr](#colandr)               |        :x:         |        :x:         |                         :white_check_mark:[:link:](https://www.colandrapp.com/)                         |
+|          [DistillerSR](#distillersr)           |        :x:         |        :x:         | :white_check_mark:[:link:](https://www.distillersr.com/products/distillersr-systematic-review-software) |
+|        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |                           :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)                           |
+|             [FASTREAD](#fastread)              | :white_check_mark: | :white_check_mark: |                                                   :x:                                                   |
+|               [Rayyan](#rayyan)                |        :x:         |        :x:         |                           :white_check_mark:[:link:](https://www.rayyan.ai/)                            |
+|         [RobotAnalyst](#robotanalyst)          |        :x:         |        :x:         |              :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup>              |
+| [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |                          :x:[:link:](https://swift.sciome.com/activescreener/)                          |  
 
 
 :white_check_mark: Yes;
@@ -76,11 +76,12 @@ The table below provides an overview of input/output data.
 |            [Abstrackr](#abstrackr)             |         RIS, TAB, TXT<sup>1</sup>         |                      :x:                      |        CSV, XML, RIS        |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 |             [ASReview](#asreview)              | RIS, TSV, CSV, XLSX, TAB, `+`<sup>2</sup> |     :white_check_mark:(S)`+`<sup>2</sup>      |  RIS, TSV, CSV, XLSX, TAB   |     :white_check_mark:      |     :white_check_mark:      |     :white_check_mark:      |
 |              [Colandr](#colandr)               |               RIS, BIB, TXT               |             :white_check_mark:(M)             |             CSV             |     :white_check_mark:      |             :x:             |             :x:             |
-|        [EPPI-Reviewer](#eppi-reviewer)         |         RIS, TXT, `+`<sup>3</sup>         |             :white_check_mark:(M)             |          RIS, XLSX          | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
+|          [DistillerSR](#distillersr)           |            ENLX, RIS, CSV, ZIP            |             :white_check_mark:(M)             |    RIS, CSV, XLSX, Word     | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
+|        [EPPI-Reviewer](#eppi-reviewer)         |         RIS, TXT, `+`<sup>3</sup>         |             :white_check_mark:(M)             |          RIS, XLSX          | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
 |             [FASTREAD](#fastread)              |                    CSV                    |             :white_check_mark:(S)             |             CSV             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
 |               [Rayyan](#rayyan)                |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |             :white_check_mark:(M)             |     RIS, BIB, ENW, CSV      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|         [RobotAnalyst](#robotanalyst)          |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |     :white_check_mark:      | :grey_question:<sup>5</sup> |             :x:             |
-| [SWIFT-Active Screener](#swift-activescreener) |           TXT, RIS, XML, BibTex           |             :white_check_mark:(M)             |          CSV, RIS           |     :white_check_mark:      | :grey_question:<sup>6</sup> |     :white_check_mark:      |
+|         [RobotAnalyst](#robotanalyst)          |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>6</sup> | :grey_question:<sup>6</sup> |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |
+| [SWIFT-Active Screener](#swift-activescreener) |           TXT, RIS, XML, BibTex           |             :white_check_mark:(M)             |          CSV, RIS           |     :white_check_mark:      | :grey_question:<sup>7</sup> |     :white_check_mark:      |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -93,11 +94,13 @@ The table below provides an overview of input/output data.
 
 <sup>3</sup> EPPI-Reviewer provides a closed-source [online file converter](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2934) to convert several file formats to RIS.
 
-<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
 
-<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
+<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+
+<sup>7</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
 
 
 
@@ -116,16 +119,17 @@ The tables below provide an overview of the machine learning properties.
 
 
 
-|                    Software                    |        Tr.Data by user         |       Minimum Tr.data       |
-|:----------------------------------------------:|:------------------------------:|:---------------------------:|
-|            [Abstrackr](#abstrackr)             |              :x:               | :grey_question:<sup>1</sup> |
-|             [ASReview](#asreview)              |       :white_check_mark:       |           ≥1R+≥1I           |
-|              [Colandr](#colandr)               |       :white_check_mark:       |             10              |
-|        [EPPI-Reviewer](#eppi-reviewer)         |       :white_check_mark:       |             ≥5R             |
-|             [FASTREAD](#fastread)              |       :white_check_mark:       |             ≥1R             |
-|               [Rayyan](#rayyan)                |       :white_check_mark:       |        ≥50 with ≥5R         |
-|         [RobotAnalyst](#robotanalyst)          |       :white_check_mark:       |             ≥1R             |
-| [SWIFT-Active Screener](#swift-activescreener) | :white_check_mark:<sup>2</sup> |       ≥1R<sup>3</sup>       |
+|                    Software                    |        Tr.Data by user         |                 Minimum Tr.data                  |
+|:----------------------------------------------:|:------------------------------:|:------------------------------------------------:|
+|            [Abstrackr](#abstrackr)             |              :x:               |           :grey_question:<sup>1</sup>            |
+|             [ASReview](#asreview)              |       :white_check_mark:       |                     ≥1R+≥1I                      |
+|              [Colandr](#colandr)               |       :white_check_mark:       |                        10                        |
+|          [DistillerSR](#distillersr)           |       :white_check_mark:       | 25 or 2%<sup>2</sup> :grey_question:<sup>3</sup> |
+|        [EPPI-Reviewer](#eppi-reviewer)         |       :white_check_mark:       |                       ≥5R                        |
+|             [FASTREAD](#fastread)              |       :white_check_mark:       |                       ≥1R                        |
+|               [Rayyan](#rayyan)                |       :white_check_mark:       |                   ≥50 with ≥5R                   |
+|         [RobotAnalyst](#robotanalyst)          |       :white_check_mark:       |                       ≥1R                        |
+| [SWIFT-Active Screener](#swift-activescreener) | :white_check_mark:<sup>4</sup> |                 ≥1R<sup>5</sup>                  |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -134,9 +138,13 @@ The tables below provide an overview of the machine learning properties.
 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
 
-<sup>2</sup> Only relevant records can be provided as training data prior to screening.
+<sup>2</sup> Training takes place after screening 25 records or after screening 2% of the dataset, whichever is greater.
 
-<sup>3</sup> If no relevant records are uploaded prior to screening, training will be initiated after screening ≥30 records with atleast ≥1R and ≥1I.
+<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
+
+<sup>4</sup> Only relevant records can be provided as training data prior to screening.
+
+<sup>5</sup> If no relevant records are uploaded prior to screening, training will be initiated after screening ≥30 records with atleast ≥1R and ≥1I.
 
 ### Model Selection
 
@@ -154,6 +162,7 @@ The tables below provide an overview of the machine learning properties.
 |            [Abstrackr](#abstrackr)             |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |    :x:     |        :x:        |
 |             [ASReview](#asreview)              | :white_check_mark: | :white_check_mark: | :white_check_mark: |    A     |     :white_check_mark:      |  :x: (1)   | :zap:<sup>1</sup> |
 |              [Colandr](#colandr)               |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |  :x: (10)  |        :x:        |
+|          [DistillerSR](#distillersr)           |        :x:         |        :x:         |        :x:         |   A, M   |     :white_check_mark:      |    :x:     |        :x:        |
 |        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
 |             [FASTREAD](#fastread)              |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
 |               [Rayyan](#rayyan)                |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
@@ -214,16 +223,17 @@ The software will recognize all previous labeling decisions, and a new model can
 
 
 
-|                    Software                    |            Feature Extr.             |           Classifiers            |          Balancing           |  Query Stra.   |
-|:----------------------------------------------:|:------------------------------------:|:--------------------------------:|:----------------------------:|:--------------:|
-|            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |    R, C, U     |
-|             [ASReview](#asreview)              |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          | R, C, U, M, CL |
-|              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |       C        |
-|        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>3</sup>  |    R, C, Cl    |
-|             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |      C, U      |
-|               [Rayyan](#rayyan)                |     :grey_question:<sup>4</sup>      |               SVM                | :grey_question:<sup>4</sup>  |      C, U      |
-|         [RobotAnalyst](#robotanalyst)          |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>5</sup>  |  R, C, U, Cl   |
-| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>6</sup> |       C        |  
+|                    Software                    |            Feature Extr.             |           Classifiers            |          Balancing           |         Query Stra.         |
+|:----------------------------------------------:|:------------------------------------:|:--------------------------------:|:----------------------------:|:---------------------------:|
+|            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |           R, C, U           |
+|             [ASReview](#asreview)              |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          |       R, C, U, M, CL        |
+|              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |              C              |
+|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   :grey_question:<sup>3</sup>    | :grey_question:<sup>3</sup>  | :grey_question:<sup>3</sup> |
+|        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
+|             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
+|               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
+|         [RobotAnalyst](#robotanalyst)          |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>6</sup>  |         R, C, U, Cl         |
+| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>7</sup> |              C              |  
 
 
 :white_check_mark: Yes/Implemented;
@@ -234,13 +244,15 @@ The software will recognize all previous labeling decisions, and a new model can
 
 <sup>2</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/16
 
-<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
+<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
 
-<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
+<sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
-<sup>5</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+<sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
-<sup>6</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
+<sup>6</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
+
+<sup>7</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
 
 
 ## Supervised Learning
