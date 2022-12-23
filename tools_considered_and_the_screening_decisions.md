@@ -3,10 +3,10 @@
 All SR screening tools from two types of sources were pooled for consideration. The first source were all relevant SR software comparison papers that cite the 2020 paper by Harrison et al. and/or the 2021 paper by Van de Schoot et al. as of December 2022 (see Search 1). The second source was the SR Toolbox (see Search 2).
 
 After deduplication, this yielded the below list of 76 tools to consider for this software comparison. These were assessed against the following inclusion criteria: 
-- employs an Reader-in-the-Loop (RITL)-based active learning cycle for systematic reviewing
+- employs a Reader-in-the-Loop (RITL)-based active learning cycle for systematic reviewing
 - has a Technology Readiness level of at least TRL8
 - software is available
-- application is not restricted to content of one specific field or type of intervention
+- application is generic and is not restricted to the content of one specific field or type of intervention
 
 Screening on these criteria resulted in the nine tools included. The overview below contains the screening decision for each of the 76 tools and the motivation for exclusions.  
 
@@ -61,9 +61,9 @@ The tools are ordered first on whether they were included or not. Within those c
 |PICO Portal                                                                    |         1|         1|         0|limited to PICO                                                             |
 |pitts.ai                                                                       |         0|         1|         0|ML to focus on RCTs                                                         |
 |PubmedClassifier                                                               |         1|         0|         0|no software                                                                 |
-|Pvtopic                                                                        |         1|         0|         0|automatic topic detection - not really for SR screening                     |
+|Pvtopic                                                                        |         1|         0|         0|no RITL-based AL cycle                     |
 |R.ROSETTA: an interpretable machine learning framework                         |         0|         1|         0|no software                                                                 |
-|RapidMiner                                                                     |         1|         0|         0|low-code platform for developing ML-pipelines - not really for SR screening |
+|RapidMiner                                                                     |         1|         0|         0|no RITL-based AL cycle |
 |RAx                                                                            |         0|         1|         0|no RITL-based AL cycle                                                      |
 |ReLiS                                                                          |         1|         1|         0|no RITL-based AL cycle                                                      |
 |Research Screener                                                              |         0|         1|         0|Not TLR>7                                                                   |
@@ -100,11 +100,11 @@ The tools are ordered first on whether they were included or not. Within those c
 
 We consider screening tools that were part of a comparison in papers that cite the 2020 paper by Harrison et al. and/or the 2021 paper by Van de Schoot et al. as of December 2022.
 
-On 6/12/2022, the Scopus database contained 40 papers that cited the Harrison 2020 paper. Of these results, 22 could be downloaded directly from the Scopus website. Of the remaining 18, 17 PDFs could be retrieved from different websites and of only 1 article no PDF version was available (Bravo 2021), so the htm-link was saved instead. 
+On 6/12/2022, the Scopus database contained 40 papers that cited the Harrison 2020 paper. Of these results, 22 could be downloaded directly from the Scopus website. Of the remaining 18, 17 PDFs could be retrieved from different websites, and of only 1 article, no PDF version was available (Bravo 2021), so the HTML-link was saved instead. 
 
 There is one paper that appears twice in this set of 40, namely Foulquier 2021, of which a Foulquier 2022 is a French translation. Both versions were retrieved and considered for the sake of completeness. 
 
-The same procedure was repeated to retrieve papers that cite Van de Schoot et al. 2020. 
+The same procedure was repeated to retrieve papers that cite Van de Schoot et al. 2020. The results are published in a curated [Zotero library](https://www.zotero.org/groups/4597652/asreview_public/collections/IWU8ATMK). Nine papers met the criteria (as of 6/12/2022)
 
 This set of papers was then screened and classified as relevant or irrelevant. A paper was considered relevant if the authors perform a comparison of multiple different systematic reviewing softwares. A paper was considered irrelevant if it lacked such a comparison, for example if its objective was to illustrate an application of such software, or if they assess or introduce one systematic reviewing tool, but do not make a comparison to other tools. Keeping these criteria and after removing duplicates, 13 papers were kept for consideration.
 

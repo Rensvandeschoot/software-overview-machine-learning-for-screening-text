@@ -316,7 +316,7 @@ To arrive at the selection of screening software compared in the overview, all t
 A paper was considered relevant if the authors compared multiple systematic reviewing software tools implementing active learning to accelerate the screening phase. Keeping these criteria and after removing duplicates, 13 papers were kept for consideration.
 
 All tools were listed, and after deduplication, this yielded 76 tools to consider for the software comparison. These were assessed against the following inclusion criteria: 
-- employs an Reader-in-the-Loop (RITL)-based active learning cycle for systematic reviewing
+- employs a Reader-in-the-Loop (RITL)-based active learning cycle for systematic reviewing
 - has a Technology Readiness level of at least TRL8
 - software is available
 - application is generic and is not restricted to the content of one specific field or type of intervention
