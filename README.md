@@ -2,6 +2,14 @@
 
 The repository aims to create an overview and comparison of software used for
 systematically screening large amounts of textual data using machine learning.
+The process of the initial selection of the software tools is described on the 
+[Open Science Framework](https://osf.io/g3nkz/). We encourage users to contribute 
+to the overview by adding new software by using the nclusion criteria:
+
+- employs a Reader-in-the-Loop (RITL)-based active learning cycle for systematic reviewing
+- has a Technology Readiness level of at least TRL8
+- software is available
+- application is generic and is not restricted to the content of one specific field or type of intervention
 
 # Overview
 
