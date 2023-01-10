@@ -27,19 +27,19 @@ The tools are ordered first on whether they were included or not. Within those c
 |SWIFT-Active Screener                                                          |         1|         1|         1|                                                                            |
 |Active_learning_document_screening                                             |         1|         0|         0|no software                                                                 |
 |Active-learning-for-systematic-review                                          |         1|         0|         0|no software                                                                 |
-|AntConc                                                                        |         0|         1|         0|no AL or ML for supporting literature screening (also last edit 2011)       |
+|AntConc                                                                        |         0|         1|         0|no RITL-based AL cycle                                                      |
 |ASReview-covid                                                                 |         1|         0|         0|limited to COVID19                                                          |
 |Bibot                                                                          |         1|         0|         0|no RITL-based AL cycle                                                      |
-|BioReader (Biomedical Research Article Distiller)                              |         0|         1|         0|classification and not AL                                                   |
-|Buhos                                                                          |         1|         1|         0|no AL or ML for supporting literature screening                             |
+|BioReader (Biomedical Research Article Distiller)                              |         0|         1|         0|no RITL-based AL cycle                                                      |
+|Buhos                                                                          |         1|         1|         0|no RITL-based AL cycle                                                      |
 |Cadima                                                                         |         1|         1|         0|no RITL-based AL cycle                                                      |
 |Cientopolis Scolr                                                              |         0|         1|         0|website is down and no publications                                         |
 |Cochrane RCT Classifier                                                        |         1|         0|         0|limited to RCTs                                                             |
 |Concept Encoder                                                                |         0|         1|         0|no RITL-based AL cycle                                                      |
 |Covidence                                                                      |         1|         1|         0|no RITL-based AL cycle                                                      |
 |DAE-FF                                                                         |         1|         0|         0|no software                                                                 |
-|DBPedia                                                                        |         0|         1|         0|no screening tool with AL                                                   |
-|Disputatron                                                                    |         0|         1|         0|no screening tool, but solving disagreements between reviewers              |
+|DBPedia                                                                        |         0|         1|         0|no RITL-based AL cycle                                                      |
+|Disputatron                                                                    |         0|         1|         0|no RITL-based AL cycle                                                      |
 |DoCTER                                                                         |         1|         1|         0|no RITL-based AL cycle                                                      |
 |DRAGON                                                                         |         1|         0|         0|rebranded as litstream                                                      |
 |EMB automated PICO identification tool                                         |         0|         1|         0|limited to PICO                                                             |
@@ -51,7 +51,7 @@ The tools are ordered first on whether they were included or not. Within those c
 |IRIS.AI                                                                        |         1|         0|         0|no RITL-based AL cycle                                                      |
 |JBI-SUMARI                                                                     |         1|         1|         0|no RITL-based AL cycle                                                      |
 |L·OVE platform                                                                 |         0|         1|         0|limited to PICO                                                             |
-|LibSVM classifier                                                              |         1|         0|         0|automated RCT tagger                                                        |
+|LibSVM classifier                                                              |         1|         0|         0|no RITL-based AL cycle                                                      |
 |Lingo3G                                                                        |         1|         0|         0|no RITL-based AL cycle                                                      |
 |LitStream                                                                      |         1|         0|         0|no RITL-based AL cycle                                                      |
 |Machine Learning Functions                                                     |         1|         0|         0|no software                                                                 |
@@ -59,11 +59,11 @@ The tools are ordered first on whether they were included or not. Within those c
 |Nested-Knowledge                                                               |         1|         1|         0|optimized for clinical literature                                           |
 |Parsifal                                                                       |         1|         1|         0|no RITL-based AL cycle                                                      |
 |PICO Portal                                                                    |         1|         1|         0|limited to PICO                                                             |
-|pitts.ai                                                                       |         0|         1|         0|ML to focus on RCTs                                                         |
+|pitts.ai                                                                       |         0|         1|         0|limited to RCTs                                                             |
 |PubmedClassifier                                                               |         1|         0|         0|no software                                                                 |
-|Pvtopic                                                                        |         1|         0|         0|no RITL-based AL cycle                     |
+|Pvtopic                                                                        |         1|         0|         0|no RITL-based AL cycle                                                      |
 |R.ROSETTA: an interpretable machine learning framework                         |         0|         1|         0|no software                                                                 |
-|RapidMiner                                                                     |         1|         0|         0|no RITL-based AL cycle |
+|RapidMiner                                                                     |         1|         0|         0|no RITL-based AL cycle                                                      |
 |RAx                                                                            |         0|         1|         0|no RITL-based AL cycle                                                      |
 |ReLiS                                                                          |         1|         1|         0|no RITL-based AL cycle                                                      |
 |Research Screener                                                              |         0|         1|         0|Not TLR>7                                                                   |
