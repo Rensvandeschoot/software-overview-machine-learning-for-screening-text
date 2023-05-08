@@ -234,7 +234,7 @@ The software will recognize all previous labeling decisions, and a new model can
 |            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |           R, C, U           |
 |             [ASReview](#asreview)              |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          |       R, C, U, M, CL        |
 |              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |              C              |
-|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   SVM                            | :grey_question:<sup>3</sup>  | :grey_question:<sup>3</sup> |
+|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   SVM                            | :grey_question:<sup>3</sup>  | R, C                        |
 |        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
 |             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
 |               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
