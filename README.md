@@ -1,26 +1,49 @@
-# Overview of software for screening large amounts of textual data implementing machine learning
+# Comprehensive Guide to Machine Learning Software for Text Screening
 
-The repository aims to create an overview and comparison of software used for
-systematically screening large amounts of textual data using machine learning.
-The process of the initial selection of the software tools is described on the 
-[Open Science Framework](https://osf.io/g3nkz/). We encourage users to contribute 
-to the overview by adding new software by using the nclusion criteria:
+This project aims to provide a comparison of
+different software tools for machine learning-assisted text screening. The
+comparison is designed to help researchers and practitioners make informed
+decisions when selecting a suitable tool for their needs. We compare various
+aspects, such as software functionality, data handling capabilities, and
+machine learning properties.
 
-- employs a Reasearcher-in-the-Loop [(RITL)-based active learning cycle](https://www.nature.com/articles/s42256-020-00287-7) for systematically screening large amounts of textual data
-- has a Technology Readiness level of at least [TRL7](https://en.wikipedia.org/wiki/Technology_readiness_level)
-- user-friendly software is available
-- application is generic and is not restricted to the content of one specific field or type of intervention
+# Table of Contents
+- [Inclusion Criteria](#inclusion-criteria)
+- [Quick Overview](@overview)
+- [Installation](#installation)
+- [Data Handling](#data-handling)
+- [Machine Learning Properties](#machine-learning-properties)
+- [Software Description](#software)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+
+# Inclusion Criteria
+
+The initial selection process for
+selecting the software tools is documented on the [Open Science
+Framework](https://osf.io/g3nkz/) and meet the following
+inclusion criteria:
+
+- Implements a Researcher-in-the-Loop [(RITL)-based active learning cycle](https://www.nature.com/articles/s42256-020-00287-7) for systematically screening large volumes of textual data.
+- Achieves a Technology Readiness Level of at least [TRL7](https://en.wikipedia.org/wiki/Technology_readiness_level).
+- Offers user-friendly software that is accessible to a broad audience.
+- Provides a generic application that is not limited to specific content, fields, or types of interventions.
+
 
 # Overview
-
-The table below provides a quick overview of the software. The following
-properties are evaluated:
+The table below offers a concise overview of various software tools designed
+for systematically screening large volumes of textual data using machine
+learning techniques. Each software is evaluated based on the following
+properties:
 
 -   Is there a website?
 -	Is the software [open-source](https://opensource.org/osd) (provide a :link: to the source code)?
 -	Is the software peer-reviewed in a scientific article?
 -	Is documentation or a manual available (provide a :link:)?
 -	Is the full version of the software free of charge?
+
 
 |            Software             |                           Website                            |                         Open-Source                         |                               Published                                                                                        |                                    Documentation                                    |            Free             |
 |:-------------------------------:|:------------------------------------------------------------:|:-----------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---------------------------:|
@@ -43,11 +66,12 @@ properties are evaluated:
 
 # Installation
 
-The table below provides an overview of options for how to install the software.
+This table summarizes the various installation options available for each
+software tool, highlighting whether:
 
-- Can the software be installed locally so that data and labeling decisions are only stored on the user's device (yes/no)?
-- Is the software installable on a server (yes/no)?
-- Is the software available as online service (software as a service - SAAS; yes/no; provide a link to the registration page)?
+- The software can be installed locally, ensuring that data and labeling decisions are only stored on the user's device (yes/no)?
+- The software can be installed on a server (yes/no)?
+- The software is available as an online service (Software as a Service - SAAS; yes/no; provide a link to the registration page)?
 
 |                    Software                    |       Local        |       Server       |                                             Online Service                                              |
 |:----------------------------------------------:|:------------------:|:------------------:|:-------------------------------------------------------------------------------------------------------:|
@@ -68,16 +92,17 @@ The table below provides an overview of options for how to install the software.
 
 <sup>1</sup> To use RobotAnalyst, you need to request an account via email.
 
-# Data
+# Data Handling
 
-The table below provides an overview of input/output data.
+This table provides an overview of the data input/output capabilities of each
+software, including:
 
-- Which data formats can be imported?
-- Can partly labeled data be imported (yes/no; if yes, as **S**(ingle) or **M**(ultiple) files)?
-- Which data formats can be exported?
-- Does the export file contain the labeling decisions?
-- Can the export file be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
-- Can the export file be re-imported into reference manager software retaining, the labeling decision (Re-Import-2: yes/no)?
+- Supported import data formats.
+- Whether partially labeled data can be imported (yes/no; if yes, as **S**(ingle) or **M**(ultiple) files)?
+- Supported export data formats.
+- If the export file includes the labeling decisions.
+- Whether the export file can be re-imported into the same software, retaining the labeling decisions (Re-Import-1: yes/no)?
+- Whether the export file can be re-imported into reference manager software, retaining the labeling decision (Re-Import-2: yes/no)?
 
 |                    Software                    |             Input data format             |                Partly labeled                 |     Output data format      |     Labeling decisions      |         Re-Import-1         |         Re-Import-2         |
 |:----------------------------------------------:|:-----------------------------------------:|:---------------------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
@@ -115,15 +140,15 @@ The table below provides an overview of input/output data.
 
 # Machine Learning Properties
 
-The tables below provide an overview of the machine learning properties.
+The tables below provide an overview of the machine learning properties of each software.
 
 
 ## Active Learning
 
 ### Training Data
 
-- Can training data (prior knowledge) be selected by the user to train the first iteration of the model (yes/no)?
-- What is the minimal training data size (provide a number for **R**elevant and **I**rrelevant records)?
+- Can the user select training data (prior knowledge) to train the first iteration of the model (yes/no)?
+- What is the minimum training data size (provide a number for **R**elevant and **I**rrelevant records)?
 
 
 
@@ -156,6 +181,8 @@ The tables below provide an overview of the machine learning properties.
 
 ### Model Selection
 
+The table below provides an overview of the model selection properties for each software.
+
 - Can the user select the active learning model (yes/no)?
 - Can a user upload their own model (yes/no)?
 - Can the feature extraction results be stored (yes/no)?
@@ -163,7 +190,6 @@ The tables below provide an overview of the machine learning properties.
 - Can the user continue labeling during training (yes/no)?
 - Can the user select batch size (yes/no; provide the default)?
 - Is it possible to switch to a different model during screening (yes/no)?
-
 
 |                    Software                    |    Select model    |     User model     | Store Feat.matrix  | Training |          Continue           | Batch size |      Switch       |
 |:----------------------------------------------:|:------------------:|:------------------:|:------------------:|:--------:|:---------------------------:|:----------:|:-----------------:|
@@ -346,20 +372,24 @@ literature prioritization.
 
 # Contributing
 
-Do you know other software that meets the inclusion criteria? Please make a
-Pull Request and add it to the overview. When there is missing, wrong, or
-incomplete information, please start an issue.
+If you know of other software that meets the inclusion criteria, please make a
+Pull Request and add it to the overview. If you find any missing, incorrect,
+or incomplete information, please open an issue to discuss it.
 
-# Licence
+By collaborating on this repository, we can create a valuable resource for
+researchers, practitioners, and other stakeholders interested in leveraging
+machine learning for text screening purposes.
 
-This project is CC-BY 4.0 licensed.
+# License
+
+This project is licensed under CC-BY 4.0.
 
 # Contact
 
-For any suggestions, questions, or remarks, please file an issue in the issue
+For suggestions, questions, or comments, please file an issue in the issue
 tracker.
 
-This comparison is maintained by Rens van de Schoot. I aim to make a fair
-comparison and not to be prejudiced. If there is any concern about the
-comparison, please file an issue in the issue tracker such that it can be
-openly discussed.
+This comparison is maintained by Rens van de Schoot. The goal is to provide a
+fair and unbiased comparison. If you have any concerns regarding the
+comparison, please open an issue in the issue tracker so that it can be
+discussed openly.
