@@ -157,7 +157,7 @@ The tables below provide an overview of the machine learning properties of each 
 |            [Abstrackr](#abstrackr)             |              :x:               |           :grey_question:<sup>1</sup>            |
 |             [ASReview](#asreview)              |       :white_check_mark:       |                     ≥1R+≥1I                      |
 |              [Colandr](#colandr)               |       :white_check_mark:       |                        10                        |
-|          [DistillerSR](#distillersr)           |       :white_check_mark:       | 25 or 2%<sup>2</sup> :grey_question:<sup>3</sup> |
+|          [DistillerSR](#distillersr)           |       :white_check_mark:       | 25 or 2%<sup>2</sup>                             |
 |        [EPPI-Reviewer](#eppi-reviewer)         |       :white_check_mark:       |                       ≥5R                        |
 |             [FASTREAD](#fastread)              |       :white_check_mark:       |                       ≥1R                        |
 |               [Rayyan](#rayyan)                |       :white_check_mark:       |                   ≥50 with ≥5R                   |
@@ -172,8 +172,6 @@ The tables below provide an overview of the machine learning properties of each 
 <sup>1</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/34
 
 <sup>2</sup> Training takes place after screening 25 records or after screening 2% of the dataset, whichever is greater.
-
-<sup>3</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
 
 <sup>4</sup> Only relevant records can be provided as training data prior to screening.
 
@@ -262,7 +260,7 @@ The software will recognize all previous labeling decisions, and a new model can
 |            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |           R, C, U           |
 |             [ASReview](#asreview)              |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          |       R, C, U, M, CL        |
 |              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |              C              |
-|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   :grey_question:<sup>3</sup>    | :grey_question:<sup>3</sup>  | :grey_question:<sup>3</sup> |
+|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   SVM                            | :grey_question:<sup>3</sup>  | R, C                        |
 |        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
 |             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
 |               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
