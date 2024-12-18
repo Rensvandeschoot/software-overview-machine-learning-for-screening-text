@@ -298,7 +298,7 @@ This section contains a list of software that did not fullfill the [inclusion cr
 
 ## [RobotAnalyst](http://www.nactem.ac.uk/robotanalyst/)
 
-RobotAnalyst was developed as part of the Supporting Evidence-based Public Health Interventions using Text Mining project to support the literature screening phase of systematic reviews. The current version of RobotAnalyst is mounted on a University of Manchester server and is a prototype demo system for research purposes at Manchester University and partners.
+RobotAnalyst was developed as part of the Supporting Evidence-based Public Health Interventions using Text Mining project to support the literature screening phase of systematic reviews. The current version of RobotAnalyst is mounted on a University of Manchester server and is a prototype demo system for research purposes at Manchester University and partners (see [response to issue #29](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29#issuecomment-2517211394)).
 
 # Software
 
