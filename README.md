@@ -13,6 +13,7 @@ machine learning properties.
 - [Installation](#installation)
 - [Data Handling](#data-handling)
 - [Machine Learning Properties](#machine-learning-properties)
+- [Excluded Software](#excluded-software)
 - [Software Description](#software)
 - [Contributing](#contributing)
 - [License](#license)
@@ -54,7 +55,6 @@ properties:
 | [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                             :x:                             |                                  :x:                                                                                           |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |             :x:             |
 |      [FASTREAD](#fastread)      |                             :x:                              | :white_check_mark:[:link:](https://github.com/fastread/src) | [![DOI](https://img.shields.io/badge/DOI-10.1007/s10664--017--9587--0-green.svg)](https://doi.org/10.1007/s10664-017-9587-0)   |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |     :white_check_mark:      |
 |        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0384--4-green.svg)](https://doi.org/10.1186/s13643-016-0384-4)   |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |             :x:             |
-|  [RobotAnalyst](#robotanalyst)  |       [:link:](http://www.nactem.ac.uk/robotanalyst/)        |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1002/jrsm.1311-green.svg)](https://doi.org/10.1002/jrsm.1311)                      |                                         :x:                                         | :grey_question:<sup>1</sup> |
 | [SWIFT-Active Screener](#swift-activescreener) |    [:link:](https://www.sciome.com/swift-activescreener/)    |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.envint.2020.105623-green.svg)](https://doi.org/10.1016/j.envint.2020.105623) | :white_check_mark:[:link:](https://www.sciome.com/swift-activescreener/knowledgebase/) |             :x:             |
 
 
@@ -90,8 +90,6 @@ software tool, highlighting whether:
 :x: No;
 :grey_question: Unknown (requires an issue).
 
-<sup>1</sup> To use RobotAnalyst, you need to request an account via email.
-
 # Data Handling
 
 This table provides an overview of the data input/output capabilities of each
@@ -113,7 +111,6 @@ software, including:
 |        [EPPI-Reviewer](#eppi-reviewer)         |         RIS, TXT, `+`<sup>3</sup>         |             :white_check_mark:(M)             |          RIS, XLSX          | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
 |             [FASTREAD](#fastread)              |                    CSV                    |             :white_check_mark:(S)             |             CSV             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
 |               [Rayyan](#rayyan)                |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |             :white_check_mark:(M)             |     RIS, BIB, ENW, CSV      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
-|         [RobotAnalyst](#robotanalyst)          |                 RIS, NBIB                 | :white_check_mark::grey_question:<sup>6</sup> | :grey_question:<sup>6</sup> |     :white_check_mark:      | :grey_question:<sup>6</sup> |             :x:             |
 | [SWIFT-Active Screener](#swift-activescreener) |           TXT, RIS, XML, BibTex           |             :white_check_mark:(M)             |          CSV, RIS           |     :white_check_mark:      | :grey_question:<sup>7</sup> |     :white_check_mark:      |
 
 :white_check_mark: Yes/Implemented;
@@ -130,8 +127,6 @@ software, including:
 <sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/54
 
 <sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
-
-<sup>6</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
 <sup>7</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
 
@@ -161,7 +156,6 @@ The tables below provide an overview of the machine learning properties of each 
 |        [EPPI-Reviewer](#eppi-reviewer)         |       :white_check_mark:       |                       ≥5R                        |
 |             [FASTREAD](#fastread)              |       :white_check_mark:       |                       ≥1R                        |
 |               [Rayyan](#rayyan)                |       :white_check_mark:       |                   ≥50 with ≥5R                   |
-|         [RobotAnalyst](#robotanalyst)          |       :white_check_mark:       |                       ≥1R                        |
 | [SWIFT-Active Screener](#swift-activescreener) | :white_check_mark:<sup>4</sup> |                 ≥1R<sup>5</sup>                  |
 
 :white_check_mark: Yes/Implemented;
@@ -198,7 +192,6 @@ The table below provides an overview of the model selection properties for each 
 |        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
 |             [FASTREAD](#fastread)              |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
 |               [Rayyan](#rayyan)                |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
-|         [RobotAnalyst](#robotanalyst)          |        :x:         |        :x:         |        :x:         |    M     | :grey_question:<sup>2</sup> |    :x:     |        :x:        |
 | [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |        :x:         |    A     | :grey_question:<sup>3</sup> |  :x: (30)  |        :x:        |
 
 :white_check_mark: Yes/Implemented;
@@ -264,7 +257,6 @@ The software will recognize all previous labeling decisions, and a new model can
 |        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
 |             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
 |               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
-|         [RobotAnalyst](#robotanalyst)          |        TF-IDF + BOW + LDA2vec        |               SVM                | :grey_question:<sup>6</sup>  |         R, C, U, Cl         |
 | [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>7</sup> |              C              |  
 
 
@@ -281,8 +273,6 @@ The software will recognize all previous labeling decisions, and a new model can
 <sup>4</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/21
 
 <sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
-
-<sup>6</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29
 
 <sup>7</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
 
@@ -301,6 +291,14 @@ The software will recognize all previous labeling decisions, and a new model can
 
 | Software |     Q1      |
 |:--------:|:-----------:|
+
+# Excluded Software
+
+This section contains a list of software that did not fullfill the [inclusion criteria](#inclusion-criteria), but that are still largely used in the scientific community.
+
+## [RobotAnalyst](http://www.nactem.ac.uk/robotanalyst/)
+
+RobotAnalyst was developed as part of the Supporting Evidence-based Public Health Interventions using Text Mining project to support the literature screening phase of systematic reviews. The current version of RobotAnalyst is mounted on a University of Manchester server and is a prototype demo system for research purposes at Manchester University and partners (see [response to issue #29](https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/29#issuecomment-2517211394)).
 
 # Software
 
@@ -354,12 +352,6 @@ literature review.
 Rayyan is a free web and mobile app, that helps expedite the initial screening
 of abstracts and titles using a process of semi-automation while incorporating
 a high level of usability.
-
-## [RobotAnalyst](http://www.nactem.ac.uk/robotanalyst/)
-
-RobotAnalyst was developed as part of the Supporting Evidence-based Public
-Health Interventions using Text Mining project to support the literature
-screening phase of systematic reviews.
 
 ## [SWIFT-Active Screener](https://www.sciome.com/swift-activescreener/)
 
