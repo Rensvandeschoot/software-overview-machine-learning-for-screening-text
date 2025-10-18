@@ -54,7 +54,6 @@ properties:
 |       [Colandr](#colandr)       |      [:link:](https://hslib.jabsom.hawaii.edu/colandr)       |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1111/cobi.13117-green.svg)](https://doi.org/10.1111/cobi.13117)                    | :white_check_mark:[:link:](https://hslib.jabsom.hawaii.edu/colandr/getting_started) |     :white_check_mark:      |
 |  [DistillerSR](#distillersr)    | [:link:](https://www.evidencepartners.com/) | :x: | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.vhri.2020.07.479-green.svg)](https://doi.org/10.1016/j.vhri.2020.07.479)| :white_check_mark:[:link:](https://www.evidencepartners.com/resources) | :x:|
 | [EPPI-Reviewer](#eppi-reviewer) | [:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=2914) |                             :x:                             |                                  :x:                                                                                           |   :white_check_mark:[:link:](https://eppi.ioe.ac.uk/cms/Default.aspx?tabid=3822)    |             :x:             |
-|      [FASTREAD](#fastread)      |                             :x:                              | :white_check_mark:[:link:](https://github.com/fastread/src) | [![DOI](https://img.shields.io/badge/DOI-10.1007/s10664--017--9587--0-green.svg)](https://doi.org/10.1007/s10664-017-9587-0)   |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |     :white_check_mark:      |
 |        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0384--4-green.svg)](https://doi.org/10.1186/s13643-016-0384-4)   |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |             :x:             |
 | [SWIFT-Active Screener](#swift-activescreener) |    [:link:](https://www.sciome.com/swift-activescreener/)    |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.envint.2020.105623-green.svg)](https://doi.org/10.1016/j.envint.2020.105623) | :white_check_mark:[:link:](https://www.sciome.com/swift-activescreener/knowledgebase/) |             :x:             |
 |     [Covidence](#covidence)     |          [:link:](https://www.covidence.org/)               |                             :x:                              | :x:                                                                                                                            |                  :white_check_mark:[:link:](https://support.covidence.org/help)       |     :x:                     |
@@ -82,7 +81,6 @@ software tool, highlighting whether:
 |              [Colandr](#colandr)               |        :x:         |        :x:         |                         :white_check_mark:[:link:](https://www.colandrapp.com/)                         |
 |          [DistillerSR](#distillersr)           |        :x:         |        :x:         | :white_check_mark:[:link:](https://www.distillersr.com/products/distillersr-systematic-review-software) |
 |        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |                           :white_check_mark:[:link:](https://eppi.ioe.ac.uk/)                           |
-|             [FASTREAD](#fastread)              | :white_check_mark: | :white_check_mark: |                                                   :x:                                                   |
 |               [Rayyan](#rayyan)                |        :x:         |        :x:         |                           :white_check_mark:[:link:](https://www.rayyan.ai/)                            |
 |         [RobotAnalyst](#robotanalyst)          |        :x:         |        :x:         |              :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup>              |
 | [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |                          :x:[:link:](https://swift.sciome.com/activescreener/)                          |  
@@ -111,7 +109,6 @@ software, including:
 |              [Colandr](#colandr)               |               RIS, BIB, TXT               |             :white_check_mark:(M)             |             CSV             |     :white_check_mark:      |             :x:             |             :x:             |
 |          [DistillerSR](#distillersr)           |            ENLX, RIS, CSV, ZIP            |             :white_check_mark:(M)             |    RIS, CSV, XLSX, Word     | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> | :grey_question:<sup>4</sup> |
 |        [EPPI-Reviewer](#eppi-reviewer)         |         RIS, TXT, `+`<sup>3</sup>         |             :white_check_mark:(M)             |          RIS, XLSX          | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> | :grey_question:<sup>5</sup> |
-|             [FASTREAD](#fastread)              |                    CSV                    |             :white_check_mark:(S)             |             CSV             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
 |               [Rayyan](#rayyan)                |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |             :white_check_mark:(M)             |     RIS, BIB, ENW, CSV      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 | [SWIFT-Active Screener](#swift-activescreener) |           TXT, RIS, XML, BibTex           |             :white_check_mark:(M)             |          CSV, RIS           |     :white_check_mark:      | :grey_question:<sup>7</sup> |     :white_check_mark:      |
 | [Covidence](#covidence)                        |           TXT, RIS, XML                   |             :x:                               |          CSV, RIS           |     :white_check_mark:      |              :x:            |     :white_check_mark:      |
@@ -157,7 +154,6 @@ The tables below provide an overview of the machine learning properties of each 
 |              [Colandr](#colandr)               |       :white_check_mark:       |                        10                        |
 |          [DistillerSR](#distillersr)           |       :white_check_mark:       | 25 or 2%<sup>2</sup>                             |
 |        [EPPI-Reviewer](#eppi-reviewer)         |       :white_check_mark:       |                       ≥5R                        |
-|             [FASTREAD](#fastread)              |       :white_check_mark:       |                       ≥1R                        |
 |               [Rayyan](#rayyan)                |       :white_check_mark:       |                   ≥50 with ≥5R                   |
 | [SWIFT-Active Screener](#swift-activescreener) | :white_check_mark:<sup>4</sup> |                 ≥1R<sup>5</sup>                  |
 |               [Covidence](#covidence)          |       :white_check_mark:       |                   ≥25 with ≥2R + ≥2I             |
@@ -194,7 +190,6 @@ The table below provides an overview of the model selection properties for each 
 |              [Colandr](#colandr)               |        :x:         |        :x:         |        :x:         |    A     |     :white_check_mark:      |  :x: (10)  |        :x:        |
 |          [DistillerSR](#distillersr)           |        :x:         |        :x:         |        :x:         |   A, M   |     :white_check_mark:      |    :x:     |        :x:        |
 |        [EPPI-Reviewer](#eppi-reviewer)         |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
-|             [FASTREAD](#fastread)              |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
 |               [Rayyan](#rayyan)                |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
 | [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |        :x:         |    A     | :grey_question:<sup>3</sup> |  :x: (30)  |        :x:        |
 |               [Covidence](#covidence)          |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
@@ -260,7 +255,6 @@ The software will recognize all previous labeling decisions, and a new model can
 |              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |              C              |
 |          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   SVM                            | :grey_question:<sup>3</sup>  | R, C                        |
 |        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
-|             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
 |               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
 | [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | :grey_question:<sup>7</sup>  |              C              |
 |               [Covidence](#covidence)          |     :grey_question:<sup>8</sup>      |  :grey_question:<sup>8</sup>     | :grey_question:<sup>8</sup>  |:grey_question:<sup>8</sup>  |  
@@ -353,11 +347,6 @@ references, stores PDF files and facilitates qualitative and quantitative
 analyses such as meta-analysis and thematic synthesis. It also contains some
 new ‘text mining’ technology which is promising to make systematic reviewing
 more efficient.
-
-## [FASTREAD](https://github.com/fastread/src)
-
-FASTREAD (FAST2) is a tool to support primary study selection in systematic
-literature review.
 
 ## [Rayyan](https://www.rayyan.ai/)
 
