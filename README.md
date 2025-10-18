@@ -56,7 +56,7 @@ properties:
 |      [FASTREAD](#fastread)      |                             :x:                              | :white_check_mark:[:link:](https://github.com/fastread/src) | [![DOI](https://img.shields.io/badge/DOI-10.1007/s10664--017--9587--0-green.svg)](https://doi.org/10.1007/s10664-017-9587-0)   |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |     :white_check_mark:      |
 |        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0384--4-green.svg)](https://doi.org/10.1186/s13643-016-0384-4)   |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |             :x:             |
 | [SWIFT-Active Screener](#swift-activescreener) |    [:link:](https://www.sciome.com/swift-activescreener/)    |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.envint.2020.105623-green.svg)](https://doi.org/10.1016/j.envint.2020.105623) | :white_check_mark:[:link:](https://www.sciome.com/swift-activescreener/knowledgebase/) |             :x:             |
-|     [Covidence](#covidence)     |          [:link:](https://www.covidence.org/)               |                             :x:                              | :x:                                                                                                                            |                  :white_check_mark:[:link:] https://support.covidence.org/help       |     :x:                     |
+|     [Covidence](#covidence)     |          [:link:](https://www.covidence.org/)               |                             :x:                              | :x:                                                                                                                            |                  :white_check_mark:[:link:](https://support.covidence.org/help)       |     :x:                     |
 
 
 :white_check_mark: Yes/Implemented;
@@ -261,7 +261,7 @@ The software will recognize all previous labeling decisions, and a new model can
 |        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
 |             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
 |               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
-| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>7</sup> |              C              |
+| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | :grey_question:<sup>7</sup>  |              C              |
 |               [Covidence](#covidence)          |     :grey_question:<sup>8</sup>      |  :grey_question:<sup>8</sup>     | :grey_question:<sup>8</sup>  |:grey_question:<sup>8</sup>  |  
 
 
