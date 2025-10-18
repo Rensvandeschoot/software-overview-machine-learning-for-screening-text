@@ -210,11 +210,7 @@ The software will recognize all previous labeling decisions, and a new model can
 
 - Which feature extraction methods are available?
 **BOW** = bag of words;
-**Doc2Vec** = document to vector;
-**sBERT** = sentence bidirectional encoder representations from transformers;
 **TF–IDF** = term frequency–inverse document frequency;
-**Word2Vec** = words to vector;
-**ML** = Multi-language;
 
 - Which classifiers are available?
 **CNN** = convolutional neural network;
