@@ -213,12 +213,10 @@ The software will recognize all previous labeling decisions, and a new model can
 **TF–IDF** = term frequency–inverse document frequency;
 
 - Which classifiers are available?
-**CNN** = convolutional neural network;
-**DNN** = dense neural network;
+**NN** =  neural network;
 **LDA** = latent Dirichlet allocation;
 **LL** = log linear;
 **LR**= logistic regression;
-**LSTM** = long short-term memory;
 **NB** = naive Bayes;
 **RF** =random forests;
 **SGD** = stochastic gradient descent;
