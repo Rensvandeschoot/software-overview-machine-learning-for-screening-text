@@ -31,6 +31,7 @@ inclusion criteria:
 - Achieves a Technology Readiness Level of at least [TRL7](https://en.wikipedia.org/wiki/Technology_readiness_level).
 - Offers user-friendly software that is accessible to a broad audience.
 - Provides a generic application that is not limited to specific content, fields, or types of interventions.
+- Is still maintained (last update <3 years).
 
 
 # Overview
