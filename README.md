@@ -56,6 +56,7 @@ properties:
 |      [FASTREAD](#fastread)      |                             :x:                              | :white_check_mark:[:link:](https://github.com/fastread/src) | [![DOI](https://img.shields.io/badge/DOI-10.1007/s10664--017--9587--0-green.svg)](https://doi.org/10.1007/s10664-017-9587-0)   |         :white_check_mark:[:link:](https://github.com/fastread/src/#readme)         |     :white_check_mark:      |
 |        [Rayyan](#rayyan)        |               [:link:](https://www.rayyan.ai/)               |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1186/s13643--016--0384--4-green.svg)](https://doi.org/10.1186/s13643-016-0384-4)   |             :white_check_mark:[:link:](https://help.rayyan.ai/hc/en-us)             |             :x:             |
 | [SWIFT-Active Screener](#swift-activescreener) |    [:link:](https://www.sciome.com/swift-activescreener/)    |                             :x:                             | [![DOI](https://img.shields.io/badge/DOI-10.1016/j.envint.2020.105623-green.svg)](https://doi.org/10.1016/j.envint.2020.105623) | :white_check_mark:[:link:](https://www.sciome.com/swift-activescreener/knowledgebase/) |             :x:             |
+|     [Covidence](#covidence)     |          [:link:](https://www.covidence.org/)               |                             :x:                              | :x:                                                                                                                            |                  :white_check_mark:[:link:] https://support.covidence.org/help       |     :x:                     |
 
 
 :white_check_mark: Yes/Implemented;
@@ -84,7 +85,7 @@ software tool, highlighting whether:
 |               [Rayyan](#rayyan)                |        :x:         |        :x:         |                           :white_check_mark:[:link:](https://www.rayyan.ai/)                            |
 |         [RobotAnalyst](#robotanalyst)          |        :x:         |        :x:         |              :white_check_mark:[:link:](http://www.nactem.ac.uk/robotanalyst/)<sup>1</sup>              |
 | [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |                          :x:[:link:](https://swift.sciome.com/activescreener/)                          |  
-
+| [Covidence](#Covidence)                        |        :x:         |        :x:         |                          :white_check_mark:[:link:](https://www.covidence.org/)                         | 
 
 :white_check_mark: Yes;
 :x: No;
@@ -112,6 +113,7 @@ software, including:
 |             [FASTREAD](#fastread)              |                    CSV                    |             :white_check_mark:(S)             |             CSV             |     :white_check_mark:      |     :white_check_mark:      |             :x:             |
 |               [Rayyan](#rayyan)                |    RIS, ENW, BIB, CSV, XML, CIW, NBIB     |             :white_check_mark:(M)             |     RIS, BIB, ENW, CSV      |     :white_check_mark:      |             :x:             |     :white_check_mark:      |
 | [SWIFT-Active Screener](#swift-activescreener) |           TXT, RIS, XML, BibTex           |             :white_check_mark:(M)             |          CSV, RIS           |     :white_check_mark:      | :grey_question:<sup>7</sup> |     :white_check_mark:      |
+| [Covidence](#covidence)                        |           TXT, RIS, XML                   |             :x:                               |          CSV, RIS           |     :white_check_mark:      |              :x:            |     :white_check_mark:      |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -157,6 +159,7 @@ The tables below provide an overview of the machine learning properties of each 
 |             [FASTREAD](#fastread)              |       :white_check_mark:       |                       ≥1R                        |
 |               [Rayyan](#rayyan)                |       :white_check_mark:       |                   ≥50 with ≥5R                   |
 | [SWIFT-Active Screener](#swift-activescreener) | :white_check_mark:<sup>4</sup> |                 ≥1R<sup>5</sup>                  |
+|               [Covidence](#covidence)          |       :white_check_mark:       |                   ≥25 with ≥2R + ≥2I             |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -193,6 +196,7 @@ The table below provides an overview of the model selection properties for each 
 |             [FASTREAD](#fastread)              |        :x:         |        :x:         |        :x:         |    M     |             :x:             |    :x:     |        :x:        |
 |               [Rayyan](#rayyan)                |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
 | [SWIFT-Active Screener](#swift-activescreener) |        :x:         |        :x:         |        :x:         |    A     | :grey_question:<sup>3</sup> |  :x: (30)  |        :x:        |
+|               [Covidence](#covidence)          |        :x:         |        :x:         |        :x:         |    M     |     :white_check_mark:      |    :x:     |        :x:        |
 
 :white_check_mark: Yes/Implemented;
 :x: No/Not implemented;
@@ -257,7 +261,8 @@ The software will recognize all previous labeling decisions, and a new model can
 |        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
 |             [FASTREAD](#fastread)              |                TF-IDF                |               SVM                |          S, A, W, M          |            C, U             |
 |               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
-| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>7</sup> |              C              |  
+| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | S:grey_question:<sup>7</sup> |              C              |
+|               [Covidence](#covidence)          |     :grey_question:<sup>8</sup>      |  :grey_question:<sup>8</sup>     | :grey_question:<sup>8</sup>  |:grey_question:<sup>8</sup>  |  
 
 
 :white_check_mark: Yes/Implemented;
@@ -275,6 +280,8 @@ The software will recognize all previous labeling decisions, and a new model can
 <sup>5</sup> See issue https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/19
 
 <sup>7</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/40
+
+<sup>8</sup> See issues https://github.com/Rensvandeschoot/software-overview-machine-learning-for-screening-text/issues/63
 
 
 ## Supervised Learning
@@ -325,6 +332,10 @@ extensions.
 
 Colandr is a free, web-based, open-access tool for conducting evidence
 synthesis projects.
+
+## [Covidence](https://www.covidence.org/)
+
+Covidence is a collaborative, web-based software platform that streamlines the production of systematic reviews. It is designed to support the entire review lifecycle, including citation screening, full-text screening, risk of bias assessment, and data extraction.
 
 ## [DistillerSR](https://www.evidencepartners.com/products/distillersr-systematic-review-software)
 
