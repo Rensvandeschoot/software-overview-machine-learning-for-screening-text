@@ -210,19 +210,13 @@ The software will recognize all previous labeling decisions, and a new model can
 
 - Which feature extraction methods are available?
 **BOW** = bag of words;
-**Doc2Vec** = document to vector;
-**sBERT** = sentence bidirectional encoder representations from transformers;
 **TF–IDF** = term frequency–inverse document frequency;
-**Word2Vec** = words to vector;
-**ML** = Multi-language;
 
 - Which classifiers are available?
-**CNN** = convolutional neural network;
-**DNN** = dense neural network;
+**NN** =  neural network;
 **LDA** = latent Dirichlet allocation;
 **LL** = log linear;
 **LR**= logistic regression;
-**LSTM** = long short-term memory;
 **NB** = naive Bayes;
 **RF** =random forests;
 **SGD** = stochastic gradient descent;
@@ -248,16 +242,16 @@ The software will recognize all previous labeling decisions, and a new model can
 
 
 
-|                    Software                    |            Feature Extr.             |           Classifiers            |          Balancing           |         Query Stra.         |
-|:----------------------------------------------:|:------------------------------------:|:--------------------------------:|:----------------------------:|:---------------------------:|
-|            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>  |               SVM                | :grey_question:<sup>1</sup>  |           R, C, U           |
-|             [ASReview](#asreview)              |  TF–IDF, Doc2Vec, sBert, TF-IDF, ML  | CNN, DNN, LR, LSTM, NB, RF, SVM  |          S, D, U, T          |       R, C, U, M, CL        |
-|              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup> | SGD :grey_question: <sup>2</sup> | :grey_question:<sup>2</sup>  |              C              |
-|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>      |   SVM                            | :grey_question:<sup>3</sup>  | R, C                        |
-|        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                |               SVM                | :grey_question:<sup>4</sup>  |          R, C, Cl           |
-|               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>      |               SVM                | :grey_question:<sup>5</sup>  |            C, U             |
-| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                |                LL                | :grey_question:<sup>7</sup>  |              C              |
-|               [Covidence](#covidence)          |     :grey_question:<sup>8</sup>      |  :grey_question:<sup>8</sup>     | :grey_question:<sup>8</sup>  |:grey_question:<sup>8</sup>  |  
+|                    Software                    |            Feature Extr.                                                                                                                           |           Classifiers                                                                                                                 |          Balancing           |         Query Stra.         |
+|:----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------:|:---------------------------:|
+|            [Abstrackr](#abstrackr)             |  TF-IDF :grey_question:<sup>1</sup>                                                                                                                | SVM                                                                                                                                   | :grey_question:<sup>1</sup>  |           R, C, U           |
+|             [ASReview](#asreview)              |  default: one-hot, TF–IDF (bi-gram); via [Dory-extension](https://github.com/asreview/asreview-dory): Multilingual E5, MXBAI, GTR T5, LaBSE, MPNet | default: LR, NB, RF, SVM; via [Dory-extension](https://github.com/asreview/asreview-dory): XGBoost, NN (2-layer, Dynamic, Warm Start) |          S, D, U, T          |       R, C, U, M, CL        |
+|              [Colandr](#colandr)               | Word2Vec :grey_question:<sup>2</sup>                                                                                                               | SGD :grey_question: <sup>2</sup>                                                                                                      | :grey_question:<sup>2</sup>  |              C              |
+|          [DistillerSR](#distillersr)           |     :grey_question:<sup>3</sup>                                                                                                                    |   SVM                                                                                                                                 | :grey_question:<sup>3</sup>  | R, C                        |
+|        [EPPI-Reviewer](#eppi-reviewer)         |                TF-IDF                                                                                                                              |               SVM                                                                                                                     | :grey_question:<sup>4</sup>  |          R, C, Cl           |
+|               [Rayyan](#rayyan)                |     :grey_question:<sup>5</sup>                                                                                                                    |               SVM                                                                                                                     | :grey_question:<sup>5</sup>  |            C, U             |
+| [SWIFT-Active Screener](#swift-activescreener) |                TF-IDF                                                                                                                              |                LL                                                                                                                     | :grey_question:<sup>7</sup>  |              C              |
+|               [Covidence](#covidence)          |     :grey_question:<sup>8</sup>                                                                                                                    |  :grey_question:<sup>8</sup>                                                                                                          | :grey_question:<sup>8</sup>  |:grey_question:<sup>8</sup>  |  
 
 
 :white_check_mark: Yes/Implemented;
